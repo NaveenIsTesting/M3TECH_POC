@@ -1,0 +1,16 @@
+﻿{
+  "Id": "RptIt3BnakGJc5Ta6EgOpw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/RptIt3BnakGJc5Ta6EgOpw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Applicant_Highlight_total_assetvalue",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-19T13:30:58.1206802Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T13:32:42.5016917Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

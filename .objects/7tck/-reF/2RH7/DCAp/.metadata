@@ -1,0 +1,16 @@
+﻿{
+  "Id": "DCApB2y7aUSWqumaYsArZg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/DCApB2y7aUSWqumaYsArZg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2RH7C-mVekeuMnBxRsMDVA",
+  "Name": "Scroll_up_Downpaymentsection",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-19T13:06:09.8546673Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T13:11:54.9041225Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903762" ContentHash="VwoL-K3WiECB3Z9noaCB_g" DesignTimeRectangle="777, 480, 233, 135" FriendlyName="'chrome.exe Boss'" Guid="d8bcaac7-adc8-4375-a82b-52f4de32c49a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="350, 462, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">73KdghCwKv9EWF4Ox4EZf1Rw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">072pq9vhBtkmYzU-lZSWY-g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a41bd49647f5a6c468a428a902bb35bb.png" xmlns="">0MdnjMRRCGkmmCvuyV3kgjQ</imageRef>
+</TargetAnchorable>
