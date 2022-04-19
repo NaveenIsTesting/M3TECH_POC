@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="tZcLhj5VUUG0Wimh0FWmGQ" DesignTimeRectangle="350, 520, 178, 24" ElementType="Text" FriendlyName="'Savings'" FullSelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' type='' aaname='Savings' check:text='Savings' /&gt;" Guid="1b183e0e-27c6-4dc4-b5d6-8a669dbe2680" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="FFKgYKWWkEif3YXb-m0uZw" DesignTimeRectangle="350, 520, 178, 24" ElementType="Text" FriendlyName="'Savings'" FullSelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' type='' aaname='Savings' check:text='Savings' /&gt;" Guid="1b183e0e-27c6-4dc4-b5d6-8a669dbe2680" Reference="ibK92gIPHUmRsRCnhmHO7g/cC6zftd9zE224Dpbf_zhmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
       <Target DesignTimeRectangle="350, 386, 102, 20" ElementType="Text" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl aaname='Applicant: BOSS' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: BOSS' type='' parentid='border-box' tag='DIV' check:text='Applicant: BOSS' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">1spFk26O0HUyTTmFm4F0mDg</imageRef>
+        <imageRef attrName="ImageBase64" xmlns="">1A306ZA5HFkG7aamg8rt_fg</imageRef>
       </Target>
       <Target DesignTimeRectangle="352, 542, 174, 20" ElementType="Text" FriendlyName="'RRSP'" FullSelectorArgument="&lt;webctrl id='react-select-108-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-108-option-2' tag='DIV' type='' aaname='RRSP' check:text='RRSP' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">25ZklFdJ5b02gIK74XkFs-A</imageRef>
+        <imageRef attrName="ImageBase64" xmlns="">2gvz0Ewbn8EaU6xFUCevHig</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0dGhPgWeuFkCA07IjDOXxJA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="818ff72f63c163b2673f419a0b208c1b.png" xmlns="">0hhyiQijOD0OvQmSFCzkokQ</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0t8wzBLDKHU2Z5c7uteSxQA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="662fe74ca0050a4a38543857c8b91fc7.png" xmlns="">02lB2OfoOdkSWgiTQuysXEg</imageRef>
 </TargetAnchorable>
