@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="_PHrRxWEx0a3t9qB6jWKWg" DesignTimeRectangle="571, 316, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span&amp;gt;input' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" Guid="5a3a6cc5-e358-4ce8-a3d5-d6b5d08d4953" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="571, 294, 221, 20" ElementType="Text" FriendlyName="'Description'" FullSelectorArgument="&lt;webctrl aaname='Description:' idx='3' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Description:' type='' parentid='border-box' tag='DIV' check:text='Description:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ffUtfBhb50iHt0SjSOQnjQ</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 267, 102, 20" ElementType="Text" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl aaname='Applicant: BOSS' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: BOSS' type='' parentid='border-box' tag='DIV' check:text='Applicant: BOSS' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">27iZMNQRuiEOUv3Sf5YkshA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0GFp6aIp22kyPMdkTRPX4QQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="69593fd0d60f3e595422d1c30e69acbe.png" xmlns="">0Fk91sNI4Qk-0Ch03i9d9UA</imageRef>
+</TargetAnchorable>

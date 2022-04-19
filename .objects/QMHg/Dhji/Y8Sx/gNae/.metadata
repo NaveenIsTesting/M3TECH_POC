@@ -1,0 +1,16 @@
+﻿{
+  "Id": "gNaegoBxrk6sp8lW6Q8doQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/gNaegoBxrk6sp8lW6Q8doQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_select_asset_5_2",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-19T16:26:49.8811416Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T16:33:46.4573306Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

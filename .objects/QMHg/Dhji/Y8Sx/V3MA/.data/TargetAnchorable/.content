@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="3gIskuGxXkmNfrbHOlsdZQ" DesignTimeRectangle="571, 374, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='mainApplicant[2].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[2].description' tag='INPUT' type='text' aaname='' /&gt;" Guid="a168fd78-7a2a-45de-92c7-111a8e153786" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 375, 149, 25" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl aaname='Household Goods' parentid='mainApplicant[2].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Household Goods' parentid='mainApplicant[2].type' tag='DIV' type='' check:text='Household Goods' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1AwRAkJinUEC2NHi2AIPTNQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0AR0886fMGEW2zHcCLvwWYg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d5d6f797c1b76fa0cc2ff332f7f6a6b1.png" xmlns="">0FIvPa93psEG-yaTvESU9cw</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "rp85R3M6RkeL-_dwMJrYBw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/rp85R3M6RkeL-_dwMJrYBw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_Asseet_value2",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-19T16:39:41.484637Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T16:42:00.2576488Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
