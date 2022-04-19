@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="Ztyf5gZGFkifKU1Kg6-nzg" DesignTimeRectangle="739, 474, 400, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl id='google-autocomplete-address[0].mainApplicant[0].addressLookup' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl id='google-autocomplete-address[0].mainApplicant[0].addressLookup' tag='INPUT' type='text' aaname='' /&gt;" Guid="3b2a04be-6702-4f30-a6ce-fec2484170ae" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="624, 480, 104, 13" ElementType="Text" FriendlyName="'Address Lookup'" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' aaname='Address Lookup:' check:text='Address Lookup:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1CgFk3kA7_UW6KoxgiNDmDg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0yJCLzit3OUKSNfE3jSlVCg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2d801b9c0c9bee4f503427a3c77cefa2.png" xmlns="">0GqRkv3RfsEqVd6aulCFGGg</imageRef>
+</TargetAnchorable>

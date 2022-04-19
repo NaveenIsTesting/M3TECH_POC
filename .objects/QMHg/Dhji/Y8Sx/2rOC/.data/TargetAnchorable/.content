@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="1a1CsP86d06ljeMf-59elA" DesignTimeRectangle="350, 562, 178, 24" ElementType="Text" FriendlyName="'Vehicle'" FullSelectorArgument="&lt;webctrl id='react-select-104-option-4' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-104-option-4' tag='DIV' type='' aaname='Vehicle' check:text='Vehicle' /&gt;" Guid="e67c73e3-e0b7-4244-8779-48e113e48be6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 584, 174, 20" ElementType="Text" FriendlyName="'Stocks/Bonds/Mutual'" FullSelectorArgument="&lt;webctrl id='react-select-104-option-5' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-104-option-5' tag='DIV' type='' aaname='Stocks/Bonds/Mutual' check:text='Stocks/Bonds/Mutual' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">5XjsXLmAt2EKfNoYJepybqQ</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 397, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">6p0aaHKEcBE6lg6LDXoJ8uQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">04CnRdaCpa0WpJj3pmnId2A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5c499ecb1df3c0980bb194a5e0a57503.png" xmlns="">0rTz6q6aaa0e2Hoqjo4g-GQ</imageRef>
+</TargetAnchorable>

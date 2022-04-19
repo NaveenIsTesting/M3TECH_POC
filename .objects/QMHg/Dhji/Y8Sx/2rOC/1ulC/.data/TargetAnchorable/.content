@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903738" ContentHash="NGXmP1YwbU2lVHB8OT3m2g" DesignTimeRectangle="352, 416, 174, 20" ElementType="Text" FriendlyName="'Vehicle'" FullSelectorArgument="&lt;webctrl id='react-select-132-option-4' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-132-option-4' tag='DIV' type='' aaname='Vehicle' check:text='Vehicle' /&gt;" Guid="03b628d0-eba7-454d-bd50-6b23f4104a81" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="502, 301, 24, 21" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='coApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='coApplicant[0].type' tag='DIV' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1OJtHtwQdAUWqBZl8HuwbHg</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="352, 456, 174, 20" ElementType="Text" FriendlyName="'Other'" FullSelectorArgument="&lt;webctrl id='react-select-132-option-6' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-132-option-6' tag='DIV' type='' aaname='Other' check:text='Other' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2JC7Ol8gMQ0mERYwRIhWqMA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0sFFNzjF2NU-SbWRdAAGf7w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="659d043fb548e49b921aef06a15d916c.png" xmlns="">0V4wwmHFle0OTp8T_5igHUQ</imageRef>
+</TargetAnchorable>

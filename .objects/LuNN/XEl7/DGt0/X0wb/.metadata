@@ -1,0 +1,13 @@
+﻿{
+  "Id": "X0wb-FV5uEKW2Mvuo-c1lA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/X0wb-FV5uEKW2Mvuo-c1lA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/DGt0Ij8yuUqYulrzEMwJbw",
+  "Name": "Last Name",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-04-14T13:39:56.5925128Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T13:39:56.5925128Z"
+}

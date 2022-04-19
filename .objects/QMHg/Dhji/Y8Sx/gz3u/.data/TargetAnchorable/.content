@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="WtMqv8-pmkablaBLt8UW9g" DesignTimeRectangle="466, 519, 88, 17" ElementType="Text" FriendlyName="'Add Asset'" FullSelectorArgument="&lt;webctrl aaname='Add Asset' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Add Asset' parentid='border-box' tag='SPAN' type='' check:text='Add Asset' /&gt;" Guid="e6fa7a84-a720-4436-b32b-47ddc28fc3d6" Reference="ibK92gIPHUmRsRCnhmHO7g/gz3u0pUvl0iu26CI_p7UAw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="350, 407, 63, 20" ElementType="Text" FriendlyName="'Applicant'" FullSelectorArgument="&lt;webctrl aaname='Applicant: ' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: ' type='' parentid='border-box' tag='DIV' check:text='Applicant:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1SvzBoL3tF0CB3_HjNrZ2Pw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">00ThGAkyMTkKGtBqqjGxkog</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="86401f7edac0d14f27260960d405a220.png" xmlns="">06S7Dux-4yU6MSipaDdswCA</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,15 @@
+﻿{
+  "Id": "2RH7C-mVekeuMnBxRsMDVA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/2RH7C-mVekeuMnBxRsMDVA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/-reFqqYtHESQ89dXMETA1A",
+  "Name": "Downpaymentsection",
+  "Type": "Screen",
+  "Created": "2022-04-18T06:52:58.6591785Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T06:53:20.7181832Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

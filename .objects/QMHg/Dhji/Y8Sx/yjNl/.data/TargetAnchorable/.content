@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="GX6CKKOhPkGO9FKxMAqzxg" DesignTimeRectangle="1012, 305, 188, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='coApplicant[1].downPayment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='coApplicant[1].downPayment' tag='INPUT' type='text' aaname='' /&gt;" Guid="684643d3-0c31-4063-b1fb-2d48c8dabe8e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1012, 254, 221, 20" ElementType="Text" FriendlyName="'Down Payment'" FullSelectorArgument="&lt;webctrl aaname='Down Payment:' idx='2' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Down Payment:' type='' parentid='border-box' tag='DIV' check:text='Down Payment:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1p6Ys6n5INEmh3JB9t-ul3A</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="351, 305, 176, 25" ElementType="InputBox" FriendlyName="'Gift'" FullSelectorArgument="&lt;webctrl parentid='coApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='coApplicant[1].type' tag='DIV' type='' aaname='' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2_8_N-UsCzUav5uM_Gum2dQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0pNEWD8x4Bk2EzYxA533LPw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e6f56ee731b0ebacf6729a8e2b362f30.png" xmlns="">0AFw2ERqWF0mvTVCR3F2R0A</imageRef>
+</TargetAnchorable>

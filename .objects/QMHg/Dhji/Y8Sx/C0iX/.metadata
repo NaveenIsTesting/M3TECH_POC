@@ -1,0 +1,16 @@
+﻿{
+  "Id": "C0iXpaL0VEy7MIcu7lgyVA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/C0iXpaL0VEy7MIcu7lgyVA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_Applicant_Addasset",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-18T04:43:45.256091Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T04:47:39.4499675Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903682" ContentHash="vJ57wAHW-0yAahqtjSz1aQ" DesignTimeRectangle="344, 349, 175, 14" ElementType="Text" FriendlyName="'Applicant Birthdate'" FullSelectorArgument="&lt;webctrl aaname='Applicant Birthdate is mandatory' aria-role='presentation' parentid='deal-entry' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant Birthdate is mandatory' aria-role='presentation' parentid='deal-entry' tag='SPAN' type='' check:text='Applicant Birthdate is mandatory' /&gt;" Guid="9adfabf5-28ff-4c62-a8a3-8c0c06f7a1fe" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="315, 347, 19, 17" ElementType="Text" FriendlyName="'10.'" FullSelectorArgument="&lt;webctrl aaname='10.' parentid='deal-entry' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='10.' parentid='deal-entry' tag='SPAN' type='' check:text='10.' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">17BmN9hA7xUq8KqDx_tAxKg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0kIoEBe2j2k6ZJvXBOerJQw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="06f996c856b5684d4b96828acc8f860e.png" xmlns="">0Pl7VOvpAZEmURJ1ngGzAHg</imageRef>
+</TargetAnchorable>

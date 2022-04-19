@@ -1,0 +1,16 @@
+﻿{
+  "Id": "yjNlrK47DEaWrG2Ky0unug",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/yjNlrK47DEaWrG2Ky0unug",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_Applicant_Downpaymen",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-18T05:55:56.4694518Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T13:02:19.3619213Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

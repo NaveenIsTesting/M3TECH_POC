@@ -1,0 +1,15 @@
+﻿{
+  "Id": "iz8cedaJykWgqbAI0Jt1Dg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/O6KcY9wi_U-g-92yIbvsfw",
+  "Name": "Newdealdetailpage",
+  "Type": "Screen",
+  "Created": "2022-04-14T08:56:54.3081269Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T08:59:48.1085522Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

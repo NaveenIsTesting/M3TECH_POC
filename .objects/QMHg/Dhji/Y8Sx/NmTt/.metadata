@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NmTtUas2x0SasBPJwiWlTg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/NmTtUas2x0SasBPJwiWlTg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Scroll_assest",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-18T17:37:05.0692606Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T17:41:02.6713086Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

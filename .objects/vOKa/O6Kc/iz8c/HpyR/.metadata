@@ -1,0 +1,16 @@
+﻿{
+  "Id": "HpyRejkrGUuZMTQVkRGBSQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/HpyRejkrGUuZMTQVkRGBSQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Applicantbirthdate",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-04-14T10:05:45.0871564Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T10:07:43.5797723Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

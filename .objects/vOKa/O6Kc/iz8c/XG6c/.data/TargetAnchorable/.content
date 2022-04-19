@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="8E_Qiu_d0UCQFXGLsb-Hng" DesignTimeRectangle="461, 464, 110, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='mainApplicant.birthDate' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.birthDate' tag='INPUT' type='text' aaname='' /&gt;" Guid="47600bbc-3dfe-48f1-aa3d-fa16e007afee" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="351, 469, 100, 14" ElementType="Text" FriendlyName="'Date of Birth'" FullSelectorArgument="&lt;webctrl aaname='Date of Birth:' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Date of Birth:' parentid='border-box' tag='SPAN' type='' check:text='Date of Birth:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">11OXiUw6tzUe1WIx8LbwF7w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0O5XpOmiAzky2jfVjSXEwdA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f2cf5517dffd8691401e72ccdc46ea80.png" xmlns="">0wBg8DK4730GhmQmbVusnMg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="4raTeRec9k6avaAzHk6Yrg" DesignTimeRectangle="911, 483, 230, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='coApplicant.emailAddress' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='coApplicant.emailAddress' tag='INPUT' type='text' aaname='' /&gt;" Guid="c39caa7d-1e0d-4a7f-b348-34a2db76b0ec" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="801, 488, 100, 15" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl aaname='Email:' idx='2' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Email:' type='' parentid='border-box' tag='SPAN' check:text='Email:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ORL37WQZiESEMAnrHVs-8w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0bnQkgc6gVUG8hSRrncpOJg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9d726a0ed7d9e3fdffd4ec61f831a70a.png" xmlns="">0C45I-xXiukaDI47O9esBmQ</imageRef>
+</TargetAnchorable>

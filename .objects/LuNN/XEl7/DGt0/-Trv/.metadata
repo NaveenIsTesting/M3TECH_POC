@@ -1,0 +1,16 @@
+﻿{
+  "Id": "-Trv64C_V0a9FnQkMYVClQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/-Trv64C_V0a9FnQkMYVClQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/DGt0Ij8yuUqYulrzEMwJbw",
+  "Name": "Co-applicant_Email",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-04-14T13:41:32.7154051Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T13:46:32.5288495Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

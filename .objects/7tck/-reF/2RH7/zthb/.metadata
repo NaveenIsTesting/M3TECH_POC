@@ -1,0 +1,16 @@
+﻿{
+  "Id": "zthbY71sckONNRH4BBSssA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/zthbY71sckONNRH4BBSssA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2RH7C-mVekeuMnBxRsMDVA",
+  "Name": "Scrool_down_for_Coapplicant",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-18T12:24:01.6838009Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T12:27:03.60937Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

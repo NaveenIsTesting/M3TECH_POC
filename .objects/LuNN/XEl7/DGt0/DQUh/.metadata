@@ -1,0 +1,16 @@
+﻿{
+  "Id": "DQUhcaaqJka24_tzA155FQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/DQUhcaaqJka24_tzA155FQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/DGt0Ij8yuUqYulrzEMwJbw",
+  "Name": "Co-Applicant",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-14T13:39:56.3701068Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T16:35:24.3340484Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

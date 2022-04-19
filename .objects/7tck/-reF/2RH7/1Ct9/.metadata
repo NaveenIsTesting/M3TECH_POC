@@ -1,0 +1,16 @@
+﻿{
+  "Id": "1Ct978gBbE-2iajJJgsOHQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/1Ct978gBbE-2iajJJgsOHQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2RH7C-mVekeuMnBxRsMDVA",
+  "Name": "Scrollup_Downpayment_gift",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-18T11:58:26.4360546Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T12:23:18.7118528Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="CkKO6FXDbUOX_PuvgR-GUQ" Selector="&lt;html app='chrome.exe' title='Boss'/&gt;" Url="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">05uRW0NngskOFERX3HudGrw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="dea5d23126590793b412ac2310795b66.png" xmlns="">02Cxb9NRbBUuq9zeQYB2MVQ</imageRef>
+</TargetApp>

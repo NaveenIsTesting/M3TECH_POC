@@ -1,0 +1,16 @@
+﻿{
+  "Id": "p5XZylxkvUK0IBfXayAHUw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/p5XZylxkvUK0IBfXayAHUw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Address_Lookup",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-04-14T10:45:38.0713318Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T10:51:10.8643558Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="weNBREpf70KGAmPzcJTVVQ" DesignTimeRectangle="1229, 187, 43, 16" ElementType="Text" FriendlyName="'CREATE'" FullSelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' type='' check:text='CREATE' /&gt;" Guid="ec2ca09b-5bc7-481e-805b-216bc75279fb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1201, 173, 80, 40" ElementType="Button" FriendlyName="'CREATE'" FullSelectorArgument="&lt;webctrl parentid='deal-banner' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='deal-banner' tag='BUTTON' type='button' aaname='CREATE' check:text='CREATE' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">5UhpzEDtesEuebTbV8IszVA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">04FefFYr9TkqbjH86p3Zt8A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="0f235512a9f81e94d8dfe8eb3a28ea42.png" xmlns="">0Oj0ryMJlqkaFBg015RMzpw</imageRef>
+</TargetAnchorable>

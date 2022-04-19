@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="6XgkZ8NbgEuvUuKIL0HTUA" DesignTimeRectangle="352, 576, 78, 20" ElementType="Text" FriendlyName="'5'" FullSelectorArgument="&lt;webctrl id='react-select-78-option-4' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-78-option-4' tag='DIV' type='' aaname='5' check:text='5' /&gt;" Guid="20d1d33b-c6e4-4402-ac2a-37d09ad658ad" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 556, 78, 20" ElementType="Text" FriendlyName="'4'" FullSelectorArgument="&lt;webctrl id='react-select-78-option-3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-78-option-3' tag='DIV' type='' aaname='4' check:text='4' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1wtpJ_eOslUCozcMXQetkVg</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="352, 596, 78, 20" ElementType="Text" FriendlyName="'6'" FullSelectorArgument="&lt;webctrl id='react-select-78-option-5' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-78-option-5' tag='DIV' type='' aaname='6' check:text='6' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2Ky4qefQ8akGklN8b1RZHhQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0hSLjKyUZzUq6q-dp6ANxmQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="717fed893cc5cb49332176005ec2003c.png" xmlns="">0ffPK0fu5NU6oJej_oZeVEw</imageRef>
+</TargetAnchorable>

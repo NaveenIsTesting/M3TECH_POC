@@ -1,0 +1,16 @@
+﻿{
+  "Id": "cC6zftd9zE224Dpbf_zhmQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/cC6zftd9zE224Dpbf_zhmQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Applicant-select-saving",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-14T16:19:36.0510268Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T16:28:09.5880211Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

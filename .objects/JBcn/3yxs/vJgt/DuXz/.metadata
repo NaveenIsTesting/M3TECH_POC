@@ -1,0 +1,16 @@
+﻿{
+  "Id": "DuXzuvtb10KlmR7QnWQbmA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/DuXzuvtb10KlmR7QnWQbmA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Address_Lookup_select",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-04-14T11:03:31.1033015Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T11:05:38.128535Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

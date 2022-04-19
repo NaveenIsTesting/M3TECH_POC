@@ -1,0 +1,15 @@
+﻿{
+  "Id": "Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/DhjiL0Fp20W04U3Gn-dWrw",
+  "Name": "Assets",
+  "Type": "Screen",
+  "Created": "2022-04-14T14:43:26.3844674Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T16:34:23.9905001Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

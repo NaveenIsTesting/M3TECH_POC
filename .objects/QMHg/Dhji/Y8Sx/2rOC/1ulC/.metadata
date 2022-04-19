@@ -1,0 +1,16 @@
+﻿{
+  "Id": "1ulCbWNer0ynRMoCWxLtww",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/1ulCbWNer0ynRMoCWxLtww",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2rOCrviomE2OmYAdcCxl2w",
+  "Name": "Gift_to_vehicel",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-18T15:23:57.5351525Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T15:29:10.6881851Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

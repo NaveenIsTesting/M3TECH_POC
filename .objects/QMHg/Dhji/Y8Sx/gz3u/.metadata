@@ -1,0 +1,16 @@
+﻿{
+  "Id": "gz3u0pUvl0iu26CI_p7UAw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/gz3u0pUvl0iu26CI_p7UAw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Applicant_Addasset",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T14:49:06.69767Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T06:17:20.240691Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

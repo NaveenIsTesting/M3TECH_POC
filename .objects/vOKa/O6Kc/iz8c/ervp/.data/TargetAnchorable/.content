@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903681" ContentHash="RnTa4phHCUOQG0xnzz-4EQ" DesignTimeRectangle="1333, 164, 24, 35" ElementType="Text" FriendlyName="'11'" FullSelectorArgument="&lt;webctrl aria-role='presentation' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='presentation' parentid='deal-entry' tag='DIV' type='' aaname='11' check:text='11' /&gt;" Guid="445fda7d-8d50-4c14-9bfa-fb694979cfeb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1353, 164, 1066, 304" FriendlyName="'Errors: 111.Deal'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='15' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='deal-entry' tag='DIV' check:text='Errors: 111.Deal application type has to be selected (approved or pre-approval)All Lenders2' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">4mWIWZLc7_UibkehKhT3Htw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">03aVvGMddeUeOrLrjrnO7Cw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2e1614d5d2d0e16633162f3b210837c5.png" xmlns="">0o0zDQ6mOVUOXbocruO-Otw</imageRef>
+</TargetAnchorable>

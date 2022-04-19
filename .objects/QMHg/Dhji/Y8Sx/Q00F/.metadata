@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Q00F5h1kwki_QWeDNpSDsQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Q00F5h1kwki_QWeDNpSDsQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_Applicant_select_RRSP",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-14T17:33:00.840183Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T17:39:13.1587843Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "hAyG4rJFh0a9ZCkrjKMILQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/hAyG4rJFh0a9ZCkrjKMILQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/DGt0Ij8yuUqYulrzEMwJbw",
+  "Name": "Co-Applicant-Tickmark",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T14:36:52.4110327Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T14:38:13.669452Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

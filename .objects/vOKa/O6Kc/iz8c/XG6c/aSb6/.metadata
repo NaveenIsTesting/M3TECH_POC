@@ -1,0 +1,13 @@
+﻿{
+  "Id": "aSb6QOUM602FlkoHHZE82A",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/aSb6QOUM602FlkoHHZE82A",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/XG6c9_QhPU2XbB8kGm-aTg",
+  "Name": "CREATE",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-04-14T11:37:52.7401189Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T11:37:52.7401189Z"
+}

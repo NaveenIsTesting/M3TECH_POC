@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ervpfjkefEWQxb6474URbw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/ervpfjkefEWQxb6474URbw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Redpull-outtab",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T09:59:43.0113124Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T10:02:02.3117744Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

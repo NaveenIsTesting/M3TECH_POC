@@ -1,0 +1,15 @@
+﻿{
+  "Id": "vJgtWgL0K02i3jzpHq7haA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/3yxsgCXJ4Uu6MT0FZShX4w",
+  "Name": "Address_section",
+  "Type": "Screen",
+  "Created": "2022-04-14T10:39:58.6389459Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T10:45:12.245232Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "w50AirL3T0m6-6k7DjRmnQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/w50AirL3T0m6-6k7DjRmnQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co-Applicant-Asset-select",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-14T15:29:29.6600921Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T15:03:32.3035723Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

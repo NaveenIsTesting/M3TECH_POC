@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="AhCwa0tlAUOgRx2AV1YSWA" DesignTimeRectangle="790, 469, 234, 20" ElementType="Text" FriendlyName="'$60,000.00'" FullSelectorArgument="&lt;webctrl aaname='$60,000.00' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='$60,000.00' parentid='border-box' tag='DIV' type='' check:text='$60,000.00' /&gt;" Guid="7e43fd62-1bf1-4193-88d8-6447782728eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="792, 385, 221, 20" ElementType="Text" FriendlyName="'Asset Value'" FullSelectorArgument="&lt;webctrl aaname='Asset Value:' idx='2' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Asset Value:' type='' parentid='border-box' tag='DIV' check:text='Asset Value:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">19F-_bKLsZ0iKqYACW2Rcag</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="571, 407, 200, 25" ElementType="InputBox" FriendlyName="'RRSP'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span&amp;gt;input' name='coApplicant[0].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='coApplicant[0].description' tag='INPUT' type='text' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">20LPHY_wkQX0a6MnCfuBvlLA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0rvExqaFvAk2XgHF0Hxu8jw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e87ed0bc2b826aa56ed0c8c632fae66a.png" xmlns="">031xOaUX4zEahcIFfxugQzQ</imageRef>
+</TargetAnchorable>

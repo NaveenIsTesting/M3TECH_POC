@@ -1,0 +1,16 @@
+﻿{
+  "Id": "KgIX0X1DH0W3PYL-Ru_gGg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/KgIX0X1DH0W3PYL-Ru_gGg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_Applicant_Select_Asset_Gift",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-18T04:49:19.8642506Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T04:55:12.2536829Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

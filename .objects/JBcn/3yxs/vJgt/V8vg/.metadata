@@ -1,0 +1,16 @@
+﻿{
+  "Id": "V8vg9i-N1EqU7x6BRgQiHA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/V8vg9i-N1EqU7x6BRgQiHA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Refresh",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-14T11:51:15.8363277Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T11:52:34.9432926Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

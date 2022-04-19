@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903711" ContentHash="XkUKZcEOOk-5KB1P2tMzkQ" DesignTimeRectangle="334, 418, 952, 163" FriendlyName="'Select Source:Descripti…'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' id='border-box' idx='2' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' id='border-box' aaname='' parentid='deal-entry' tag='DIV' check:text='Select Source:Description:Enter Amount:Gifterror&amp;#xD;&amp;#xA;  &amp;#x9;.tc46223e9-3275-4f76-a473-a851d1e3e148 {&amp;#xD;&amp;#xA;&amp;#x9;   ' /&gt;" Guid="26a0191c-eb76-4365-8868-540239dab554" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="334, 378, 952, 30" FriendlyName="'Down Payment'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='18' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='deal-entry' tag='DIV' check:text='Down Payment' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1lyl__b_lCUWLaOmrAPquEg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0DB6rp3I3CE6Bzmbk2nOflQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="049e7582af8768fe823563840f0340bd.png" xmlns="">0fGUpBDfCO0WIfYsGiUyECA</imageRef>
+</TargetAnchorable>

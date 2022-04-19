@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="MUxOCEPI30aHbjVl-VDnCA" DesignTimeRectangle="1229, 232, 43, 16" ElementType="Text" FriendlyName="'CREATE'" FullSelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' type='' check:text='CREATE' /&gt;" Guid="8400b928-8171-46e8-86e6-0e47ae1e909f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lgdfQS1ndkaeCb399c_HMw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="374a2719cb172fbfb678e06767309b67.png" xmlns="">0h4DRDgqIxUOIbM2Dfqg8yQ</imageRef>
+</TargetAnchorable>

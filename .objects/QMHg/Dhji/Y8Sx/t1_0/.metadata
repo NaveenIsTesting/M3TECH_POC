@@ -1,0 +1,16 @@
+﻿{
+  "Id": "t1_0adyFKU-CDABp1jUVJw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/t1_0adyFKU-CDABp1jUVJw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Applicant_Downpayment",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-14T16:43:14.1815434Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-14T16:51:48.0605237Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

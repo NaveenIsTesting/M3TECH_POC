@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CRoGVauqhUiLk2aUl8xyZA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/CRoGVauqhUiLk2aUl8xyZA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Scrolldownto_downpayment",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-18T11:19:34.2490283Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-18T11:22:17.5207679Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
