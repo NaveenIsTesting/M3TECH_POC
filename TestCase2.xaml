@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="628,2102" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TestCase" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="622,2103" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -77,10 +77,9 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>UiPath.Excel</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="476,2037" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="476,2038" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -88,13 +87,13 @@
     </sap:WorkflowViewStateService.ViewState>
     <l:Login sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="Login_1" />
     <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="434,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="434,1821" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="434,1822" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1605" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,1606" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -102,7 +101,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Text="BOSS" Version="V1">
               <uix:NTypeInto.Target>
-                <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="cFMl6VVlZ0u-UIwP9ylsHg" DesignTimeRectangle="461, 423, 150, 25" ElementType="InputBox" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' type='text' aaname='' /&gt;" Guid="1c0192b1-7213-4641-a8a9-cad0ee8dab3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAdCAYAAABSSnV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVHhe7duxDcQgEETRa40O3C2t0A2nlWx0gS8ynug9aQJE+tP9TAgQGhErtN77PI5jttbMHq9aqqYuK7T6GGOcL3imWqqmLiu0qhB2+m1KaLxGaEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihEXEbmisodvp7BeWu03auWrq964Q3CY2AOb/SeIjPzNiOGQAAAABJRU5ErkJggg==" InformativeScreenshot="25ad049f75736fcfff8f534b87f46f92.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/D3I7t80apEiP6hDAKJdESA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="urLSPSmrj0OU6KYo85Nn4g" DesignTimeRectangle="461, 423, 150, 25" ElementType="InputBox" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' type='text' aaname='' /&gt;" Guid="1c0192b1-7213-4641-a8a9-cad0ee8dab3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAdCAYAAABSSnV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVHhe7duxDcQgEETRa40O3C2t0A2nlWx0gS8ynug9aQJE+tP9TAgQGhErtN77PI5jttbMHq9aqqYuK7T6GGOcL3imWqqmLiu0qhB2+m1KaLxGaEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihEXEbmisodvp7BeWu03auWrq964Q3CY2AOb/SeIjPzNiOGQAAAABJRU5ErkJggg==" InformativeScreenshot="25ad049f75736fcfff8f534b87f46f92.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/D3I7t80apEiP6hDAKJdESA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="351, 429, 100, 14" ElementType="Text" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' type='' check:text='First Name:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGgAAAASCAYAAAC3pZsGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM4SURBVFhH7Ze/a9tAFMf7r910EBAEBIaGQoQHLwceQqGm0CwxhtIhKBCcxRmiSQRsOphCUBYPwYEgQ0CLhmCDcaDgSRAQGL59dz7ZUhxI7KSNoPqChvuh96T3uff09AGFcq0XA4pGPvxRpEeF/pWWgG5sMMZWL9HBhJaDYw7+zcNGiO47EEygc6/HK/Jhky/zyEesZxL5h/QMh74e/X96BMimUP0FvRAQYybsQRZRASjRM4AygVIB/wH3Zw0GZ7BvaG42gXdgqTHjBqyDLoYzYNIWy2ykS7RlPj7WHJBVtsBKTQR0X6IsoAhhuw5rm5MtDqNchzfWSyS5V5x20aoa4GSPbwu0biNMLuieLemf03N5mKTsR7cOarvSHu3fraM70gsI0Nzi2L9837L+CkBUkhpdhPcRYnrh8NQEr7oYygSIh3CrFMDjILX/+Qyyr4dwymT3RN9HSvuNLvfBSzb6UzXE8FyAl8nnfDjfWyJoI3qI2RT+CQGnIFsNgkJT8bQPu8RQu9BBH7sQXMC9k/tjBdLYphg8yEU6DFcewt9q57vpmW/QMqirgOroqReZS67vnIZ6RMEY++gPJvNvyksByUy8c2AxC86dXkn7fYgQpXwu7Oogyr2V81SGEoAKq8B9lGWJPf+QY+cswStFB+QTpzKrhznQKzIouzcOHFTotBrVOlrtPkJ9ypXWAUQKTkywsqNKZMbvLF3iaP6JQ5QpoU/4XdqboCMSG9kreY486M0AKVFZCQddOAeCvkUm1W8drDUBYUb1n0qRoGzop/yq75kqcSovV+xuAmhR7nKqNwJEYK6yWTP9tbdo0dcGRIoHNky6R8hTrv2uAFAlbFNAMXoN+nVo9LKtfaqByIPeDJD3hVPToDskyqTed+qkkv+mWR8/mKFa6DgTjUSrgGQA/SMqdbLsaL+yEWGihYAyKJ4GcD/LUrcpIFLQpENgoq4zPR57qH+soasOWi6bhE0BkaIQnaTNlu3sVwfBonrECM4q89aXfkZX9RQgUkTzVOoWfnUrn7TQzUsX+2wn01CsBYgUDVrYM3WbLW1eJ2Ugb212oVyqAJRzFYByrgJQzlUAyrkKQLkW8AcEsmtO/PSJ8gAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
