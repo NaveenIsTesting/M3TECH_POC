@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Rq7ju7ehxUKIGmeo5IrpZw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Rq7ju7ehxUKIGmeo5IrpZw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "App_Add_Liabilities",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-20T17:35:12.5932399Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T17:40:28.3449804Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

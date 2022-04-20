@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903814" ContentHash="xT_3yvLWXkCqDAoe14uHNQ" DesignTimeRectangle="354, 445, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[3].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[3].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="1ff29044-0060-4a94-a3f7-852898c724b7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="350, 313, 102, 20" ElementType="Text" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl aaname='Applicant: BOSS' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: BOSS' type='' parentid='border-box' tag='DIV' check:text='Applicant: BOSS' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">14EK4FDmVSEuRGT5YsNiVXQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0w_cZhxcCi0Sh2f7fvjY_Tw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b263dce72c09703d2ffdf0bffaebd217.png" xmlns="">0gvlBuswPJUCneT-digQ9wA</imageRef>
+</TargetAnchorable>

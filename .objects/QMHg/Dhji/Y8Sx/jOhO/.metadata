@@ -1,0 +1,16 @@
+﻿{
+  "Id": "jOhOFNqAJUSO7YNpUSqZVQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/jOhOFNqAJUSO7YNpUSqZVQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_Saving_Description",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T15:26:44.3223747Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:27:57.1936572Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

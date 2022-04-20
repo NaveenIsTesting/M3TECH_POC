@@ -1,0 +1,16 @@
+﻿{
+  "Id": "z1AQCrp8I0qNvXG0lZAdMA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/z1AQCrp8I0qNvXG0lZAdMA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "App_Payoff_proceds",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-20T18:56:02.4673823Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T19:04:43.5177432Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

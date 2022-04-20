@@ -1,0 +1,16 @@
+﻿{
+  "Id": "qkowibs2YUqZMrd_9exu4A",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/qkowibs2YUqZMrd_9exu4A",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Liabilities",
+  "Type": "Element",
+  "TaxonomyType": "Container",
+  "Created": "2022-04-20T17:27:22.1673937Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T17:33:22.7723643Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

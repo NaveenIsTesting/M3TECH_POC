@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903814" ContentHash="Z00phgLs10KdvZ3rBN7ukA" DesignTimeRectangle="334, 592, 952, 70" ElementType="InputBox" FriendlyName="'Select Source:Descripti…'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' id='border-box' idx='2' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' id='border-box' aaname='' parentid='deal-entry' tag='DIV' /&gt;" Guid="201a44e7-2dda-44f3-82ce-a5efdd6f91f8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="334, 552, 134, 20" ElementType="Text" FriendlyName="'Down Payment'" FullSelectorArgument="&lt;webctrl aaname='Down Payment' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Down Payment' parentid='deal-entry' tag='DIV' type='' check:text='Down Payment' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">9jbC1AOe-AkChoqqgR0rAQw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">08VH7xurkx0qHdkXR1DLnQg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="85946eec6bda4af4401f417a22078e6e.png" xmlns="">0b8D1H7NeI0CLzw5oWdiSug</imageRef>
+</TargetAnchorable>

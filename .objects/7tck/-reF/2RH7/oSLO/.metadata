@@ -1,0 +1,16 @@
+﻿{
+  "Id": "oSLOznFvtUaJvWaafI78YA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/oSLOznFvtUaJvWaafI78YA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2RH7C-mVekeuMnBxRsMDVA",
+  "Name": "Click_on_Downpayment",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-20T15:44:41.5355705Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:46:29.9530995Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903814" ContentHash="2d6f6yJSxEuJUsTfuoNVOg" DesignTimeRectangle="571, 449, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='mainApplicant[3].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[3].description' tag='INPUT' type='text' aaname='' /&gt;" Guid="8936031d-28ca-4287-ae43-669cc58e39f4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="349, 447, 225, 29" ElementType="InputBox" FriendlyName="'option Savings,'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span' idx='13' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='border-box' tag='SPAN' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1txUdV4EMFkSXajzJcgNsBw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0qxSGbcB3jEGjO7N3pVCbJQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="b825ccc50f7294452ff40a0f86ceb7fc.png" xmlns="">08kFB_fUhRkKKwvJsPzB5tg</imageRef>
+</TargetAnchorable>

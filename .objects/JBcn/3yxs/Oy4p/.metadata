@@ -1,0 +1,15 @@
+﻿{
+  "Id": "Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/3yxsgCXJ4Uu6MT0FZShX4w",
+  "Name": "Liabilities",
+  "Type": "Screen",
+  "Created": "2022-04-20T17:10:10.3961094Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T17:10:52.3559687Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "FU3eaRInzECzMuA2nL3jVA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/FU3eaRInzECzMuA2nL3jVA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_Saving_value",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T15:32:55.0231008Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:34:33.2627135Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

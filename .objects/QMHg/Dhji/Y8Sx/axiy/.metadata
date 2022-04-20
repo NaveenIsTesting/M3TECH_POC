@@ -1,0 +1,16 @@
+﻿{
+  "Id": "axiyb82bFk6eaFy2nxYKRw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/axiyb82bFk6eaFy2nxYKRw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_select_click",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-20T15:18:17.965038Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:22:05.8241105Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
