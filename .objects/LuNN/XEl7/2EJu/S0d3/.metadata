@@ -1,0 +1,16 @@
+﻿{
+  "Id": "S0d3shpuqES73rTH-nhMFQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/S0d3shpuqES73rTH-nhMFQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "Name": "Scrool_up_Co_app_assets",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-20T09:41:31.4391617Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T09:47:12.5780211Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
