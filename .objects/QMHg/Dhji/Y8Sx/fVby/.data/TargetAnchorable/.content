@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="_Uz2uO8R00eoOhCqPEgQZw" DesignTimeRectangle="352, 555, 174, 20" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl id='react-select-104-option-8' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-104-option-8' tag='DIV' type='' aaname='Life Insurance' check:text='Life Insurance' /&gt;" Guid="07e66578-70f7-435f-96ac-b82e44631ab7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 575, 174, 20" ElementType="Text" FriendlyName="'Deposit on Purchase'" FullSelectorArgument="&lt;webctrl id='react-select-104-option-9' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-104-option-9' tag='DIV' type='' aaname='Deposit on Purchase' check:text='Deposit on Purchase' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">15--dFQTLNUei27sLINe-6A</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 308, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">16H6PTCSwd5UOBuHDzPWQUAg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0CQET4oN08UeyN4vg9EVc-w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="314692d3a79e19e9b3158d3a5148d583.png" xmlns="">05YNvRhFBr0OMc0wKcSquGg</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="-n7m7RzG2EyJNM8BHZxnGg" DesignTimeRectangle="352, 564, 174, 20" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl id='react-select-116-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-116-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="d89bdbf5-3bae-4f60-a00a-b17b6f357805" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 544, 174, 20" ElementType="Text" FriendlyName="'Other'" FullSelectorArgument="&lt;webctrl id='react-select-116-option-6' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-116-option-6' tag='DIV' type='' aaname='Other' check:text='Other' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1E-5FpY2QCE6aJgql0Z8QJQ</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 308, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2DCj1RE8lpEOWep1I4HUxnw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0Q4I8JX-Rv0aMLd-m2z78Fg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f98b06a1f23e53c912c224eb8f95e167.png" xmlns="">05GxhOsc8ZEygDsdcfafKig</imageRef>
+</TargetAnchorable>

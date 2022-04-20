@@ -1,15 +1,15 @@
 ﻿{
-  "Id": "szftueyGzEycsbLXfyoc2Q",
-  "Reference": "ibK92gIPHUmRsRCnhmHO7g/szftueyGzEycsbLXfyoc2Q",
+  "Id": "aE6fHCP7p06FZc69j4mDEQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/aE6fHCP7p06FZc69j4mDEQ",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
-  "Name": "Co_App_Asset-select_addassest",
+  "Name": "Co_App_asset_select2",
   "Type": "Element",
   "TaxonomyType": "Dropdown",
-  "Created": "2022-04-14T14:49:06.5859696Z",
+  "Created": "2022-04-20T03:09:35.0504925Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-20T02:33:04.6096516Z",
+  "Updated": "2022-04-20T03:14:41.0043646Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]
