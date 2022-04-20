@@ -4,6 +4,8 @@
   "main": "Main.xaml",
   "dependencies": {
     "Login": "[1.0.4]",
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "System.Data.DataSetExtensions": "[4.6.0-preview3.19128.7]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
@@ -43,17 +45,17 @@
       {
         "editingStatus": "Publishable",
         "testCaseId": "bc7dc39d-caf8-42ce-889d-9c45c61be162",
-        "fileName": "TestCase2.xaml"
+        "fileName": "Testcases\\TC-2.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "fd130634-9007-431a-b4f0-38e06f683760",
-        "fileName": "TestCase3.xaml"
+        "fileName": "Testcases\\TC-3.xaml"
       },
       {
         "editingStatus": "Publishable",
         "testCaseId": "f00e2990-caa3-4560-9b8e-738e6dabf6a7",
-        "fileName": "TestCase4.xaml"
+        "fileName": "Testcases\\TC-4.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -62,13 +64,13 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "a610be4f-1961-439c-aaf9-b01564f49426",
-        "fileName": "~TestCase4.xaml"
+        "testCaseId": "2a9b8fe6-e63d-42de-a211-1666bce2ab86",
+        "fileName": "Testcases\\TC-5.xaml"
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "2a9b8fe6-e63d-42de-a211-1666bce2ab86",
-        "fileName": "testcase5.xaml"
+        "testCaseId": "9f0ec596-5548-40f3-a24a-dd09d591434c",
+        "fileName": "Testcases\\TC-6.xaml"
       }
     ],
     "modernBehavior": true
