@@ -1,15 +1,15 @@
 ﻿{
-  "Id": "q6bmWmEIpU6gtQXyfygq-g",
-  "Reference": "ibK92gIPHUmRsRCnhmHO7g/q6bmWmEIpU6gtQXyfygq-g",
+  "Id": "4CW02bMBt0u9zKYDM7ELBg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/4CW02bMBt0u9zKYDM7ELBg",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
-  "Name": "App_Select_liabilite_type",
+  "Name": "App_Date",
   "Type": "Element",
-  "TaxonomyType": "Dropdown",
-  "Created": "2022-04-20T17:50:13.4808788Z",
+  "TaxonomyType": "Date",
+  "Created": "2022-04-21T03:56:44.8690111Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-21T08:06:29.2487646Z",
+  "Updated": "2022-04-21T04:00:04.0686589Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]

@@ -1,0 +1,14 @@
+﻿{
+  "Id": "62hbSHbhAU-ssaoWE3TaAw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/62hbSHbhAU-ssaoWE3TaAw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Co_App_'Auto Loan'",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-21T07:27:14.1889088Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T07:27:14.1889088Z"
+}

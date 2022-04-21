@@ -1,15 +1,15 @@
 ﻿{
-  "Id": "q6bmWmEIpU6gtQXyfygq-g",
-  "Reference": "ibK92gIPHUmRsRCnhmHO7g/q6bmWmEIpU6gtQXyfygq-g",
+  "Id": "xpft5SISqk647CNQFcltdA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/xpft5SISqk647CNQFcltdA",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
-  "Name": "App_Select_liabilite_type",
+  "Name": "Co_App_Lia_Balance",
   "Type": "Element",
-  "TaxonomyType": "Dropdown",
-  "Created": "2022-04-20T17:50:13.4808788Z",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-21T05:25:02.5018907Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-21T08:06:29.2487646Z",
+  "Updated": "2022-04-21T05:28:46.0642775Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]

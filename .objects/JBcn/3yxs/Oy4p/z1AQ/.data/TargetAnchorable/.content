@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="zBMFoQIHSk6BzWQ9-eVs-A" DesignTimeRectangle="542, 490, 144, 24" ElementType="Text" FriendlyName="'From Proceeds'" FullSelectorArgument="&lt;webctrl id='react-select-111-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-111-option-2' tag='DIV' type='' aaname='From Proceeds' check:text='From Proceeds' /&gt;" Guid="e2d3591c-e1d1-4ba6-a710-c5a1e2a6a1fd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="NxFggy4oVEa8Mh4H2aO9XA" DesignTimeRectangle="544, 492, 140, 20" ElementType="Text" FriendlyName="'From Proceeds'" FullSelectorArgument="&lt;webctrl id='react-select-115-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-115-option-2' tag='DIV' type='' aaname='From Proceeds' check:text='From Proceeds' /&gt;" Guid="1925e0cc-7860-4734-8b10-584151403fd2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="544, 472, 140, 20" ElementType="Text" FriendlyName="'Prior to Advance'" FullSelectorArgument="&lt;webctrl id='react-select-111-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-111-option-1' tag='DIV' type='' aaname='Prior to Advance' check:text='Prior to Advance' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">3R_4FFZwF3EaBFYiwvok07Q</imageRef>
+      <Target DesignTimeRectangle="544, 472, 140, 20" ElementType="Text" FriendlyName="'Prior to Advance'" FullSelectorArgument="&lt;webctrl id='react-select-115-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-115-option-1' tag='DIV' type='' aaname='Prior to Advance' check:text='Prior to Advance' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">3UKyjAqqLBk-cSohSJgXQ-Q</imageRef>
       </Target>
-      <Target DesignTimeRectangle="354, 348, 115, 35" ElementType="Text" FriendlyName="'Credit Card'" FullSelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' type='' check:text='Credit Card' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">4jeiK9sSEtUy_0B8Jkz1T4A</imageRef>
+      <Target DesignTimeRectangle="350, 287, 102, 20" ElementType="Text" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl aaname='Applicant: BOSS' idx='5' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: BOSS' type='' parentid='border-box' tag='DIV' check:text='Applicant: BOSS' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">4K-98h4lcMkiUnm2fnjhq4w</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">02VMCjPmuXkO_Dh1os-o-hQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="ca14953e7f8b608211705c8d5ad4a305.png" xmlns="">0j3eO9QfNFUyqSDfnm2azvA</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">02xP8dzSwtUezP-EFjFfbUA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="4614a4c9b966e66720a61b95c3b65a88.png" xmlns="">040DpJPUxIk6TV9cdCPWBqQ</imageRef>
 </TargetAnchorable>
