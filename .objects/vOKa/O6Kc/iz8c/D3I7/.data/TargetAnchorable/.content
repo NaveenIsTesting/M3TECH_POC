@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="urLSPSmrj0OU6KYo85Nn4g" DesignTimeRectangle="461, 440, 150, 25" ElementType="InputBox" FriendlyName="'BOSS'" FullSelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' aaname='' /&gt;" Guid="1c0192b1-7213-4641-a8a9-cad0ee8dab3a" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/D3I7t80apEiP6hDAKJdESA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="xnScnNN7_EidAERyg5XQRg" DesignTimeRectangle="461, 239, 150, 25" ElementType="InputBox" FriendlyName="'BOSS'" FullSelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' aaname='' /&gt;" Guid="1c0192b1-7213-4641-a8a9-cad0ee8dab3a" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/D3I7t80apEiP6hDAKJdESA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="351, 446, 100, 14" ElementType="Text" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' innertext='First Name:' title='Boss' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' innertext='First Name:' title='Boss' type='' check:text='First Name:' /&gt;" SearchSteps="Selector">
-        <imageRef attrName="ImageBase64" xmlns="">120-xQiFPmkqAlZJuriRQmw</imageRef>
+      <Target DesignTimeRectangle="351, 245, 100, 14" ElementType="Text" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' innertext='First Name:' title='Boss' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name:' parentid='border-box' tag='SPAN' innertext='First Name:' title='Boss' type='' check:text='First Name:' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1JkBtmTPOOUaamKxeibOd0g</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0o4b16ctNBkSrlDsCyQo8Cg</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="585aa7cfe61c91ee1536ac53d321ff9f.png" xmlns="">0ws4eKoYpUUKgEbebeMvQ2w</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0bfUlRqn_pUe7c2XfqpChyQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="682f55e21b396b6d52fc6501b84d5b31.png" xmlns="">0zIzFe2BwkkGSwrqWTE6LhA</imageRef>
 </TargetAnchorable>
