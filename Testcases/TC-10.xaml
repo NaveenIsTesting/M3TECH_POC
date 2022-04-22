@@ -108,6 +108,7 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>Login_and_Logout</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="test_10" sap:VirtualizedContainerService.HintSize="627,8050" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -119,7 +120,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="Testcases" WorkbookPath="Gurdev\credential sheet.xlsx">
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="TestData2" WorkbookPath="Testcases\credential sheet.xlsx">
       <ui:ReadRange.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">ExcelData</mca:CSharpReference>
@@ -141,7 +142,7 @@
             <If sap:VirtualizedContainerService.HintSize="509,720" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
-                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">CurrentRow["Testcase"].Equals("TC-C831")</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61">CurrentRow["Testcase"].Equals("C831")</mca:CSharpValue>
                 </InArgument>
               </If.Condition>
               <If.Then>
