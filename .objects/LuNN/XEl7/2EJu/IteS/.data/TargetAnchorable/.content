@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="LQRkO4YSB0a8JVZbxasNTA" DesignTimeRectangle="792, 461, 200, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant[1].value' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[1].value' tag='INPUT' type='text' /&gt;" Guid="11b0b1b2-3b32-4a0a-97a6-017b675842e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="792, 410, 221, 20" ElementType="Text" FriendlyName="'Asset Value'" FullSelectorArgument="&lt;webctrl aaname='Asset Value:' idx='3' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Asset Value:' type='' parentid='border-box' tag='DIV' check:text='Asset Value:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1BFe23WRyQE6V3TppRxUVtw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0_PnMPe5lNkyc4mmCRvlrNQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="71142bf3ccb22a2932463396f792ebe6.png" xmlns="">02dEkX3wA-E2k978o3t_g0A</imageRef>
+</TargetAnchorable>

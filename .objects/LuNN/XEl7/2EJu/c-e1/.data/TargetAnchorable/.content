@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="BfKnmCO3OESrRwVxX5PB_Q" DesignTimeRectangle="352, 476, 78, 20" ElementType="Text" FriendlyName="'3'" FullSelectorArgument="&lt;webctrl id='react-select-303-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-303-option-2' tag='DIV' type='' aaname='3' check:text='3' /&gt;" Guid="a0bae628-3705-497d-a239-9369cf645202" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="350, 454, 82, 24" ElementType="Text" FriendlyName="'2'" FullSelectorArgument="&lt;webctrl id='react-select-303-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-303-option-1' tag='DIV' type='' aaname='2' check:text='2' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1FSzBBvWOpkGZgXayOA5I3g</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="334, 500, 86, 20" ElementType="Text" FriendlyName="'Liabilities'" FullSelectorArgument="&lt;webctrl aaname='Liabilities' idx='2' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liabilities' type='' parentid='deal-entry' tag='DIV' check:text='Liabilities' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2l2kT8Ge8CUCbJSF1n7Zzkw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0M8R9V-89hUCu_LxeeLtYzQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2c17fa1e77e6f0df4c78e48424edef8e.png" xmlns="">03T3e_lc0m0yFxzVQIsbNLg</imageRef>
+</TargetAnchorable>
