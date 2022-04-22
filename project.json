@@ -54,16 +54,6 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "f00e2990-caa3-4560-9b8e-738e6dabf6a7",
-        "fileName": "Testcases\\TC-4.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "88c8ccc0-54e5-44ce-bf24-41d6adcca453",
-        "fileName": "test.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
         "testCaseId": "2a9b8fe6-e63d-42de-a211-1666bce2ab86",
         "fileName": "Testcases\\TC-5.xaml"
       },

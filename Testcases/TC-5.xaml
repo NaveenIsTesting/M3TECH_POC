@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:l1="clr-namespace:Login_and_Logout;assembly=Login_and_Logout" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Lastname" Type="InArgument(x:String)" />
@@ -15,7 +15,7 @@
     <x:Property Name="Co_App_Gift_Downpay" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>659,11914</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>659,11977</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -62,6 +62,8 @@
       <x:String>System.Linq.Expressions</x:String>
       <x:String>ReporterForUiPath.Enums</x:String>
       <x:String>ReporterForUiPath.Activities</x:String>
+      <x:String>Login_and_Logout</x:String>
+      <x:String>UiPath.Activities.System</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -108,16 +110,17 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
       <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>Login_and_Logout</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="669,11849" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="669,11912" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence sap:VirtualizedContainerService.HintSize="627,11757" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence sap:VirtualizedContainerService.HintSize="627,11820" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
         <Variable x:TypeArguments="sd:DataTable" Name="Exce" />
@@ -129,7 +132,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ra:StartTest ContinueOnError="{x:Null}" TagName="{x:Null}" TestDescription="{x:Null}" testList="{x:Null}" DisplayName="Start Test" sap:VirtualizedContainerService.HintSize="585,84" sap2010:WorkflowViewState.IdRef="StartTest_1" Priority="Low" TestName="TC-5" />
-      <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="TestData1" WorkbookPath="credential sheet.xlsx">
+      <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="TestData1" WorkbookPath="Testcases\credential sheet.xlsx">
         <ui:ReadRange.DataTable>
           <OutArgument x:TypeArguments="sd:DataTable">
             <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">DataExcel</mca:CSharpReference>
@@ -172,7 +175,7 @@
                             </ui:AssignOperation.To>
                             <ui:AssignOperation.Value>
                               <InArgument x:TypeArguments="x:String">
-                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">CurrentRow["First name"].ToString()</mca:CSharpValue>
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">CurrentRow["Firstname"].ToString()</mca:CSharpValue>
                               </InArgument>
                             </ui:AssignOperation.Value>
                           </ui:AssignOperation>
@@ -184,7 +187,7 @@
                             </ui:AssignOperation.To>
                             <ui:AssignOperation.Value>
                               <InArgument x:TypeArguments="x:String">
-                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">CurrentRow["Last name"].ToString()</mca:CSharpValue>
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">CurrentRow["Lastname"].ToString()</mca:CSharpValue>
                               </InArgument>
                             </ui:AssignOperation.Value>
                           </ui:AssignOperation>
@@ -346,13 +349,13 @@
       </ui:ForEachRow>
       <l:Login sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Login_2" password="password" username="autoboss" />
       <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="585,10287" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="585,10350" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,10071" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="476,10134" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -488,13 +491,13 @@
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Assets" sap:VirtualizedContainerService.HintSize="434,7854" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Assets" sap:VirtualizedContainerService.HintSize="434,7916" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,7638" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,7700" sap2010:WorkflowViewState.IdRef="Sequence_2">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Default="vehicel" Name="variable1" />
                       </Sequence.Variables>
@@ -824,12 +827,12 @@
                           </uix:TargetAnchorable>
                         </uix:NMouseScroll.Target>
                       </uix:NMouseScroll>
-                      <uix:NClick ClickType="Single" DisplayName="Click 'Creat'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" Version="V1">
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Creat'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                         <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="weNBREpf70KGAmPzcJTVVQ" DesignTimeRectangle="1229, 187, 43, 16" ElementType="Text" FriendlyName="'CREATE'" FullSelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' type='' check:text='CREATE' /&gt;" Guid="ec2ca09b-5bc7-481e-805b-216bc75279fb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVEhL7VTBTsJAEPVP+BF/hJ/g6M0bN7l5I70YLxiPEuUEB+UmJAYSoxgPjSGCIYSEQGm7fc5ut9tdKEJsTIPpJC9td2dn3sxO39GiUsChIiefFf4ReesU/tcMYAht0YdXPw73Wm0EclkYcxB8XmBlhWf9iVzXbVKLY1dK8Oe0NqqqtcQz3Jw23D1iauSLRNwBpndwr4iwVYRnUyFuRwQKyQ/gS/9lvcr5I3gtiW+eKLDLMlYCGk0EvCmMGiILjlGj2DOwlrm+K2ZM/paCw4Z/rTtwgmP4POgaeQ6XFyc7sSvR6n0MDGui+6wrb1MhLfmngbou3UEhVefLwpc9UhFvVAQVvDT205Lv7UNeN5p5u4qV3OeJTNPIPHTCceHviTe8nbxpps8vOx92MugV1f5PXfKG5Kx+1BMxOsFLfPZPZ57d0/va2DjPtlHs9kQUI1Iv3eZNdWvpyetqc0nfO9RmYZ2DufHPty3RstvfVBiuPCAhaERrqckTIp2PbEPnTbURCiI7yBNt2OQG3oieH2dxDgFq1FQntu/MkyXr/OEhJ58VcvJZISefDQr4BqpkfCbtltsWAAAAAElFTkSuQmCC" InformativeScreenshot="0f235512a9f81e94d8dfe8eb3a28ea42.png" Reference="ibK92gIPHUmRsRCnhmHO7g/NOA3pObbn0quX1evL2oIdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
+                          <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="MKjlnEwUrkuRZ--1SP_vng" DesignTimeRectangle="1229, 187, 43, 16" ElementType="Text" FriendlyName="'Creat'" FullSelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' type='' check:text='CREATE' /&gt;" Guid="0babeb1c-11c9-4867-8cbb-d8acc1e25fa4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVEhL7VTBTsJAEPVP+BF/hJ/g6M0bN7l5I70YLxiPEuUEB+UmJAYSoxgPjSGCIYSEQGm7fc5ut9tdKEJsTIPpJC9td2dn3sxO39GiUsChIiefFf4ReesU/tcMYAht0YdXPw73Wm0EclkYcxB8XmBlhWf9iVzXbVKLY1dK8Oe0NqqqtcQz3Jw23D1iauSLRNwBpndwr4iwVYRnUyFuRwQKyQ/gS/9lvcr5I3gtiW+eKLDLMlYCGk0EvCmMGiILjlGj2DOwlrm+K2ZM/paCw4Z/rTtwgmP4POgaeQ6XFyc7sSvR6n0MDGui+6wrb1MhLfmngbou3UEhVefLwpc9UhFvVAQVvDT205Lv7UNeN5p5u4qV3OeJTNPIPHTCceHviTe8nbxpps8vOx92MugV1f5PXfKG5Kx+1BMxOsFLfPZPZ57d0/va2DjPtlHs9kQUI1Iv3eZNdWvpyetqc0nfO9RmYZ2DufHPty3RstvfVBiuPCAhaERrqckTIp2PbEPnTbURCiI7yBNt2OQG3oieH2dxDgFq1FQntu/MkyXr/OEhJ58VcvJZISefDQr4BqpkfCbtltsWAAAAAElFTkSuQmCC" InformativeScreenshot="919ee70e704d1a1187a5f62bab71e5e1.png" Reference="ibK92gIPHUmRsRCnhmHO7g/NOA3pObbn0quX1evL2oIdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                             <uix:TargetAnchorable.Anchors>
                               <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target DesignTimeRectangle="1201, 173, 80, 40" ElementType="Button" FriendlyName="'CREATE'" FullSelectorArgument="&lt;webctrl parentid='deal-banner' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='deal-banner' tag='BUTTON' type='button' aaname='CREATE' check:text='CREATE' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFQAAAAsCAYAAAD7Gp9tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKkSURBVGhD7ZvNattAEMf7Jr30MfoIfQG/RI699ZZbCz30UowvJReHHBvanJJDm0toAiWB0iYEKkpoUowJBFvW13RmpZF2rZU/lAG3zvzgT+yVtGF/mtXqsH4EiigqVBiv0PjoLYRbz2D0+gmMXj3W2EEn5IYc+XCEZsOfuUhfR5payBU5s3GEqszlQ85sSqFUwr4LNPNjT/9SqFZn+9hVWgrVBegeQXdMJdR3ombhMCpUKIwKFQqjQoXCqFChMCpUKIwKFQqjQoXCiAhlfMceShgVKhRmtUJ7LyD5cwuQcgdnEO8+zY8dHEJWNBvSELLf72DSy69NBkW7zaBv9b8ByR22XXfLNu81RHgI0UJ9NodZodAOygwBhh8h2kaJvQ7EAcqNjs3gcqHnkBTnj3e75BSyHxvmOw0+Czat/qaytw8Z3agUb1JxE6r0se9bSA/c9rl9zgizOqEfcMAQQLJjt5O0G0hooFNCKREJLypm3uAnlzcAV31TpelJUfVl1lHo1/NyqnmP36tCN8256RcUe4Fi8SaMneP/iNC2+PoanS4i1AafoUEXJsVxGryLJejzcT7V6bN3JjQLdamf0xRmdUKXqtC84rLTTnl8VjXFV3hyuRg9N9M++15d++Ceoekn/Dw15cNvgXMDmgePffBbg83dflnd6ynUXuW38PucVX7UewNpVC0wTYMfn5zVV3Za8QEXuz1uW0uhGH4PZWrvoe4qb1buotJo8DUG7yG+xr+/Xlb/wwRv3tCWtegzFPl/3kPXK4wKFQqjQoXCiAjVqFDxMCpUKIwKFQqjQoXCqFChMJVQ3SzWPr7NYrqdsX282xl1w237eDfcElqly8euTsIRqj9aWC7kauaPFhgqYSNWF6p60Am5sae5jVeo0h4VKgrAX9GO08sXLHRyAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, Image" />
+                                <uix:Target DesignTimeRectangle="1007, 198, 178, 28" ElementType="Text" FriendlyName="'Creat'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='9' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' aaname='N/A' check:text='N/A' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALYAAAAgCAYAAAC/z4JaAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVHhe7dm/SxthHMfx/HNZ7obkQEIoiuCkUxA7HUVH0UDAoRiwgxyCFapiMlilJXAQKCUF7XLLUUgRaaBYCAlilk+fu9yvnBlMOBy+fITXkOeey5C88/DcY+5nrw8iKWzbhveXO7z4DCIporAxugeRFAybRGLYJBLDJpEYNonEsEkkhk0iMWwSiWGTSAw7K3cWNrQ8jO0GBonxP+dr0LU1NO8Sc0ddtHc1rJ50EmP3cA4Kau4bfHSTc2keDDsrQdi6VsDeNzcanxp2v4FqsYKrXmLs0caHsnd/HqW6+lLCcZoLw85KEPbi0gL0pR3c/BuPTwt7cP0WunmMh/Be5cnehKFVYB1WoBc30e7H12h2DDsrQdj7Xy+xp1bexfdf8KTGn4ft4MrMY+s6XtUxctF6p1ZrL/bgfaqtbuI6zYphZyUM+7takVve6ruA/R/d52H3jmGmV2RvTN1rXjrq9S2a60Hk4XWaGcPOSiJsbwVub2tqS1JD69Nk2L9PlmHsNvzVPLzXG9PVNiTcc49/DMs4+xXPodkw7KxMhK30TrFVzMMoqsCjsDs4W9XiOb74oTFt5Wjy1IRejmFnJR228qAeEg0/0iBst46Vcg3OYzwHtzWU1BzzvIPBXzfQQVPtw/X0XHoxhp2VKWH7++WNeMV26gWUDtQHHl0fn2fr5R3cpE5BxqckGqo2HyLnwbBfi39OzX++vBaGTSIxbBKJYZNIDJtEYtgkEsMmkRg2icSwSaQobMuyQCRNbjgcgkgahk0CDfEfZy3q6heUIo8AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
                           </uix:TargetAnchorable>
@@ -1006,6 +1009,7 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
+                      <l1:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
                     </Sequence>
                   </ActivityAction>
                 </uix:NApplicationCard.Body>
