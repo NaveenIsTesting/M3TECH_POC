@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="HkhZ6Y8GRUm0oBDoe7Cgog" DesignTimeRectangle="571, 386, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='coApplicant[1].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='coApplicant[1].description' tag='INPUT' type='text' aaname='' /&gt;" Guid="1729daa2-d82e-4a2b-bc39-6f60eb0987bb" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="354, 382, 149, 35" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl aaname='Household Goods' parentid='coApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Household Goods' parentid='coApplicant[1].type' tag='DIV' type='' check:text='Household Goods' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ATwJxuyRsUW0F--8GWeA7A</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 308, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2G-zZ-S5caEqJQGfxF2_ZlQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0wrL2AdF1H0aAlvcmnJj-mA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c14c4d980bfedd87766ec4b7ab0ce9fd.png" xmlns="">0vDrMQTjQFUS_p9CmzQ6uWg</imageRef>
+</TargetAnchorable>

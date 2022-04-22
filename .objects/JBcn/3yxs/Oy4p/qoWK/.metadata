@@ -1,0 +1,16 @@
+﻿{
+  "Id": "qoWKw5DM0kK5-_PA0Tm4zg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/qoWKw5DM0kK5-_PA0Tm4zg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_Lia_Payoff_select",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-21T05:55:27.1434769Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T06:03:03.032977Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

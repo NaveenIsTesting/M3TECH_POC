@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="S9Bj6GxlJ0-CtNAm5kIOlg" DesignTimeRectangle="352, 495, 78, 20" ElementType="Text" FriendlyName="'3'" FullSelectorArgument="&lt;webctrl id='react-select-105-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-105-option-2' tag='DIV' type='' aaname='3' check:text='3' /&gt;" Guid="d764d85d-3ce8-4f47-b12b-2ba893ea3a20" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="350, 513, 82, 24" ElementType="Text" FriendlyName="'4'" FullSelectorArgument="&lt;webctrl id='react-select-105-option-3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-105-option-3' tag='DIV' type='' aaname='4' check:text='4' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1sIITJaMFqkyHWGufNrdy2A</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 308, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">26FQN6SQOKkyoTzQQaJkYZA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0kHT5kYFNH0Gphw6eyeNv3A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6e6e32d2538f935e0ffd6c7f3bf28cd7.png" xmlns="">08DButt60HUGfBHqph6hpaQ</imageRef>
+</TargetAnchorable>

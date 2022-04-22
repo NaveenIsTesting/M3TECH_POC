@@ -1,0 +1,16 @@
+﻿{
+  "Id": "J8uqd0qFfESDRxJx1ktnlw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/J8uqd0qFfESDRxJx1ktnlw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "Name": "Co_App_group2_add_Asset",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-21T16:54:09.4192846Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T17:00:29.0912442Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

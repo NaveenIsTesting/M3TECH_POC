@@ -1,0 +1,16 @@
+﻿{
+  "Id": "LY6dSh5VkkuickNauaX6kA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/LY6dSh5VkkuickNauaX6kA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_Saving_Downpayment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T15:37:11.1991861Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:38:07.1477058Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

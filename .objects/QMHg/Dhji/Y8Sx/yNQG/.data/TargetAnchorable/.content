@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="4nDA8bkVVEiKkg_CvIDJRA" DesignTimeRectangle="354, 394, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="ef51e0b2-ced9-4321-acc4-bef4b4153827" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="tKrgbjQTk0GP7G5hBZbUBw" DesignTimeRectangle="354, 312, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="ef51e0b2-ced9-4321-acc4-bef4b4153827" Reference="ibK92gIPHUmRsRCnhmHO7g/yNQGc70VY0GpIROej5EvNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="351, 376, 221, 20" ElementType="Text" FriendlyName="'Asset Type'" FullSelectorArgument="&lt;webctrl aaname='Asset Type:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Asset Type:' parentid='border-box' tag='DIV' type='' check:text='Asset Type:' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">1T_gdMU96VkmFZpjRR4215A</imageRef>
+      <Target DesignTimeRectangle="351, 294, 221, 20" ElementType="Text" FriendlyName="'Asset Type'" FullSelectorArgument="&lt;webctrl aaname='Asset Type:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Asset Type:' parentid='border-box' tag='DIV' type='' check:text='Asset Type:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">65SfmrHhj4kmpm0E8d11qjw</imageRef>
       </Target>
-      <Target DesignTimeRectangle="354, 599, 53, 35" ElementType="Text" FriendlyName="'5'" FullSelectorArgument="&lt;webctrl aaname='5' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='5' parentid='border-box' tag='DIV' type='' check:text='5' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">2qNNXS9RLjkyozGVP2pEKqA</imageRef>
+      <Target DesignTimeRectangle="354, 517, 53, 35" ElementType="Text" FriendlyName="'5'" FullSelectorArgument="&lt;webctrl aaname='5' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='5' parentid='border-box' tag='DIV' type='' check:text='5' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">66WcSvGhjrVU6lkO-9rS50jA</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0n5w1vj1GdEG69-zB4zQKjw</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="e91bb3975b7aa7dbaa346b26771b7429.png" xmlns="">0vW3JJWqRy0q_iqD35ywHdg</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">05pGifWRZi0W8NuEQYkwonw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ca1e2f1f958c7321bc405f8625a63f22.png" xmlns="">0ZHuLufU-EEC-ixtJRp0sJA</imageRef>
 </TargetAnchorable>

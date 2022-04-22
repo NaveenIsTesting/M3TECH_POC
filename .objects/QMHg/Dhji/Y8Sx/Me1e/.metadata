@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Me1e-AkFdEqyxlKtGq8ixA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Me1e-AkFdEqyxlKtGq8ixA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Scroll_up_for_assets",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-19T13:26:39.5765507Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T15:01:11.5194464Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

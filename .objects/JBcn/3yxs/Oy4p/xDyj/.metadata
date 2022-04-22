@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xDyjH6PdxkSNj01Ve-gfkQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/xDyjH6PdxkSNj01Ve-gfkQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_payoff",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-21T09:53:06.63923Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T10:00:05.1953078Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

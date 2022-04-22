@@ -1,0 +1,15 @@
+﻿{
+  "Id": "2EJuP6a62kKr_atNYYgQeQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/XEl7YyRxWkmgpKmy0sRLDQ",
+  "Name": "Applicant_second_group",
+  "Type": "Screen",
+  "Created": "2022-04-20T09:08:58.0045727Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T09:09:43.3131095Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

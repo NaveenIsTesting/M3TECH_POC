@@ -1,0 +1,16 @@
+﻿{
+  "Id": "jgXjSdysYk-mvUvZmCaFkA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/jgXjSdysYk-mvUvZmCaFkA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_lia_Limit",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-21T05:18:19.1010407Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T05:21:57.4390311Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

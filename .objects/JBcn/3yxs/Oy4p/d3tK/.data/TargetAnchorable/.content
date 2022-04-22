@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="M7OPDV5dBEmTTOaAWfmsgg" DesignTimeRectangle="928, 352, 137, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="0e9da266-056d-4c65-a6b5-6db34b865522" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="917, 314, 191, 20" ElementType="Text" FriendlyName="'Payment'" FullSelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' type='' check:text='Payment:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ycZPjUF7E0G3o-vkFkzEPA</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="352, 353, 115, 25" ElementType="Text" FriendlyName="'Credit Card'" FullSelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' type='' check:text='Credit Card' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2M2cZlsX320CPBX7Sm02i0A</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0IEggBqe55Umwn3ZjGUc9Bw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5c1bcaf87bf5a0d27ad28b988ca14b26.png" xmlns="">0qEX93FoSx0Cwdp7GaW2WBw</imageRef>
+</TargetAnchorable>

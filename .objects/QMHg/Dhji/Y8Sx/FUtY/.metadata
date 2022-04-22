@@ -1,0 +1,16 @@
+﻿{
+  "Id": "FUtY880fSEu6Oi4W0TcciQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/FUtY880fSEu6Oi4W0TcciQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_App_asset_value2",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T02:54:52.7581746Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T02:58:57.8599275Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

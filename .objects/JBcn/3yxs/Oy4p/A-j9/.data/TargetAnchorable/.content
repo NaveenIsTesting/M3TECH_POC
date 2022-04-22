@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="hHeueSr7eUOYIhSGe-MwVQ" DesignTimeRectangle="351, 414, 142, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;input' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" Guid="77f99371-22b0-445c-b2fd-6a93aa85f6dc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="351, 384, 163, 20" ElementType="Text" FriendlyName="'Description'" FullSelectorArgument="&lt;webctrl aaname='Description:' css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Description:' type='' parentid='border-box' tag='DIV' check:text='Description:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1oQb55gb0UE67QWLST9_IIA</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="352, 353, 115, 25" ElementType="Text" FriendlyName="'Credit Card'" FullSelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Credit Card' parentid='mainApplicant[0].liabilityType' tag='DIV' type='' check:text='Credit Card' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2Wy3gJPMUvkmQ4zFd9LtOXQ</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0S8442I4-AUC-YUfNy0xoMg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e7db40216ed7e131e55fd8030540bdc7.png" xmlns="">0RyHxtb5n00CguhDVcXhRyA</imageRef>
+</TargetAnchorable>

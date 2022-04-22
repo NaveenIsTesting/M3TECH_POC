@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NO-jr8YUK0OXZ2qo0-9ImQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/NO-jr8YUK0OXZ2qo0-9ImQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "app_select_Date",
+  "Type": "Element",
+  "TaxonomyType": "Date",
+  "Created": "2022-04-21T04:11:46.5474995Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T04:15:42.0962676Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

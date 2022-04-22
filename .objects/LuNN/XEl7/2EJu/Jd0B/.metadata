@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Jd0B8tvMBUmj0SGXGvkpCQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Jd0B8tvMBUmj0SGXGvkpCQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "Name": "Co_App_group2_select_element",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-21T17:25:36.2737909Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T17:46:03.4748561Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

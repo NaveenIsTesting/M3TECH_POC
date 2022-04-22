@@ -1,0 +1,16 @@
+﻿{
+  "Id": "F2WwvgtmVEyRoTXUIhQjAg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/F2WwvgtmVEyRoTXUIhQjAg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "App_Liabiliti_type",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-20T17:43:16.2079921Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T17:49:31.6326236Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

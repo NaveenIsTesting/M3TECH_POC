@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="FW2KglogLkuG4U82WPYikQ" DesignTimeRectangle="352, 532, 123, 20" ElementType="Text" FriendlyName="'Auto Loan'" FullSelectorArgument="&lt;webctrl id='react-select-110-option-3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-110-option-3' tag='DIV' type='' aaname='Auto Loan' check:text='Auto Loan' /&gt;" Guid="4cd29a67-155c-4378-9280-f8795cdbcaf9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="346, 396, 191, 20" ElementType="Text" FriendlyName="'Liability Type'" FullSelectorArgument="&lt;webctrl aaname='Liability Type:' idx='2' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liability Type:' type='' parentid='border-box' tag='DIV' check:text='Liability Type:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1O6LAZOkON0uX8KDQ6ob9Pg</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 369, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='5' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2jj0VP_CtzkWyZjhI76oFww</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0ZFP1EgVOM0q8llDFvdQSow</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="86571f9396749a74c65b41d037131731.png" xmlns="">01OWxcslzaU2mOLRtrqp3Ow</imageRef>
+</TargetAnchorable>

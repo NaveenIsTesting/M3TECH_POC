@@ -1,0 +1,16 @@
+﻿{
+  "Id": "d3tKxgomxkmX_7DuYvqD9w",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/d3tKxgomxkmX_7DuYvqD9w",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "App_lia_Payment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T18:22:16.4818634Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T18:28:07.550428Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "t4M3k4B8oEKxxx8tIGqPWg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/t4M3k4B8oEKxxx8tIGqPWg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_select_Life_insurence",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-19T16:19:30.5949298Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-19T16:25:33.6816601Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

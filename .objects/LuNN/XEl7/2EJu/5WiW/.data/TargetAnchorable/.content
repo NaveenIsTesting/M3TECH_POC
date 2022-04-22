@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="9s5FzHWQX0mx8TT0Sj1HWQ" DesignTimeRectangle="352, 536, 174, 20" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl id='react-select-302-option-8' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-302-option-8' tag='DIV' type='' aaname='Life Insurance' check:text='Life Insurance' /&gt;" Guid="db5c7f26-f6c5-4ce7-813f-a07c9f7f726c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="352, 556, 174, 20" ElementType="Text" FriendlyName="'Deposit on Purchase'" FullSelectorArgument="&lt;webctrl id='react-select-302-option-9' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-302-option-9' tag='DIV' type='' aaname='Deposit on Purchase' check:text='Deposit on Purchase' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">6G4Q3lPTjI068jU2R7j-_1w</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="334, 587, 86, 20" ElementType="Text" FriendlyName="'Liabilities'" FullSelectorArgument="&lt;webctrl aaname='Liabilities' idx='2' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liabilities' type='' parentid='deal-entry' tag='DIV' check:text='Liabilities' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">7qQSdEehvIUu04ZtsIcRfog</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">05D_RlgIbekW32ukEm0Qc4A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="42137ed47fdbee4a01c9533d400f511e.png" xmlns="">0870ZCWzxCEyb2PD2y205kg</imageRef>
+</TargetAnchorable>

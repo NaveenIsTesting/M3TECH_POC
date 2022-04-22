@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xpft5SISqk647CNQFcltdA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/xpft5SISqk647CNQFcltdA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_Lia_Balance",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-21T05:25:02.5018907Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T05:28:46.0642775Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

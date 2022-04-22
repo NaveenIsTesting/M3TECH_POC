@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Hwt-SwLV40W27PC3NuUnqQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Hwt-SwLV40W27PC3NuUnqQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_MaturityDate",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-21T05:34:04.9930333Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-21T05:37:44.8343586Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

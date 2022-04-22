@@ -1,0 +1,16 @@
+﻿{
+  "Id": "7iK-dVSb3kSWkBzfXb4sew",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/7iK-dVSb3kSWkBzfXb4sew",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "Name": "Co_App_Email_group2_",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-20T09:29:38.4366983Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T09:38:38.2518138Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

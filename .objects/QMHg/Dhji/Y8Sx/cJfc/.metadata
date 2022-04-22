@@ -1,0 +1,16 @@
+﻿{
+  "Id": "cJfcostxb0GlchxmZbqFGg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/cJfcostxb0GlchxmZbqFGg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "App_click_asset_5to1",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-20T15:13:57.0588635Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T15:17:16.9287513Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

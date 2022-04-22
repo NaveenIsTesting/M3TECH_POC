@@ -1,0 +1,16 @@
+﻿{
+  "Id": "0qMTEmUGv0Sybio0vsyMwQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/0qMTEmUGv0Sybio0vsyMwQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Add_Applicant",
+  "Type": "Element",
+  "TaxonomyType": "Link",
+  "Created": "2022-04-20T09:02:19.011879Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-20T09:06:53.2448499Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
