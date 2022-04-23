@@ -1,0 +1,14 @@
+﻿{
+  "Id": "qjFE4KhTAk6fIyeUsdp9zA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/qjFE4KhTAk6fIyeUsdp9zA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Mouse Scroll 'Assets'",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-23T03:52:18.7687567Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-23T03:52:18.7687567Z"
+}

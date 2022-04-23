@@ -1,0 +1,16 @@
+﻿{
+  "Id": "7MdMbwdelkKxG7oLr2ew7w",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/7MdMbwdelkKxG7oLr2ew7w",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityTypeCreditCard 3",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-22T21:14:06.0407352Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:35:55.3711373Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

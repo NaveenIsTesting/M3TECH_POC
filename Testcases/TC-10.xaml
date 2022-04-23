@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test_10" this:test_10.AuthorizationMethod="Credit Bureau" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:l1="clr-namespace:Login_and_Logout;assembly=Login_and_Logout" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test_10" this:test_10.AuthorizationMethod="Credit Bureau" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Lastname" Type="InArgument(x:String)" />
@@ -15,7 +15,7 @@
     <x:Property Name="argument1" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>622,8115</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>628,8155</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="82">
@@ -108,10 +108,9 @@
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>Login_and_Logout</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="test_10" sap:VirtualizedContainerService.HintSize="627,8050" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="test_10" sap:VirtualizedContainerService.HintSize="627,8090" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
     </Sequence.Variables>
@@ -120,7 +119,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="TestData2" WorkbookPath="Testcases\credential sheet.xlsx">
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_2" SheetName="TestData2" WorkbookPath="Config\credential sheet.xlsx">
       <ui:ReadRange.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">ExcelData</mca:CSharpReference>
@@ -332,7 +331,7 @@
     </ui:LogMessage>
     <l:Login sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Login_1" password="password" username="autoboss" />
     <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_3" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Deal button" sap:VirtualizedContainerService.HintSize="585,6604" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="552ef80c-2946-4427-9add-81b81b57fe82" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Deal button" sap:VirtualizedContainerService.HintSize="585,6644" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="552ef80c-2946-4427-9add-81b81b57fe82" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -684,7 +683,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <l1:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
+                    <l:Logout sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="Logout_1" />
                   </Sequence>
                 </ActivityAction>
               </uix:NApplicationCard.Body>

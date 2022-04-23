@@ -1,0 +1,16 @@
+﻿{
+  "Id": "qexjvTuBbEyc1DIglne1ng",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/qexjvTuBbEyc1DIglne1ng",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "DealButton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-22T15:57:40.4573632Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T15:59:02.5816538Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

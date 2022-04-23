@@ -1,0 +1,14 @@
+﻿{
+  "Id": "MIHcswU1wkKmbJ8vwOoneg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/MIHcswU1wkKmbJ8vwOoneg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Click 'Applicant'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-04-23T06:35:32.2844225Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-23T06:35:32.2844225Z"
+}

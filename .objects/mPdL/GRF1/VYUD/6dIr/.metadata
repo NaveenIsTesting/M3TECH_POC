@@ -1,0 +1,16 @@
+﻿{
+  "Id": "6dIr8CBEMEyGywywGwMksg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/6dIr8CBEMEyGywywGwMksg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityPayment 3",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-22T21:42:23.4571717Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:44:16.6616765Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

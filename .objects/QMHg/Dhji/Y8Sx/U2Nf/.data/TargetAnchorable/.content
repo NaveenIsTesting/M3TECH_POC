@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="QSBVEY86qEm3AtTUtgD3DQ" DesignTimeRectangle="571, 566, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='coApplicant[1].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='coApplicant[1].description' tag='INPUT' type='text' aaname='' /&gt;" Guid="15a02d71-106a-43b8-a047-d1cd68d5292a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="571, 515, 221, 20" ElementType="Text" FriendlyName="'Description'" FullSelectorArgument="&lt;webctrl aaname='Description:' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Description:' type='' parentid='border-box' tag='DIV' check:text='Description:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">806XuAlwvKc0kS7wifjfyfKsQ</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="350, 488, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">807PJre87HIIECtigW3BwwRdA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0805PN4OvHUq0oAEwL7gRqQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="dd875ba94b7f41612c113edcb4e2dfca.png" xmlns="">0a5_gTPfwS0-50JlBaeiLpQ</imageRef>
+</TargetAnchorable>

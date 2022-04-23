@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903915" ContentHash="ulPygCgzLEO2admYzwMdBA" DesignTimeRectangle="693, 77, 666, 54" ElementType="InputBox" FriendlyName="'addDEALaddCONTACTsearch…'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div' idx='10' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='page-container' tag='DIV' /&gt;" Guid="9bc48a5e-2c81-42d9-93cb-49db395614bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="304, 129, 1029, 30" FriendlyName="'Add Applicant/'" FullSelectorArgument="&lt;webctrl id='top-bar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='top-bar' tag='DIV' type='' aaname='' check:text='Add Applicant/ Applicant PairCopy ApplicationRecordAssignPrintSharingCo-Broker DealMail Merge' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1SylPV_kDAkmA16lTJKmbjg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0vlLfw90wbEy1GqzBh8SW9w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="1d174149d7b2f8aadecb513925b1d5a9.png" xmlns="">0pOvRzgIoR0SZFKCXM711qA</imageRef>
+</TargetAnchorable>

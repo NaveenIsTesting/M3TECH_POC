@@ -1,0 +1,16 @@
+﻿{
+  "Id": "TAjnJsW_BEiPqmQOlw6CKw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/TAjnJsW_BEiPqmQOlw6CKw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityPayOffChosse 2",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T22:14:50.7097622Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T22:40:40.3489812Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

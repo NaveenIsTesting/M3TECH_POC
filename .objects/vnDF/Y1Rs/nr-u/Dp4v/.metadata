@@ -1,0 +1,13 @@
+﻿{
+  "Id": "Dp4vesSOskKd1oYUFFhErQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Dp4vesSOskKd1oYUFFhErQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/nr-u7-sMLUyeYezbHTntkg",
+  "Name": "DealButton",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2022-04-22T16:02:10.5242305Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T16:02:10.5242305Z"
+}

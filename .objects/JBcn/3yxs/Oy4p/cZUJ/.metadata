@@ -1,0 +1,16 @@
+﻿{
+  "Id": "cZUJcu2CS0mhbAcKamtoyw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/cZUJcu2CS0mhbAcKamtoyw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Oy4p_Ni6TEGYsZB-dD3VyA",
+  "Name": "Co_App_Select_lia_type_autoloan",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T19:17:14.1340789Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T19:28:52.2727964Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

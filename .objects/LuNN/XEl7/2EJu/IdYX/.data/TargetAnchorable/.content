@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="VMZVRr0yQkaEp7mTRb6_cQ" DesignTimeRectangle="352, 499, 174, 20" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl id='react-select-311-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-311-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="b9e264fb-32d3-4111-b844-65614b7be8b6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903908" ContentHash="91aBaEZgwki1W0UOCfZ1eg" DesignTimeRectangle="352, 405, 174, 20" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl id='react-select-306-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-306-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="182a60e3-b46e-4410-a39d-d19331165ae2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="351, 432, 176, 25" ElementType="InputBox" FriendlyName="'houhou'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='mainApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='mainApplicant[1].type' tag='DIV' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">1-jQLhhzAFkiPol5cIv1Yww</imageRef>
+      <Target DesignTimeRectangle="350, 289, 124, 20" ElementType="Text" FriendlyName="'Co-Applicant: AUTO'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: AUTO' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: AUTO' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: AUTO' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1SrJDHDOB3kuUud1vIu7JxA</imageRef>
+      </Target>
+      <Target DesignTimeRectangle="354, 334, 149, 35" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl aaname='Life Insurance' parentid='mainApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Life Insurance' parentid='mainApplicant[0].type' tag='DIV' type='' check:text='Life Insurance' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">2T9NQZOkLX0usmYv6fB_xZg</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0ib4q_N_zHk-vEJUwap0EiQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="a8619184f1528f090d33247273fa1d36.png" xmlns="">0vtAmAZfTZkW0xAA8elVAnQ</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0qgOBEMevOE20BopjRve8OQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="426d7d8bdbf3fd0788d6ef7c4aed59a6.png" xmlns="">0BQu_uQxAsUWlrk9T6sp-0Q</imageRef>
 </TargetAnchorable>

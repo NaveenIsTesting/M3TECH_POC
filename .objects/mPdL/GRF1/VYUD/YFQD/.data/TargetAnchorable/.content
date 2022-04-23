@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="coHhDjRhwEOd7CueWIZ04Q" DesignTimeRectangle="1777, 380, 30, 30" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' parentid='border-box' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='border-box' tag='svg' aaname='' /&gt;" Guid="695c7d0c-7baa-4eca-9402-6922fd117840" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1144, 343, 107, 25" FriendlyName="'Co-Applicant'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='border-box' tag='DIV' check:text='Co-Applicant' /&gt;" SearchSteps="Selector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ew6hgWpuO0WfvBOzJ1V-Jg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0uC5XJeMQ10quQNRBEGSeZw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ca40ce5729eb4c40b735c6eca5ba5d0c.png" xmlns="">0u8QqzGKhkEunyooqz5N7Ww</imageRef>
+</TargetAnchorable>

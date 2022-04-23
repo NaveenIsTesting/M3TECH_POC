@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="LpOTwjIaPkaWP9tQGaDMig" DesignTimeRectangle="442, 264, 105, 35" ElementType="Text" FriendlyName="'Applicant'" FullSelectorArgument="&lt;webctrl aaname='Applicant' parentid='applicantGroupTypeId' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant' parentid='applicantGroupTypeId' tag='DIV' type='' check:text='Applicant' /&gt;" Guid="208b495c-30de-4d1d-af54-3d831da78510" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="1">
+      <Target DesignTimeRectangle="334, 274, 95, 13" ElementType="Text" FriendlyName="'Applicant Type'" FullSelectorArgument="&lt;webctrl aaname='Applicant Type:' parentid='deal-entry' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant Type:' parentid='deal-entry' tag='SPAN' type='' check:text='Applicant Type:' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">10C6MCgShBSUKKWEBzOkFf9Q</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">09S2tPJ2lykyYM5nme6kDuA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="656985461dbdb6edd87a244bbd3729c9.png" xmlns="">03YLJr2fum0yLnXmXKXyMfw</imageRef>
+</TargetAnchorable>
