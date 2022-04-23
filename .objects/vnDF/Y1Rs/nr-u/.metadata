@@ -1,0 +1,12 @@
+﻿{
+  "Id": "nr-u7-sMLUyeYezbHTntkg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/nr-u7-sMLUyeYezbHTntkg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y1RsJN1mt02qewOnckXNxw",
+  "Name": "Dashboard",
+  "Type": "Screen",
+  "Created": "2022-04-22T16:02:10.419557Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T16:02:10.419557Z"
+}

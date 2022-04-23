@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="Ld89c1wHEEKUThpWVsvVdA" DesignTimeRectangle="720, 752, 218, 26" ElementType="Text" FriendlyName="'Prior to Advance'" FullSelectorArgument="&lt;webctrl id='react-select-91-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-91-option-1' tag='DIV' type='' aaname='Prior to Advance' check:text='Prior to Advance' /&gt;" Guid="5b3f6627-78ba-49ad-80db-f96e77fb4900" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="718, 712, 250, 29" ElementType="Text" FriendlyName="'Payoff'" FullSelectorArgument="&lt;webctrl aaname='Payoff:' idx='2' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Payoff:' type='' parentid='border-box' tag='DIV' check:text='Payoff:' /&gt;" SearchSteps="Selector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">11yA-BdcikkOLXr8CT01Dzg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0a8UT0K3IJkyQDytohbIIqA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="59b503fc5a285b25e713567210d9a32e.png" xmlns="">0rSy54w5-Q0eRW-wYO4ioTw</imageRef>
+</TargetAnchorable>

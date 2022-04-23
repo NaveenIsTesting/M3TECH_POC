@@ -1,19 +1,24 @@
-{
+﻿{
   "name": "M3TECH_POC",
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "Login": "[1.0.10]",
+    "Login": "[1.0.12]",
+    "Login_and_Logout": "[1.0.13]",
     "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Jira.Activities": "[2.3.1-preview]",
+    "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
+    "UiPath.JiraSoftware.Activities": "[1.0.3.22730]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
-    "UiPath.UIAutomation.Activities": "[21.10.5]"
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "21.10.5.0",
-  "projectVersion": "1.0.4",
+  "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -73,33 +78,33 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "246fd687-2b6f-4d8f-8f8e-77dad2012bcd",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-10.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "901846e8-d040-4bad-9765-2e916f74dd69",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-7.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "6b0e9497-0846-494a-b007-3b4b1a7f6de0",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-8.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "42484ebd-735c-49b3-aeef-fee5fec508f6",
+        "testCaseId": "f50dc58b-2293-476d-a15c-21131c643456",
         "testCaseType": "TestCase",
         "fileName": "Testcases\\TC-1.xaml"
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "288dd748-98a3-47c5-add9-a376eb99e62e",
+        "testCaseId": "a0b5ed56-2350-4b4b-b169-19d21b20eff5",
         "testCaseType": "TestCase",
-        "fileName": "main.xaml"
+        "fileName": "Testcases\\TC-7.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "08b25a34-d5f2-40a7-a12a-d360d6f5c6be",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-8.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "5c12f979-3424-4115-9e45-e5a77a625a49",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-9.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "93efeb33-375a-4da3-83bb-32e1340ccd5f",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-10.xaml"
       }
     ],
     "modernBehavior": true

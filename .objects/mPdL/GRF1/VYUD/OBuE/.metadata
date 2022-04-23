@@ -1,0 +1,16 @@
+﻿{
+  "Id": "OBuEyg_Nq0CMs_ChZBe6-g",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/OBuEyg_Nq0CMs_ChZBe6-g",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityPayOffPriorToAdvance 2",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T20:55:37.9335555Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:05:32.1450224Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

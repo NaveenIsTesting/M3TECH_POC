@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="PIJzVgUKkEmha0dAkwkD7Q" DesignTimeRectangle="1570, 757, 138, 31" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='mainApplicant[1].maturityDate' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[1].maturityDate' tag='INPUT' type='text' aaname='' /&gt;" Guid="7339eab8-6569-4aa0-8107-60b1cd373d8b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1554, 518, 281, 25" ElementType="Text" FriendlyName="'Maturity Date'" FullSelectorArgument="&lt;webctrl aaname='Maturity Date:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Maturity Date:' parentid='border-box' tag='DIV' type='' check:text='Maturity Date:' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">18_26qwdP00SrTZJFLkKnZA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0Kx432ljdtkaHjVgDVwYIoQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="c473b3cbb2e52d9710acbbe3a87572bb.png" xmlns="">03mpgB6xCQEKYLPxhCeDCWA</imageRef>
+</TargetAnchorable>

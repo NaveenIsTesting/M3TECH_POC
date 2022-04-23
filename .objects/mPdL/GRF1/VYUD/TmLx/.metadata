@@ -1,0 +1,16 @@
+﻿{
+  "Id": "TmLxMoDjp0GyWtgBbgMyjA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/TmLxMoDjp0GyWtgBbgMyjA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityAddClickOn 5",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-22T18:46:49.6965524Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T18:51:31.5807027Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
