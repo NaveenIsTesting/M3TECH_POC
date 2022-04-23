@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Kln3uXk1uU6d7zw6jrZE5g",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Kln3uXk1uU6d7zw6jrZE5g",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityPayOff FromProces 3",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-22T21:54:42.9482575Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:59:32.5665091Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="F2k5TikOoU2zKWVIzy9kYw" DesignTimeRectangle="1004, 766, 213, 31" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[2].balance' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[2].balance' tag='INPUT' type='text' aaname='' /&gt;" Guid="eabfc4a8-1690-40b3-8086-11f86ebddc31" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="993, 338, 281, 25" ElementType="Text" FriendlyName="'Balance'" FullSelectorArgument="&lt;webctrl aaname='Balance:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Balance:' parentid='border-box' tag='DIV' type='' check:text='Balance:' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1zVH890WlcUefEIJnXPrFLw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0kkrzacHdNkCHchI4CITqwg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="f153d13926a64363ee49db7f236d31ab.png" xmlns="">0xInVTkFX10WrNizY_TbPQQ</imageRef>
+</TargetAnchorable>

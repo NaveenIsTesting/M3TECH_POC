@@ -1,0 +1,16 @@
+﻿{
+  "Id": "q78aj8WIVkeVTbVd3Tq40A",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/q78aj8WIVkeVTbVd3Tq40A",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityPayOffChoose 3",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T21:50:46.4145735Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:53:41.9671063Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

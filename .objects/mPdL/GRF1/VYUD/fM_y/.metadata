@@ -1,0 +1,16 @@
+﻿{
+  "Id": "fM_y2_wow0OJ7TKiPODVIw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/fM_y2_wow0OJ7TKiPODVIw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityTypeChoose 3",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-22T21:12:04.5244855Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T21:13:46.2714102Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

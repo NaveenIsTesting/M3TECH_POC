@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="UjMMuUfw4UeynRcaHsuvnw" DesignTimeRectangle="437, 768, 198, 25" ElementType="Text" FriendlyName="'Credit Card'" FullSelectorArgument="&lt;webctrl id='react-select-85-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-85-option-1' tag='DIV' type='' aaname='Credit Card' check:text='Credit Card' /&gt;" Guid="56334e78-97a5-471a-b2e4-1b126f07cbab" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="431, 338, 281, 25" ElementType="Text" FriendlyName="'Liability Type'" FullSelectorArgument="&lt;webctrl aaname='Liability Type:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liability Type:' parentid='border-box' tag='DIV' type='' check:text='Liability Type:' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1vULnZp2mtk2vP7WaGJIrEg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">00QQKwv6Kh0KLtqdh1jAkIA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a6c7363cf9f1741291fbeca57a9baad3.png" xmlns="">0iB3Z00DOj0Gk4Yn5eU7cNQ</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "nsdqhCsPdk-ACh_L0HU16A",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/nsdqhCsPdk-ACh_L0HU16A",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "LibilityBalance 2",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-22T20:39:56.5625331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-22T20:41:07.7017427Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
