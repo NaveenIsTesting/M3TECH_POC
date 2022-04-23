@@ -1,0 +1,14 @@
+﻿{
+  "Id": "s28aV7X2O0-HJsfyRZUyew",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/s28aV7X2O0-HJsfyRZUyew",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Co_App_assets",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-23T05:42:04.4555444Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-23T05:42:04.4555444Z"
+}

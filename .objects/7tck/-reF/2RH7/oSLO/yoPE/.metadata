@@ -1,0 +1,13 @@
+﻿{
+  "Id": "yoPEFC_ez0mVGKgSbwh75Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/yoPEFC_ez0mVGKgSbwh75Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/oSLOznFvtUaJvWaafI78YA",
+  "Name": "Downpaymentsection",
+  "Type": "Element",
+  "TaxonomyType": "Group",
+  "Created": "2022-04-23T02:25:37.4207072Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-23T02:25:37.4207072Z"
+}

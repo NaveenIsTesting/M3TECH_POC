@@ -1,0 +1,14 @@
+﻿{
+  "Id": "TD5j_2aRQ0uu_2wxxKQL9Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/TD5j_2aRQ0uu_2wxxKQL9Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Mouse Scroll for Menubar",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-23T04:13:44.5087092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-23T04:13:44.5087092Z"
+}
