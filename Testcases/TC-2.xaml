@@ -84,6 +84,7 @@
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
       <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
       <AssemblyReference>Login_and_Logout</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="924,4526" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -270,7 +271,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DelayBefore="10" DisplayName="Click 'Tickmarknearsavebutton'" sap:VirtualizedContainerService.HintSize="806,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
+            <uix:NClick ClickType="Single" DelayBefore="12" DisplayName="Click 'Tickmarknearsavebutton'" sap:VirtualizedContainerService.HintSize="806,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903679" ContentHash="0hg210k0oEeWsL13vSB4ig" DesignTimeRectangle="1294, 225, 16, 12" ElementType="Icon" FriendlyName="'Tickmarknearsavebutton'" FullSelectorArgument="&lt;webctrl parentid='deal-banner' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='deal-banner' tag='IMG' type='' aaname='' /&gt;" Guid="87b7b2ba-1847-4078-9b2f-e93589f696c9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACmSURBVDhPrY/BCYNAEEUtISVYgiWlsiSHnDzZgw3kagSTmycR8WICYZIvgrPraGbUhcfy/34ebBCcMtoVsdyCWBoI48LtnGDkkjdUvz4UJc+x5wMLkOHcqo4O13x84yMtszLgBAWLMjApFvgrAzwc05LO98YdDKhkgAeMcXypWgZ4wNiXmmTAL7j00b77Wy0DUsmlJhkQyx+Q4LsmGRDLLYjlajL6Ap1tRrK7GLzjAAAAAElFTkSuQmCC" InformativeScreenshot="73da83c93f87e004a38977d1dbef90f1.png" Reference="ibK92gIPHUmRsRCnhmHO7g/9vmNHyTqP0GlAdWO3eZ2Fg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
