@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903954" ContentHash="gf6OCKCw5Ey2Ja9Ma1UgZg" DesignTimeRectangle="334, 392, 952, 309" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' id='border-box' idx='3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' id='border-box' aaname='' tag='DIV' check:text='Applicant: BOSS Address Type:Currenterror&amp;#xD;&amp;#xA;  &amp;#x9;.t57bdf8e4-9e50-4038-af29-5c34af7ab8a6 {&amp;#xD;&amp;#xA;&amp;#x9;    color: ' /&gt;" Guid="8a481c26-741e-4f96-9613-052e712978a1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="304, 327, 1012, 404" FriendlyName="'AddressApplicant: BOSS'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='deal-entry' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='deal-entry' tag='DIV' check:text='AddressApplicant: BOSS Address Type:Currenterror&amp;#xD;&amp;#xA;  &amp;#x9;.t57bdf8e4-9e50-4038-af29-5c34af7ab8a6 {&amp;#xD;&amp;#xA;&amp;#x9;   ' /&gt;" SearchSteps="Selector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">15QNhD2Rmg0GaRrrgMEZZ5A</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0GFo7BibRgECdn4Cx2Lz_dw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2cbd625e3311616fbf86bf17b3600c03.png" xmlns="">0UaBFGCvUlEORdMFZrF_7HA</imageRef>
+</TargetAnchorable>

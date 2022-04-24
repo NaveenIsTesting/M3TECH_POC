@@ -1,8 +1,8 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="testcase6" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test6" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:l="clr-namespace:Login;assembly=Login" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
+    <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Lastname" Type="InArgument(x:String)" />
     <x:Property Name="Email" Type="InArgument(x:String)" />
-    <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Co_App_Lastname" Type="InArgument(x:String)" />
     <x:Property Name="Co_App_Email" Type="InArgument(x:String)" />
     <x:Property Name="Firstname" Type="InArgument(x:String)" />
@@ -26,7 +26,7 @@
     <x:Property Name="Co_App_group_Asset_value2" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>914,12989</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>847,525</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -52,29 +52,26 @@
       <x:String>UiPath.Core</x:String>
       <x:String>UiPath.Core.Activities</x:String>
       <x:String>System.Windows.Markup</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
       <x:String>UiPath.UIAutomationNext.Enums</x:String>
       <x:String>UiPath.UIAutomationCore.Contracts</x:String>
-      <x:String>System.Collections.ObjectModel</x:String>
-      <x:String>UiPath.UIAutomationNext.Activities</x:String>
-      <x:String>System.Activities.DynamicUpdate</x:String>
-      <x:String>UiPath.Platform.ObjectLibrary</x:String>
-      <x:String>UiPath.Shared.Activities</x:String>
-      <x:String>Login</x:String>
       <x:String>System.Security</x:String>
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
-      <x:String>System.Runtime.Serialization</x:String>
-      <x:String>System.ComponentModel</x:String>
+      <x:String>ReporterForUiPath.Enums</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>Login</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>ReporterForUiPath.Activities</x:String>
       <x:String>System.Runtime.InteropServices</x:String>
       <x:String>System.Reflection</x:String>
-      <x:String>UiPath.Excel</x:String>
-      <x:String>System.Xml.Serialization</x:String>
-      <x:String>UiPath.Excel.Activities.Business</x:String>
-      <x:String>UiPath.Excel.Activities</x:String>
-      <x:String>UiPath.DataTableUtilities</x:String>
-      <x:String>System.Linq.Expressions</x:String>
-      <x:String>UiPath.Activities.System</x:String>
-      <x:String>ReporterForUiPath.Enums</x:String>
-      <x:String>ReporterForUiPath.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -103,50 +100,51 @@
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>Login</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Platform</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
-      <AssemblyReference>Login</AssemblyReference>
+      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>UiPath.Excel</AssemblyReference>
       <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
-      <AssemblyReference>Login_and_Logout</AssemblyReference>
-      <AssemblyReference>ReporterForUiPath</AssemblyReference>
-      <AssemblyReference>ReporterForUiPath.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="testcase6" sap:VirtualizedContainerService.HintSize="924,12924" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="testcase6" sap:VirtualizedContainerService.HintSize="627,1876" sap2010:WorkflowViewState.IdRef="Sequence_8">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+        <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="882,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="TestData1" WorkbookPath="Config\credential sheet.xlsx">
+    <ui:ReadRange Range="{x:Null}" AddHeaders="True" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="585,87" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="TestData1" WorkbookPath="Config\credential sheet.xlsx">
       <ui:ReadRange.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <mca:CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">ExcelData</mca:CSharpReference>
         </OutArgument>
       </ui:ReadRange.DataTable>
     </ui:ReadRange>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="882,1211" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="585,1211" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="551,1091" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="551,1091" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -155,11 +153,11 @@
             <If sap:VirtualizedContainerService.HintSize="509,999" sap2010:WorkflowViewState.IdRef="If_1">
               <If.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
-                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">CurrentRow["TestCase"].Equals("C114")</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">CurrentRow["TestCase"].Equals("C114")</mca:CSharpValue>
                 </InArgument>
               </If.Condition>
               <If.Then>
-                <Sequence sap:VirtualizedContainerService.HintSize="473,812" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence sap:VirtualizedContainerService.HintSize="473,812" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -176,7 +174,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_53">CurrentRow["Firstname"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">CurrentRow["Firstname"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -188,7 +186,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">CurrentRow["Lastname"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">CurrentRow["Lastname"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -207,36 +205,36 @@
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_19">Co_App_group2_F_name</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">Co_App_group2_F_name</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">CurrentRow["Co_App_group2_F_name"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">CurrentRow["Co_App_group2_F_name"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">Co_App_group2_L_name</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">Co_App_group2_L_name</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">CurrentRow["Co_App_group2_L_name"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">CurrentRow["Co_App_group2_L_name"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_21">Co_App_group2_Email</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">Co_App_group2_Email</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_44">CurrentRow["Co_App_group2_Email"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">CurrentRow["Co_App_group2_Email"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -248,7 +246,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">CurrentRow["App_Description1"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">CurrentRow["App_Description1"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -260,7 +258,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">CurrentRow["App_Asset_value_1"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">CurrentRow["App_Asset_value_1"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -272,7 +270,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">CurrentRow["App_Description2"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">CurrentRow["App_Description2"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -284,7 +282,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">CurrentRow["App_Asset_value_2"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">CurrentRow["App_Asset_value_2"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -296,7 +294,7 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">CurrentRow["App_Description3"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">CurrentRow["App_Description3"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -308,115 +306,115 @@
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">CurrentRow["App_Asset_value_3"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">CurrentRow["App_Asset_value_3"].ToString()</mca:CSharpValue>
+                            </InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_13">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">Co_App_group2_F_name</mca:CSharpReference>
+                            </OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">CurrentRow["Co_App_group2_F_name"].ToString()</mca:CSharpValue>
+                            </InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">Co_App_Firstname</mca:CSharpReference>
+                            </OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">CurrentRow["Co_App_Firstname"].ToString()</mca:CSharpValue>
+                            </InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_15">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">Co_App_Lastname</mca:CSharpReference>
+                            </OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">CurrentRow["Co_App_Lastname"].ToString()</mca:CSharpValue>
+                            </InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">Co_App_Email</mca:CSharpReference>
+                            </OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">CurrentRow["Co_App_Email"].ToString()</mca:CSharpValue>
+                            </InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_17">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">Co_App_group2_Description1</mca:CSharpReference>
+                            </OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">CurrentRow["Co_App_group2_Description1"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_18">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">Co_App_group2_F_name</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_19">Co_App_group2_Assetvalue1</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">CurrentRow["Co_App_group2_F_name"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">CurrentRow["Co_App_group2_Assetvalue1"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_19">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">Co_App_Firstname</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">Co_App_group2_assettype</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">CurrentRow["Co_App_Firstname"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">CurrentRow["Co_App_group2_assettype"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_20">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_23">Co_App_Lastname</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_21">Co_App_group2_Description2</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">CurrentRow["Co_App_Lastname"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">CurrentRow["Co_App_group2_Description2"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
                         <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_21">
                           <ui:AssignOperation.To>
                             <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_24">Co_App_Email</mca:CSharpReference>
+                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">Co_App_group_Asset_value2</mca:CSharpReference>
                             </OutArgument>
                           </ui:AssignOperation.To>
                           <ui:AssignOperation.Value>
                             <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_48">CurrentRow["Co_App_Email"].ToString()</mca:CSharpValue>
-                            </InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_22">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_25">Co_App_group2_Description1</mca:CSharpReference>
-                            </OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">CurrentRow["Co_App_group2_Description1"].ToString()</mca:CSharpValue>
-                            </InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_23">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_26">Co_App_group2_Assetvalue1</mca:CSharpReference>
-                            </OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_62">CurrentRow["Co_App_group2_Assetvalue1"].ToString()</mca:CSharpValue>
-                            </InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_24">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_27">Co_App_group2_assettype</mca:CSharpReference>
-                            </OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">CurrentRow["Co_App_group2_assettype"].ToString()</mca:CSharpValue>
-                            </InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_25">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_28">Co_App_group2_Description2</mca:CSharpReference>
-                            </OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">CurrentRow["Co_App_group2_Description2"].ToString()</mca:CSharpValue>
-                            </InArgument>
-                          </ui:AssignOperation.Value>
-                        </ui:AssignOperation>
-                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_26">
-                          <ui:AssignOperation.To>
-                            <OutArgument x:TypeArguments="x:String">
-                              <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_29">Co_App_group_Asset_value2</mca:CSharpReference>
-                            </OutArgument>
-                          </ui:AssignOperation.To>
-                          <ui:AssignOperation.Value>
-                            <InArgument x:TypeArguments="x:String">
-                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_68">CurrentRow["Co_App_group_Asset_value2"].ToString()</mca:CSharpValue>
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">CurrentRow["Co_App_group_Asset_value2"].ToString()</mca:CSharpValue>
                             </InArgument>
                           </ui:AssignOperation.Value>
                         </ui:AssignOperation>
@@ -426,7 +424,7 @@
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_4">
+                <Sequence sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -444,18 +442,19 @@
         </InArgument>
       </ui:ForEachRow.DataTable>
     </ui:ForEachRow>
-    <l:Login sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Login_5" password="password" username="autoboss" />
-    <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="882,11330" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+    <l:Login sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Login_1" password="password" username="autoboss" />
+    <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="585,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="585,282" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,11114" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,11398" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
@@ -470,7 +469,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Firstname</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">Firstname</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -486,7 +485,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">Lastname</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">Lastname</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -502,11 +501,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Email</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">Email</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" DesignTimeRectangle="442, 264, 105, 35" ElementType="Text" FriendlyName="'Applicant'" FullSelectorArgument="&lt;webctrl aaname='Applicant' parentid='applicantGroupTypeId' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant' parentid='applicantGroupTypeId' tag='DIV' type='' check:text='Applicant' /&gt;" Guid="208b495c-30de-4d1d-af54-3d831da78510" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG0AAAAnCAYAAAAFO8ZcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANBSURBVHhe7ZrBS+NAFIf71+x9mdMcBEUQZAks2IuCYG9eDAgrHjztsiARJHgoHqSHpQgGQeJJYXFhoYJkD1JBiCBZEHoQcgp4CBR+O5NM26Ru41p16ej7YKCT10zS+TJvXiElENpB0jSEpGkISdMQkqYhpfcbwLuv1HRqpakPHzExMUFNo1byfV8tOkIXaE/TEJKmISRNA+Q+loWkacCISmvCZgz2ueqGPryrUHWIJ0prwVlgMHaeu+LMSwuPV8Bn6gjS7stx68JkJtxb1R9RnibtqgbDMGCMWfBidexZ6Ftp/4u3IM3fMVDZb+JolcE6zVtrbjGYu0eoL0+BCwF8eg3Ode87xfG+lXZogi256CbI0ENNnccmK7AOA3RHbofwdlZQnhQxNo7ypzr8OxVLpNg4uajDnOZJvLJ+glZbXUOOp5p5OLrpeHhpsQdrLH0q4zMLfPUIkQpJpBQ2Y6FxI6azHcHfM8EzK7I4XiAtbqI6w2EeCFFisnHbgCX61lk6cPCtDL7sIpBdMa63JfobXio1kcZQ3migJQ7EYQO2wbD2Xd35a19pOVFtHzWjAucmCSVIKYsHLdUTJN/prcji+GBp8akFNu/k9rfo3EH1RzpWHEWI0kuknNtgY1UxoiCRIh6UTFzeB99Ooq9dWiRSYu/plqSpsidBTkZ/ivE2e8eK44OlJZ83vTTwN3LpsdPsjDT1WSHvg229BWnJj8tOimpGDb5MWYL7UmI01oukZePDSovFuEaaHjv7mFxpJE0U+vsV8M4P7RLAmTdQu0x796XIeD49Do4/Lj3GN0141zJRh3CXeucl/CJpArn38PzEKIK9ue6mn0yGLDTkjt+OERyIQsMQE6YyanF82EIkwslnDkNWhHexkCkKjVlZJf6jtLYnrmugeiHOVfc5ijxe2qX4bzbof9lvB3PsCxoiNcnJWNx2u6U5n/0Ct6/kHxwvkCbJlPx82oT9M1PQ3PndvxHjCxbc46q4J1V8PCRNPG7+7iLG5bid4mQEGbIQeRg5Gfn0l+ehODEYkqYhJE1DXkwa8XKQtFcASdMQehtLQ+i9Rw0bvWGsYaM9TUNImoaQNA0haRpC0jSEpGkISdMO4A+Y52m03JwfzQAAAABJRU5ErkJggg==" InformativeScreenshot="656985461dbdb6edd87a244bbd3729c9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -517,19 +516,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co-Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="u4ZiafgjiUWcxj5C9aPGzw" DesignTimeRectangle="440, 389, 130, 20" ElementType="Text" FriendlyName="'Co-Applicant'" FullSelectorArgument="&lt;webctrl id='react-select-20-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-20-option-1' tag='DIV' type='' aaname='Co-Applicant' check:text='Co-Applicant' /&gt;" Guid="a6a850ba-ebb4-4e8d-988f-003ffd2c9a0e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAYCAYAAAA/FYWiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPzSURBVGhD7Zixa9tAFMbvr7gx0CGQwZrirYFCDF1MhxgKIVNDJ2cookMQGWI6lHQIplBQhuIMBQcK6lBQhqAOBRcCyhAwIaAhw0EHL907BL6+d5IjyZaUxC1tSk7wA8vv7km69+m9dxI/fl7i7OwMo9HIYNBaYE0YYRhyGGEYCjHCMBRihGEo5B4Jw4cjBJzD5Px8AO9rNDHGMGZ2YUQDuBsNzEsBISTmH7fhflPFY29FiO6ygLUdFNh+h7wwhvtrkIs7GEyN+8OcumiKJtzTAtsdZjZhqADOokD9RR9hRGJQEcIDG3XZgntSMP42fOnAqlmwpA1PFdhnZiJj/C3ukzDCtw2I5S7C3P8K3oaA3PTTcQcOWgsyzigrDrwbiCbYttB466O3KtD+mM9A/qZA800POyvzkBRkubCGbiZLVdsnMsZeE+KJi2Eyd3Tuo5PMEw8aaO8NoMa2UQR/ew31B5wd51Bf3UFwkdh04G30j3aSZ51DY4NeGLLpa7C/hObeMPF395lBGBH6zwSWdsMpmzoN4B0N9YKqj21K1evoHXNgFMJ3LUjZhjde0CKUB1vGb5f6ZEOu9hBl7Bx4sUhBOCGf3yMEu+wzzSzV9gph6Awo0XoXxmIY9mHTuf0pFtXgdR3yqYtQ+yGRbNL5Cy8eq4URZ88h2dU5PUNNYP1D0r/cn4wxhPvkOvXHY9b2s81dpLNA1by8GAJ0ag10j1O7zggUvHQOj0kzS7W9XBgsYvEonwGjwy46H2JfKooQZcvaoQMhHQT8WweeBJ+x833IraRHMsLIwkFYygWVCV5ZEFRq8inWga/tLJz0LdXjdVlJA60DP3Fd/2X6X7W9XBj698u0BE7xfQjvqpRM3LcO/PgZYvg++Dn1+f0RRnkp4SY04ma0TBhbVIMzPUgOvYDZhU+odeI3k5gOfNzXlAsja59VGIr8WrqUDMZlkDOGEcY01zefty8l7DPbuMbQ1vWRhc6X+Hw68GyfKCWl9tuVEnXiw/vG9x8/y3ie5rNthFHIBS0yNWeNLQ8hv0UF29W4+aRG8JSDQs3n+3XagpY1n9wLyPziJ4S7S1eNnl7wrE9uaGsUlKS+V9vLhVHdfFKGfC5h8U7jQpFgyPaQdx83FAZd1xYWnCOam+1T7jizCYOJAnSfjT9w8RbOQW/iA1e430Yjs13tl21X+dtF2XeL4y6WxDr6JCidEbbdq22lfJj/qFZtrxAGk9muyoUWnINMqbwIrrbAc8vk832H7ilpOK8VhkLwpok59jtuSP8DZhfGP0AHvqQUMdfZDTfHCMNQiBGGoZD/ShiGv4cRhqEQIwxDIVPCMIc5+DDCMEfhEQvjEr8AlNrCJtFn6T4AAAAASUVORK5CYII=" InformativeScreenshot="420fefa9616efc0f09dc0a6bd5743e7d.png" Reference="ibK92gIPHUmRsRCnhmHO7g/DQUhcaaqJka24_tzA155FQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
-                      <uix:Target DesignTimeRectangle="334, 337, 95, 13" ElementType="Text" FriendlyName="'Co-Applicant'" FullSelectorArgument="&lt;webctrl aaname='Applicant Type:' parentid='deal-entry' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant Type:' parentid='deal-entry' tag='SPAN' type='' check:text='Applicant Type:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGMAAAARCAYAAADJ0RJfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAARTSURBVFhH7VjfZyNbHL//2jwdLkMIZWPZ2Ie8DMuNy+Zl19JRKg+VUrkv6UPzNEJjH2KpCdVyZaksZVi9rIRKKUMZyhA+9/s950xyZiZJ12abu658GHJ+zjnfz/f7+X4nv2GLXwabJeOuC8dy0L1TzWg8xHAcqcYWS8gYeyhbNprXuv2zkCEjOBIQ73w8Ox1XDVhWA0PdNDE8sGhs2bN4zXNhIRnBXzbsgg2xd4FY9/0UZMjYGFaQYWJy6sByupjo9qaRJ2MaoFkow7vqoWq5uHjU/RrsSc5xD603RBZ5jyjU4H1NfHuIBhm79akFpyDIAAL2Ww83yXCGDOmVB4aJ7gdo6n2t38twT2/mUcNjfxT1WBHV42A2Jo2472N47MAWeu2ZMmnW8xtXsnshFpExPKDoNZ3y8QKuVg31Xg/+bnl25vp5qCcqRNdt1F6xLchWr1z0xnrgnuwrimh91W1Cjoz40oWQB4pxsSdQ/ZTeXF5ux4U/puNNQwQnDoRISGMyLBT3fIy4HQZovzEus4qMR1q7I+B0Roin1L7z4VLbveSVN2iZYw8DOVeNaaNYRbh9OvU0RnhZh23V4D/I4fUig9YKQWv5vUm70ERAbTlfOGgHoXzvpO+iaJEjJwa/9eDQuPeNbUXjZy4pDu3FtiHbDfsDjAyNzpCRIeC6Cfu1h5FqSbABKx3juDKSLLjnbBgmowLvVg1J8B5JhK0gIz53Yb1sp94Vfm6jcUY9dJHoIVJEaPBacajWSqPsmpLK5xBofNHNdciQ96O9dEQFRyThR4H8LefvD+RvhRC9Py2UTtQtOKqS3wojtF8a58ogTUbIoWNIUyJZCdMENoJzmjouBvtJn5KpVE6YDlBP+laQkb9YBneGTCWPudaUO3kOQ5LWzBlzAtge88Im/17q61R03wRdxzir8SyTyhQZcvMFixNPYOTJoGjaXUGG1Ng1yWAJI+90Ojez6MitfUYyZHSzNH1ro6QlirGIjNFJKUVG7czQoSdgkDGC93oejjNkDpAng0PPlKkMGbz+B2WKv0MG/5BkynVpY3I0bowMHRG1t1QgGI6Zf69yTCVNSvJzFakhtVnMyQiIfTNRzaB0LkmW0oCcwG+pTVo+6lACT5KSNgIn8AlPj4lgSuA2HViuXkHGygT+4OO9sKlCorFHeme/jhJXTd9LBiXSilVF9z5GrK6xEMvJIPNQuc/Voemscr5O4Izw7wYlcMMZyaZFXVgw4lu604saejx9VQJnXVz2XSFDT3+csQErh96sBBUv3qObKm0raHSas9K29KH7Q6WtKDio9+dxEl3Py+Xybhe9QzqTTtpPkkHm9T+U5L7Ox3R1aGIVGVKqMs4q579roTsrbStofk7vH31poVrUpS3daTb+PaXtU2ADZhP4HGyEjEz9T8CGFynCFznBetiS8RTiCBFVco2d/N9DWzI2jPAjGZyksWJ88Sf4z8nY4vmwJeOXAfAv5krUvLEIHjcAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
-                      <uix:Target DesignTimeRectangle="440, 409, 130, 20" ElementType="Text" FriendlyName="'Co-Applicant'" FullSelectorArgument="&lt;webctrl id='react-select-20-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-20-option-2' tag='DIV' type='' aaname='Guarantor' check:text='Guarantor' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAYCAYAAAA/FYWiAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMnSURBVGhD7Zi/a9tAFMfvz7g10CWQod7i0dli6CLIUEMG4ymYTCZTtmAyBJOhiA5FZAjIQ8DZ7KHg1R0K8hK8BJTBgwKhaMigQhq+facftmSpUqwp1O8Dgpzv+fns99G7U8Sv339wd3eHx8dHvvjyXVBOsBh8Ja6UGAyjYDGYTFgMJhMWg8mkvBiuBeOojm0pIITE9qc2jJ9uOPn+mJzROs8m4YgpopwYzxN0dyXq52PYrge8eLBHp6iKKnrTMOadwWKsRykx7Ks6xL4BOxxHWBcViJMxSBVgbkITXcRLkSyOh1m/g/qODDtOB8OHcIre1RUa9H4P9Q8CWt+h1/Lig9za1RiDkzq2hIDcaUCfqpWoXKqrRddyTfaoi0aU73MX49V8X0309rcgDkyoFWwSJcRwMTwS2Pu2qsUKBWK4ozbkLhXjyR/Cvm5ALmQLiikPdUweXKimlB8f5pYNGFPazqiDza40iI89WPH5WMfwvncoXxuDeyUPdTyVT3Ywfg7mo3z6DxuuWsCGUUIMB+ZBdBfnUNQxnqngYRF8/PgGBn5aJcYejHt/JiA3PsidkDVjfilG8B1at/EzkYtBc/m9Uvk2jIUY0aCYVTGC8aJVR223SAwqxHJriN6vwZyruWArCf6OyIsPcidk9T8/Ob/87AzxCOuStsIwJpVvw4hcWEMMD+MTgcpl1KSXOH1q328Uw4/1t4awTScKmRYjPz6jkGXEOCfpWAyfEmLQvXvbSuzfEWkxTv8pRuqHf8gXIz8+Yz5XjLdtJSzGmmLQ0Q/moUT12ITlBIc317FgHlUgj4f0EyuouFKifePAo8OgOzXQUP/zCIsz+1IliXRY1AG8JwtGk07/OWLkxxeLYV+TtM0BHI/eT+Pg8HmK4TxYv33TRmXl8MlirC0G8eJgfNFClR4n1X4vd/bQOhtgFjsgelMdmj+/hWpTR+84ftfaGMYeLXsjA+1Fe0+LkR9fLAbmQ3Rq6nyyPJDat7HHX3pcTT3+shglxGD+a5QLtVqNxWCScMdgMmExmExYDCYTFoPJhMVgMkmIMZvN8Pr66r/AbC7KAeUCAPwF0HDN3wvMoO0AAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co-Applicant-Tickmark'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co-Applicant-Tickmark'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="8_PJ4uXcqUKFGdIV9KeIIA" DesignTimeRectangle="1252, 388, 24, 24" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' parentid='border-box' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='border-box' tag='svg' aaname='' /&gt;" Guid="1063876b-7b65-4a6e-87ab-7fa34c9ed757" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACdSURBVEhL7dNBCoMwEEbhHLTVg5VeRPBI3UgXLoSRJwRCGWt0/naVxdskMh8hJr3mxf5ZA+U1UN5PwGkY3XWSg+/H0ywlm++9uy8FM7aBt879RgbWYCQBazEKg2cwCoFnMdoFGcBAb4+uYOSCvKM8zEOvYrR7wnJoiUYw+nqHn2gUo8OfpkSiGB2CpDhZrgok0ChG1aCqBsproLjFVhcwhVl7e6GZAAAAAElFTkSuQmCC" InformativeScreenshot="5ee5fb8adb9ffb7e7ba683aa8b89dcee.png" Reference="ibK92gIPHUmRsRCnhmHO7g/hAyG4rJFh0a9ZCkrjKMILQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -552,7 +539,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">Co_App_Firstname</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">Co_App_Firstname</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -568,7 +555,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">Co_App_Lastname</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">Co_App_Lastname</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -584,7 +571,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">Co_App_Email</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">Co_App_Email</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -615,7 +602,7 @@
                 </uix:TargetAnchorable>
               </uix:NMouseScroll.Target>
             </uix:NMouseScroll>
-            <uix:NClick ClickType="Single" DisplayName="Click 'No.of_Assestsadd_Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'No.of_Assestsadd_Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="dXEqI0xL6Ue0Y7xiSMkT6w" DesignTimeRectangle="354, 406, 53, 35" ElementType="Text" FriendlyName="'No.of_Assestsadd_Applicant'" FullSelectorArgument="&lt;webctrl aaname='1' css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1' type='' parentid='border-box' tag='DIV' check:text='1' /&gt;" Guid="4ca48f67-955d-4986-bea2-4e91d6346a58" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAAnCAYAAAC1xOBuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVGhD7dgxCsIwGMXxnKZ7cXLMUhCXDq69gGA3J1cXXTr1ENKlvYO7a2bnXkAQnghRxKHgFt/3fhAC2f6EZPgcDFAkC0WycPkRyPbcyxXLEt576uVCCPFSeenjYUEZ+XyHnxT5crsGnIcWu/UK22GMp+n6PfLSYL6ocehOaKoZasrIe9wxot+wRr4pMimKnKbIpChymonI/6FIFopkYSLym41IE9M6E3NXExP0eKPUFMlCkSwUyQF4AEHJv2devu4JAAAAAElFTkSuQmCC" InformativeScreenshot="a845565c44f60a864ea2ac1577ad3538.png" Reference="ibK92gIPHUmRsRCnhmHO7g/i_IrBZ-qD0qO-Tbbt1ppAw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -649,7 +636,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Applicant_select_asset_5-1'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Applicant_select_asset_5-1'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="4nDA8bkVVEiKkg_CvIDJRA" DesignTimeRectangle="354, 312, 149, 35" ElementType="Text" FriendlyName="'Applicant_select_asset_5-1'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="ef51e0b2-ced9-4321-acc4-bef4b4153827" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANcSURBVHhe7ZzPSxtBGIbz1/Rc2NMeAgYhpZSA4F4aEEx7aCh0QWguDb2IUDbQhhyCUMkpF4OlxINEkBSEHGQ9SAJCeomlZQ+FbYUFqQuBt7M/optolQSnNfV94MWdnWFz8OGbbweS2M9fp5i29D48RyLxAE/eH+Db6PyXDWQT77A7ep/5Z5lKyZjpCiVjpIeSMdIT+3HaB8PITOx+Abi3wjDyEks+mhNvagmGkZZYt9sFITKJhX8JkQYlI9KhZOTG8fqwKNIla5cUKKV2OCJ3gYkks/cryM3PQFGEMLMacqUWrH44eQ03JtlBUXx+EdT19jO2ZG6nDC2uo3ZowxViuY6FVkGDutSAHa65Ckp29xhbsvaqCuWtGY5CjhvIKVnUrXB80kXtdQYzfqXLwNgeTFyUzD2sIb8YVMWZRQONr+GEx0kP9Tfhc+JJ6GsmbCG2/wzvXpjiQbie3ErGlszZzkFJGWh+D2+M0rdQf6FC/9gLKp3VhJFKCRFcf3pIMqsOXVTF+pGY67uwPhlIpUR18pfaaCyp0EomHG8rdoS4YpzZCIVlJZsaxu/J+jbMtayoLiqSSwaqm21YgT8B4p+vLtTQC4cevfU01NVAh6hk7ZKK9PrQStQWVJQ74vKohrRioBV99lET5Y02HO+akk0NEzX+Psc9mJvlYKuLp7G8E1QYe1Mf2srOcibW4NoWFW9kTRh/+/MkelbH+UY7AiWbGiaXLIKzV0RKyaMpSowv2atmUG0uYVSy/M4fVlKy/4YxJfO2MwW57REx+iaKYvv0tjl3z4AaN2BGt7nI8ca5ZC7Mggq1YIqrCIO1l22XdhdmxwrWU7KpYexKZm/pUOeXUQ+PMHBiwVzNiHvloGHvd1GZV6AVWv6boOj80SqkRcUKDjiGGv/PFWiKBmM3mHOtFozHoiL6w2saf/HSkFVyaNgu3CFLyW1jou3S3qsi/zQJ1euh4kmkX1ZgRg/JnDaqL7ULRw8eQ5IJnE717GBXfaijsh95UPQIYzaDvNf0DyqdkLC5Il4oxJy+Ff1wctu4kZ6MkKugZEQ6lIxIh5IR6VAyIh1KRv46lIxIh99WItLh9y4Z6eE3yBnp4W9hMNJDyRjpoWSM9MTm5tj4M3LDIwwiHR7GEulQMiIZ4DcyNIaPjnuxCAAAAABJRU5ErkJggg==" InformativeScreenshot="ca1e2f1f958c7321bc405f8625a63f22.png" Reference="ibK92gIPHUmRsRCnhmHO7g/yNQGc70VY0GpIROej5EvNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -661,9 +648,9 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,442" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,442" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -673,7 +660,7 @@
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>
-                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -692,7 +679,7 @@
                 </uix:TargetAnchorable>
               </uix:NCheckState.Target>
             </uix:NCheckState>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Select-vehicel'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Select-vehicel'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="VAs85-2Qpk2DKRDzdgHO9A" DesignTimeRectangle="352, 530, 174, 20" ElementType="Text" FriendlyName="'Vehicle'" FullSelectorArgument="&lt;webctrl id='react-select-77-option-4' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-77-option-4' tag='DIV' type='' aaname='Vehicle' check:text='Vehicle' /&gt;" Guid="1391b330-bd8d-4727-855b-095957ce8e1a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMjSURBVHhe7Zmxa9tAFIfvr7gx0MGQoZ6SPWCNpkMEgZIpoZM8BJHBaKrpENKhiEDBmZQh4IBBGQLKUJShkEDAGQIiGDR0EJjipV2b7dc7SbFOkSGRS0ulvAcftvTurOW7d+9kBhF3d3fyg4KicvHgLolMUekoiDydTgmicsxE/vnrnkQmKot0VzpMIhOV5p+LHBy2wbre3JwkuvHg3URzc3k8WIzBOp+XI14a5UQeO9hkTfQuirno1ARn2xh8K+ZUnhLZf78E/m6AcE4uD4lMZJSsyBHcDgMviCju73DwHRdR7n6Rp0R+PiQykVFS5LTycgueej9yYXKuSDWC29XR4AyMN6Dv+bMKG4u8O4C/l+ZfaTCOR7Pf8rrinir62ENvvSGqfTr28DJdLEWRR0ML+jIHYxyN9X34YZYj6k1pkWOBctIKuYcG2Ose/Pg6grfbxGrXRTgR12Mf+28Y2odBPDYWma3CPAkQTSKEQxNN2ZKk0uVEjnxYKxz651EibzCAKa7NU9lD50WOzsTvrFhwx+J6EsL/KJ7zpo9AziNqzwIiyz62qbQRSbvR/OAn+ds+2syAG2XjY9E3nFiqWOSO2oJIIcXC+JJcqyLH89ZsjGZjpwjPbfTiCq6KHKAvFosxVA6JYpcwmA4nyOYS9WUhkacXPTS5mcgaDrDNNNjXae7cEhVXyPiYtDoWe+R8ZVVFTtoQdayKOi/5XnxuG/3bx/OIOrKYyKIHtteSLT483gZrKVVTijxrM4r8PZHnv00hXgYLiiwOVgeaaC8c9LcYNo/CLHdtQ1Mr9CPKiDyvtZDvmd0r+Tx1nlhYLQbtIDs0Ei+LhUVOemG5fW/CkQesWS7EYIuDb9i4lAc4efD6pEMTPbTsi8uIXOawJ3cGznXYX5NFFV7Y0FtiZ1B6daK+LC6yENZ5K6TLHdxSJiM4HS15vcaWoHX6uEz/KCklskR5/caXdVgnD1U3P08yOjKgxa/fGJZaBvpXz/mHkKgDfyAyQfw/kMhELVBE/kEiE5UlE/n7GYlMVBalIlNrQVQXEpmoBQWRKSiqGCQyRS0iEfkevwErsm9jewqXFwAAAABJRU5ErkJggg==" InformativeScreenshot="325ba593e680b86a7b58755fb428e86d.png" Reference="ibK92gIPHUmRsRCnhmHO7g/PyvWubNthE6fPVLR60qOzg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -717,7 +704,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_15">App_Description1</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">App_Description1</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -733,11 +720,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">App_Asset_value_1</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">App_Asset_value_1</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_5_2'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_5_2'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="1nJ9ZOIVT0GoIUNJDxqUjw" DesignTimeRectangle="354, 341, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="0c30a3aa-e1ed-420e-b1e5-820e20460d70" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVHhe7Zyxa9tAHIX913QuaLrBkBAwlGIIREsNgZgOzVJBIF5quoRAkaEYDyZD8OQlJlCUoTgQXCh4CMpQHAi4iwMFDQWVgCFQgeH1JJ0T2UkToubAbt4HD9/pDnnwx+9OB3Km3++DEJ1klpeXsbi4yDDakvn1ewSG0RlKxmgPJWO0J/O8AjzbZhh9yeRecuPP6A2PMIh2MuqTEG1QMqIdSkYenXAfluReyQzDUK109GoGjFpP9chTIJVk/kkDpZWFqG0smSjVuvBGasI9PJpk36ry+6ugrrNPKsnMrIXWmY9AihUMPXQrJsRGG76acxeU7OmRSjLjo6t6ios2SsY6HE/1L/tovS9iIap0RdiH44GbkgVnLZTX4qq4sGaj/UMNhFwO4HxQ98nmYO268KXY0T3CayrVb2o+mUnSSZa30fmpLkwz8uC8FbA+DeJK53Vg5/NShCAanpDMc2DJquicy7FRAO+LjXxeVqdoqo/2hoBZczEMl+KhFFf2i/tKWFayuSGVZO7uuqwuArkNG82DHrzYnxj544vVFgaqGzLYK0DsxDokJevVBAp7EzPRWhWon8rmeQsFw0Y3ee/zDur7PQzDNiWbG1JJFnExgHtQj5e6bAFbR3GF8Q+suNpN50qscduXFW9qjkq0/IUSvXFwvdBOQcnmhvSSJRgeV5E3yujIEhNJ9q4TV5tbmJasfPSXmZTsv+GBkg0iyUqHU2KMXFTl8hkuc8GxDZG14SaXucTxxrVkAdyKgKi4spVgPPe25dLvwz314vmUbG5IVcnEyhYcdYSBSw/uTlFeq8cb9lEfjRUDZqUbPQnKnT+6lYKsWPEBx8TG/3sDpmHC/hqPBV4X9itZEaPuPRt/+dCwbpTQ9gMEE5aSWSOVZP5xE+XXOQjZDo8WCpsNuMlDsmEPzU3zxtFDyIRkkuFp8+pgV7yw0DhJ3Ch5hLFURDnc9I8rnZSwsy0fKOSY9Tn55WTWeJQ9GSF3QcmIdigZ0Q4lI9qhZEQ7D5aMkH+FkhHt8G0loh2+d8loD98gZ7SH/4XBaA8lY7SHkjHaw39aZLSHRxhEOzyMJdqhZEQzwB8L8EJGUwOZdAAAAABJRU5ErkJggg==" InformativeScreenshot="3da85e88c657ab2dc1e68436748f4b6f.png" Reference="ibK92gIPHUmRsRCnhmHO7g/gNaegoBxrk6sp8lW6Q8doQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -749,7 +736,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_Life_insurence'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_Life_insurence'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="_lgw1WCwwkyUQyV-JlI0aA" DesignTimeRectangle="352, 543, 174, 20" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl id='react-select-106-option-8' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-106-option-8' tag='DIV' type='' aaname='Life Insurance' check:text='Life Insurance' /&gt;" Guid="a4a2dff0-4554-40e2-9fdf-ff48b1fa36fa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ8SURBVHhe7Zi/a+NIFMf1V0xpSBHYIqnibgMHdmm2OMNBCFes2UpbBLOFMVfEbLH4isXkOHCKxSkCCgSUYkEpglwc6OBAOQiIbECQLQQhuEuXIpB8743kseRfieXzmbN5Ax+ikd6MZuKPpDejgcrl5aX8w4XLwhXprnbgg0XmstBlSOROp8MwCweLzCwFLDKzFMxY5ADuqQX3e+LcuQE9l4GmaaieJs4zzAyR7l5fX6cQ+bRKUlZhjbrWsVFbESgd+d26D+OthmzFhH9DdclQm3F4aL7RUNj3RlxjmH6ku7e3t7MSeZBIxunexCwyMznS3bu7u1mJbKHaSyGiY5lSRMRt3OMqiq8EnRNY/bEO20/2oRgQ+aKJglaGcVbvts0g/96A24sPYH/aRnZF3iuD7Fai37Bt/5itCsVVrPDY2y9A+9BE6+dVCBV3ZaG2lUVGjn0li+1PNoJu2yjeoPsVsSrk9Tz0Q7fXtxyLs68jH45FzrEG60pd6yBoN1DqpluZnI7WeXyNmQ7p7v39/X8hsmT4jRx8LWN9owpT/rA3PuxfSYo3TXi9PhSjRKY0ZceAF1A/VybKaxpKh1Ea4x+VIBL9mpUstK0W/F7bF0TWsigfOPD8gM45qG8IFH93I3l9mhfVyyfyWiL+yENwE8A/pjlpJRjdB8f7UozHQumV85nquUb00J3TWEQRzb9kXwG8Qx3razQ2mpMaG5Me6e7Dw8O8RI7q+nEkREhgQteKaHkqRjFKZB1m4geXMopf7PA4lOud0Xtrdq4cmCfO5CK/N+O2JJjv+4n6iHv1xct5C1TP5LGLxg8Dc6QHw9htwCLRrYrA5ufk21vGq7bMtEh3Hx8f5yVydD1ONxQFNC9UjGKUyONl7FwY0F8L+lSXUN5rwb5IiDSJyKofhWfGqYVibHxy3vKY5jMyXYjm1D/3iPh/xEyDdPfp6WmeIq+j1lb150gpcgh9qtsGmrslyk8F8iqvTStyQONck6mFQ6nDBPEpRVbpEDM7pLuyzElk+ozmNOT3kp/WcaQRmQQ+M/vfwu0a5a3d+LBteXKRR93rw6Qij0otKE8+sSm3D2DuCIidZFrCzII5i0yLskNalNFip/FHd5FGK/hirgZ7aLGT7o1sf8xC/NSAEy64Arh7JNtGHU4YS+MSAqUv3cWZvKfcbRgnpm+gJNbDnYjgO/V1VMbmc/ED8352sUcPWLa7UJSxAaVE5dfbaCV2NZj0TCky/aiDhD/syyJL3AMd+XALLdp+av6ZfHsp0okshbF21fab3PIikRKf96BdRyGxNVd7F7cdFjOKj7f5mmjtbvYWeC+JLB+kePuN2r9t9G0x+md1bG9E22/iVRG1r5xq/Fuku47jpBCZYf6HsMjMUiDdlYVFZhYaFplZClhkZilIiPyNRWYWlljkm+NehQuXRSuxyH//xiJzWdgSuQv8A9/BbhTGda35AAAAAElFTkSuQmCC" InformativeScreenshot="370110d9befac84b5c1a28029b4dd597.png" Reference="ibK92gIPHUmRsRCnhmHO7g/t4M3k4B8oEKxxx8tIGqPWg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -772,7 +759,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_17">App_Description2</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">App_Description2</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -788,11 +775,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">App_Asset_value_2</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">App_Asset_value_2</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_3'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_3'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="94WW_3miC0mz8Dm08yaDBA" DesignTimeRectangle="354, 370, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[2].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[2].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="72d20555-a920-44e5-aef8-52ae5cb625c5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM5SURBVHhe7ZvBS9tQHMf71+w8yOkdCopQGKMgmMsKgmWHeVlAsJeVXUQYKYzSQ/EgPfViEUY9SAXpYNCDxIO0IHSXCoMcBhlCQFig8N1L8qppdUqLb9T5/cAX8/Ie6cEPv/fLg6T6/T4I0Ukq83oZi4uLDKMtqZcl4MU2w+hL6tfvIRhGZygZoz2UjNGe1PIyG39Gb3iEQbSTUn8J0QYlI9qhZOTRCfuwJNol61YMGJWuGpHnwEySeac1FFYWYBhSmCUThUoH7lBNPsCjSXZWlr9fBnWdf6aWLOhVYaYtNM49BFKswHfRKZkQGy14as19ULLnx9SSdXcEjM+OGikuWygY62i6anzVR+NjHgtRpcvDPhpN3JYsOG+guBZXxYU1G60faiLkaoDmJ/WcdAbWrgNPih09I7ynUj5T68lcMrVk/lEBRtZG+6e6McnQRfO9gPVlEFc6tw07m5UiBNH0mGRuE5asis0LOTcM4H61kc3K6hQt9dDaEDArDvxwK/aluHKc31fCspI9GabvyYYenN11WV0EMhs26gdduLE/MfKfL1YbGKhhyGAvB7ET65CUrFsRyO2NrURjVaDak5cXDeQMG53ksy/aqO534YfXlOzJMFPjH3E5gHNQjbe6dA5bx3GF8Q6ssa3sOtdija49WfEm1qhE218o0bsmbjbaCSjZk2F2yRL4J2VkjSLassREkn1ox9XmDiYlKx7/ZSUl+2+YUrJwOzNQOJoQY+igLLfPcJsLTmyItA0nuc0ljjduJAvglAREyZFXCUZr79ouvT6cnhuvp2RPhqkrmXdoQaxsoamOMHDlwtnJy3vVuGEf9lFbMWCWOtGboOz80SnlZMWKDzjGGv/vNZiGCftbPBe4HdhvZEWMhg80/vKlYd0ooOUFCMYsJfPGTNuld1JH8W0GIuyh0hnkNmtwkodkfhf1TfPW0UPImGQSv1e/PtgVryzUThMPSh5hLOVRDJv+UaWTEra35QuFnLMOkz9O5o1H6ckIuQ9KRrRDyYh2KBnRDiUj2qFk5J9DyYh2+LUS0Q6/u2S0h1+QM9pDyRjtoWSM9lAyRnvY+DPawyMMoh0exhLtUDKiGeAPGIUdbXHjo5UAAAAASUVORK5CYII=" InformativeScreenshot="803b20b5c4242d10ff73b66841e1480a.png" Reference="ibK92gIPHUmRsRCnhmHO7g/b2YVpzQbHkWwEgUOB-ZoIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -804,7 +791,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_5_3'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'App_select_asset_5_3'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="fx0IUdF87E6jh5eNh9iW6w" DesignTimeRectangle="352, 552, 174, 20" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl id='react-select-107-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-107-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="184be638-2906-4596-b6b2-cdebc3937d88" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATfSURBVHhe7Zm/a+NIFMf1V0wZSBHYIqni7gIHMaQxW6xh4XAVs8XhFMGkCGaLiC2CtwhilwOlOHxFQAsBpwg4hZGLBS8ElIOAyC2oSCFI4b8hkHz3Pf2wR7IdK7n4NvbNwJfYeprnp5mP3sybaKB2dXXFf1RTbeYas3t7ewsFsmoz3Zjdu7u7Aci9Xk9JaebE7N7f3yuQlWZb8W5Cgaw005o/kC9NFLQaWqNsGeQeFqC9NuGOsAU6qz1s/wkKYt5tjbT9X/R4kHkiR4LSQk3TUDtLX/+P9bNB9mwYm3ksCY3GSWBpowyj7Y2+95mkQA5B7na7CuRY/wrkaxqDVYH8+yYcz0fvxofzpYqcloPeGXH/M0mBPGWQvbaB8voC3a9hYZ0yU4cmN7IND366vwNrK8psYgn5rQacm9jWg9+RfVfQuIhsAchVWO06iq8E2ReorwUn6seaGJcM6rWN+psliOh3zI/lsSA7n/LQ1o3Eb7HsvRVoW0348bUoay+QT20xj/Ine2DLYr+wUAnip4z/Roe5lxxLv1NHaTV6vtUS6lNeEV6CmF1uzw/yuYG8yEM/CwfRO6lRZsrDOA/tk0Du7ucg3ppwfPruOzDfCqzs2eG9FwSrKMI8ZwB9uEcVrCxTTHxvALKG3LYFl77735uoLmsoH0WTmSWuPqgerE0h+SLAKI7RIPO9GtYOnNT1tBwY65S1P7Tg8YtJ8dVWNeT7/SbZbeiU9YsHdmD3Ceoq2ftj6VkoixxqJ/LzldD4zn3nV08Emfd/oxWD2NqVwIvEmUlEAz4J5NYuQfGx27f7lzaabTfITOw7CQxN/q8CtTZ9DkCuoMlQR3b2Jd6HsWSKKwY18JWC4LQ6BmQX5msNhUM3dT0lGj+xrMOWr3V0rIgoOTzB7vwhjWUQcxnWdWz30D1poqtATilTRg4ntXI8WLJZ3tFgWZ4EMi+PhUVeOiuoH8oTEfoe+xIFE5mMj0EOfytjXDGo/KxpqPhaJpBTccr+5W0Gi7OoVoB5mdG+acGT7MmxdGH9vgbBW5IdA41O+PL3fc2pJJD/mTrI7p/FzCAHuqFsctaAsVWkvXIO5S8MSei7v1VI6wkgD8X1JJB9NLc0rHxIZnuW7DP4nAbVbaD4EMhp+4Mgh+IVzDrUg1pAbNRhSyvUPGoA8s3xM4KccQnfGQfy8HLo/VWKYCBgtgXEdmqyYz0I8jS3FlGMafBJCZ80ftPcWshbsNBOe2qqERIJYg41APnvz88KclhUFWF0oqLjTEdeKqqCCRFlNC4pO/oe7INicDIQg9wvsrjgoczc3CHY3kWZiCaWj7SqQYbmyaOC55cIuAkgT4orAd1QsdeCvjGu2GOFRWnunQnb5azvw3NtmJtS7FExFxdrPfa5Plzsjbenir1vDZTlYo/Hhp/va/h8Pj1vgcaq/pX7zq+mBzLJa0vHQHzMlTgG8mHvF6IjphxK+7QMyv2vuzDj4zc+Qts0YPcLmKRv8aoI/TTyPQlk0kNxJUEmPeL4LdCNi+ZeCblFjptjW0Npt4GuFDsfr9V/yyWO1+StwkT7hOM371RPjE3tWC6M51MDkLNuLZSUXqAGIGct9pSUXqAkkDMevykpvUAxu4/7F7WS0guUAllpLsTsclMgK820hkBWTbVZbApk1eaihewCPwD2sbZIFXlpNgAAAABJRU5ErkJggg==" InformativeScreenshot="1e711b51c25908a5a54faeb390fbe365.png" Reference="ibK92gIPHUmRsRCnhmHO7g/LScPYYR0X0GLvxERYmp95A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -828,7 +815,7 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">App_Description3</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">App_Description3</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
@@ -844,11 +831,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">App_Asset_value_3</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">App_Asset_value_3</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_Add_assets5'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_Add_assets5'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="LSXiYZinLUKjYdhjqsaGPA" DesignTimeRectangle="354, 510, 53, 35" ElementType="Text" FriendlyName="'1'" FullSelectorArgument="&lt;webctrl aaname='1' css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1' type='' parentid='border-box' tag='DIV' check:text='1' /&gt;" Guid="b60f6a3d-6b54-48bc-9c95-99eb2bb7abb9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAAnCAYAAAC1xOBuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVGhD7dghCsNAEIXh3KmqcmXcitpcINC4qpygKiqHCDHJHepjV1fnAoXCC4VNKBWBus2b98OyMO4TYyaDgYRkSUiWbCC993DOUb8shBC9vGknWaJEfvbwOyHXXs+Ax9iiLi+4jXOcptv/yKnBOa9w7zs0xQkVJfIdf8wYrqzILSGTSsj9hEwqIfczgTxOQrIkJEsmkL/ZQJq41pm4u0YsdUKyJCRLQrJkAAksvlxW2goSxOAAAAAASUVORK5CYII=" InformativeScreenshot="3d738419a06fdc6bbbad479050628be8.png" Reference="ibK92gIPHUmRsRCnhmHO7g/uOaqwmVkTUqo8ryyxP9tbg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -859,7 +846,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DelayAfter="2" DisplayName="Click 'Creat'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DelayAfter="3" DisplayName="Click 'Creat'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="MKjlnEwUrkuRZ--1SP_vng" DesignTimeRectangle="1229, 187, 43, 16" ElementType="Text" FriendlyName="'Creat'" FullSelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='CREATE' parentid='deal-banner' tag='SPAN' type='' check:text='CREATE' /&gt;" Guid="0babeb1c-11c9-4867-8cbb-d8acc1e25fa4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC8AAAAUCAYAAAAdmmTCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGuSURBVEhL7VTBTsJAEPVP+BF/hJ/g6M0bN7l5I70YLxiPEuUEB+UmJAYSoxgPjSGCIYSEQGm7fc5ut9tdKEJsTIPpJC9td2dn3sxO39GiUsChIiefFf4ReesU/tcMYAht0YdXPw73Wm0EclkYcxB8XmBlhWf9iVzXbVKLY1dK8Oe0NqqqtcQz3Jw23D1iauSLRNwBpndwr4iwVYRnUyFuRwQKyQ/gS/9lvcr5I3gtiW+eKLDLMlYCGk0EvCmMGiILjlGj2DOwlrm+K2ZM/paCw4Z/rTtwgmP4POgaeQ6XFyc7sSvR6n0MDGui+6wrb1MhLfmngbou3UEhVefLwpc9UhFvVAQVvDT205Lv7UNeN5p5u4qV3OeJTNPIPHTCceHviTe8nbxpps8vOx92MugV1f5PXfKG5Kx+1BMxOsFLfPZPZ57d0/va2DjPtlHs9kQUI1Iv3eZNdWvpyetqc0nfO9RmYZ2DufHPty3RstvfVBiuPCAhaERrqckTIp2PbEPnTbURCiI7yBNt2OQG3oieH2dxDgFq1FQntu/MkyXr/OEhJ58VcvJZISefDQr4BqpkfCbtltsWAAAAAElFTkSuQmCC" InformativeScreenshot="919ee70e704d1a1187a5f62bab71e5e1.png" Reference="ibK92gIPHUmRsRCnhmHO7g/NOA3pObbn0quX1evL2oIdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -870,7 +857,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DelayBefore="6" DisplayName="Click 'Add_Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DelayBefore="6" DisplayName="Click 'Add_Applicant'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903783" ContentHash="P0PkV0OXnEyPAd0uX8vwtA" DesignTimeRectangle="547, 134, 157, 20" ElementType="Text" FriendlyName="'Add_Applicant'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' type='' aaname='Add Applicant/ Applicant Pair' check:text='Add Applicant/ Applicant Pair' /&gt;" Guid="08c56380-07b1-43f7-8985-09904a9ed1cc" ImageBase64="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" InformativeScreenshot="e03490f5c92eafdbd004811d1b9035c6.png" Reference="ibK92gIPHUmRsRCnhmHO7g/0qMTEmUGv0Sybio0vsyMwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -881,7 +868,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="15" DisplayName="Type Into 'Co_App_group2_F_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_17" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBefore="10" DisplayName="Type Into 'Co_App_group2_F_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_13" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903783" ContentHash="iUVqzotBcUKdJaHLB5DCFw" DesignTimeRectangle="461, 423, 150, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant.firstName' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant.firstName' tag='INPUT' type='text' /&gt;" Guid="f8b5df56-9d5b-4808-b8f2-06dfd653255b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAdCAYAAABSSnV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADlSURBVHhe7dvBCcMwEETRlOCj23EbbkHFqhGVINgwYOlgHBFjeU7/wUBIcvz45P0EYEBosOih1Voj5xz7vse6rrEsC2O3p3bUkFpSU00PTT8QGJs1taSmmh6aKtQfUkpRSjm+Be5RO2pILamppofWnmZEhqfUUHuqNT00/aCNbNt2fALGzj0RGl5BaLAgNFgQGiwIDRaEBgtCgwWhwYLQYEFosCA0WBAaLAgNFoQGC0KDxaPQgH/9DI03bDHL8A1bbgYwg9oZ3gxwBcVmTi1dXkFx18lmTO2oIbV0edcJvInQYBDxBSVTAs+ZesWLAAAAAElFTkSuQmCC" InformativeScreenshot="40860392dcd1e2865e6b572427f7b125.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/8Rzz8JsoCECIW3-XRDWoBw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -894,11 +881,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">Co_App_group2_F_name</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">Co_App_group2_F_name</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_app_group2_L_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_18" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_app_group2_L_name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_14" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903783" ContentHash="XQQzKLnn4USoBN2g58iIpA" DesignTimeRectangle="461, 458, 150, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant.lastName' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant.lastName' tag='INPUT' type='text' /&gt;" Guid="1c343aed-b63b-48d6-8bf9-1d97c70607ff" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAdCAYAAABSSnV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAClSURBVHhe7duxDQIxEERRWnMHLpQM0YubICc4yWgTkjsi7Inekyba9Kd7e72PabZ7QrPIvqHdH8/Ze5+tNbO/Vy1VU6fQ6jDGmLBCtVRNnUKrCmGlakpobCc0IoRGhNCIEBoRQiNCaEQIjQihESE0IoRGhNCIEBoRQiNCaEQIjQihESE0IoRGhNCIuAzNFxQr/fyC8tdpK1ctXf51mu2c0CywY34AyO86O45fTQIAAAAASUVORK5CYII=" InformativeScreenshot="fdbeb6176bca415d37b0ef851f763249.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/09YLgDNxUEKbrFfMtdupUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -911,11 +898,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">Co_App_group2_L_name</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_37">Co_App_group2_L_name</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_Email_group2_'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_19" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_Email_group2_'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_15" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903783" ContentHash="6Is1UFolLUGOJ8aeNEzfkw" DesignTimeRectangle="461, 740, 230, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant.emailAddress' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant.emailAddress' tag='INPUT' type='text' /&gt;" Guid="480fa016-1dbd-4796-a799-68e9b0d75112" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOoAAAAdCAYAAACkA/DvAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACxSURBVHhe7dyhDcNAEETRtHYduNCwKL1cE+EBli5aEmIbe0d6Txq0+NN9fL77MrPeE6pZwP6hPl/vtW3bGmOY2c2rFqvJQ6h1mHMu4H7VYjV5CLUqBvqoJoUKzQkVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVAggVApyG6gsh9HH5hdBfX7M+qxZP//qaWd8J1az99vUDehbQuS/QKH0AAAAASUVORK5CYII=" InformativeScreenshot="66e9878b510a2b5d157ac311a7fcdbf3.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/7iK-dVSb3kSWkBzfXb4sew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -928,11 +915,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">Co_App_group2_Email</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">Co_App_group2_Email</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NMouseScroll Direction="Up" DisplayName="Mouse Scroll 'Scrool_up_Co_app_assets'" sap:VirtualizedContainerService.HintSize="806,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
+            <uix:NMouseScroll Direction="Up" DisplayName="Mouse Scroll 'Scrool_up_Co_app_assets'" sap:VirtualizedContainerService.HintSize="806,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
               <uix:NMouseScroll.SearchedElement>
                 <uix:SearchedElement DisplayName="{x:Null}">
                   <uix:SearchedElement.Target>
@@ -959,7 +946,7 @@
                 </uix:TargetAnchorable>
               </uix:NMouseScroll.Target>
             </uix:NMouseScroll>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_Add_3Asset'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_Add_3Asset'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="qBIc9e6MB0y17aqM_C-pcw" DesignTimeRectangle="354, 394, 53, 35" ElementType="Text" FriendlyName="'1'" FullSelectorArgument="&lt;webctrl aaname='1' css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='10' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='1' type='' parentid='border-box' tag='DIV' check:text='1' /&gt;" Guid="423b4c83-9d22-4ff4-bcef-31941edb5c3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAAnCAYAAAC1xOBuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAC7SURBVGhD7dgxCsIwGMXxnKZ7cXLMUhCXDq69gGA3J1cXXTr1ENKlvYO7a2bnXkAQnghRxKHgFt/3fhAC2f6EZPgcDFAkC0WycPkRyPbcyxXLEt576uVCCPFSeenjYUEZ+XyHnxT5crsGnIcWu/UK22GMp+n6PfLSYL6ocehOaKoZasrIe9wxot+wRr4pMimKnKbIpChymonI/6FIFopkYSLym41IE9M6E3NXExP0eKPUFMlCkSwUyQF4AEHJv2devu4JAAAAAElFTkSuQmCC" InformativeScreenshot="69100b9db7c291f5892b890051c01fa7.png" Reference="ibK92gIPHUmRsRCnhmHO7g/M1k-bEI8zEW1P3qfgF-p7Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -970,7 +957,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_add3_assets'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_add3_assets'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="BfKnmCO3OESrRwVxX5PB_Q" DesignTimeRectangle="352, 476, 78, 20" ElementType="Text" FriendlyName="'3'" FullSelectorArgument="&lt;webctrl id='react-select-303-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-303-option-2' tag='DIV' type='' aaname='3' check:text='3' /&gt;" Guid="a0bae628-3705-497d-a239-9369cf645202" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFIAAAAYCAYAAABp76qRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAE4SURBVFhH7ZaxasMwEIbvKTwWAukTNGOmBjoU+gLdNBVvoZOfImRyp3YwpFBItnZKt2RKN2MKHrXpAez5b4Sd4GANlaxN98M3yLrp43w6qusaRVGA4xbtTjtkkQPTE6mUYhxgkZ5gkZ44i6yqikUOQLvTDuk0ME1Fl0jsXmLMRgQiwtWtwOJbGurCQrvT+bfIMhOIbhKsf9vzJsEkEliV/dqQsBQpsX6eQrzlnW+fSI6dmXx168LDuiMvkcjf55gcO3QrTffh4CgyR/rQzEgaP+L1x1QTFn46Us/IdmaGykCRmgPSe4LISsNdOFiKzLF6miLOuo9NIzL+CHsFsu7Iw3IGOq8//GufsBapVIntUrQLeYTruxjpnhdyB5GMCRbpCRbpCRbpCRbpCRbpiZ5IjltYpKc07oA/78qsNTOzGIEAAAAASUVORK5CYII=" InformativeScreenshot="2c17fa1e77e6f0df4c78e48424edef8e.png" Reference="ibK92gIPHUmRsRCnhmHO7g/c-e1zs6ta02GpAybyNEVAg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -982,7 +969,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_add_Asset'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_add_Asset'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="3PQ8Q6CjoUqgvnVA7FZ93Q" DesignTimeRectangle="436, 398, 118, 25" FriendlyName="'Add Asset'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div' idx='10' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='border-box' tag='DIV' check:text='Add Asset' /&gt;" Guid="e3be4e35-ea09-4f7c-b3f3-9fafece795b5" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHoAAAAdCAYAAABlqHgGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVhSURBVGhD7ZtPTxtHGMZ967VfwR+Be6pUPvIRcuWYSj1w5MqRQw8cqoqmqlRu5kJDiBRZauWKKqIySZQYQc3WZRPb2KwX/G/9B/vp+8x6zK5ZQiFLsNGO9EjeeWd3lvnN+847u0tsMBig3+/j7OwMvV4PnU5HyXEcpVarFWnCpVlpduRInuRKvlSMBzR0u13VuNlsol6v4/T0VMm27UgTLs2K3MiPHMmTXDXsmPZizgw2/ClbwVdP/8UXP+8j9mQv0pSIvMiN/MiRPLV3E3aM5FlZq9Xw7VYh8CKRpkvkSJ7kSr4M4zG6OWfAj+/KgSdFmk6RJ7mSL706xpjOOE+3Dzoh0nSKPMmVfBnCY6R+fHwcrcn3TORJruSrQDNbOzo6Cmw8zZov9IGTk0Bb7EkZqQ6Q3Q+y3R+RK/kyfCvQpVIpsOFkycTqKYBWA3OBdr9CAZ2R/al0mckawfZb0MqJdHjpfV9P5DoCzTheLBYDG36KvntXVQqy3Ui/N1CUMUB/gK1MgH1MYYBestif6LSGRID9NhQmaHIlX2bftwb6t2JLKch2E82ZPRnwOlZl8J2ydcEe327A6HImSHE6SFW9oA3MH3bhEJoUu9pE9irQSRsZTqp9TrAu1p777ao/uYYqsk81zApmRueWsVEfdibFrjewsH5+7mzWQVHfq2x/NjJ5qT9Bdljllg5W9PVuqAugC4Xw98/hgq5gSwYmuy8hlOG038Zy0mNPVpE5kwEt25hbz2P2rzoMOdag42/bEoL72MqWMLP+Hgt5gS7mj4FOHEiHnSbmh0tG0fQub8P+ChYSSQOJHdm5yPV0iF+qDGSyNbG4aSC+aSHFziwbcbHFt9m2j9SOiXjSxLzcC/oCdTiRwvRocp0u0D64JWy0AOPAHNnj++JaY/DPQ7fhDt5woF37VaHbDzeebYvnOVgY2el9A2Te6LVbgO3WsLzt3hP7cyrVUX+JbRuru2UJ/+69+COS5U7iPfd4okF/+cvfePjs0Kcdq600Xs+2Qde4XAaWGa5LlVGdG8bP100FVZK0R8PjUZ0aMBdq8dD7N14BOu2G61UdrnUYH+UGJpbKbmi2622kcpZEEm0TsG8d2DQ7XWQKNSymGZppc/sNKvpeJhr0189M927/R2HboGtcquT42qVLDxtpt03YoNW5QcUXFfYwk7awYjowGJrPelh76bnOegmLew1sqbV6gGKeTx6D7sWvifdoAvTqlXgzNV5/XY8+Xyu99SbW6p7QGmro9uQD3vodz/IhgFfpxSO7u5zYBcIUwDl6sbYNI5BnvR/P4uOyzuvfEw06SOGs0QXPAPptiX+Ehl43x5Ox1xJ6P5KMLcrAX5qMSVuV8XqTPSV3LVW5gQrtAxj5I5Vpz6RrMGReFfMcRxe6IzuExwzn4tkKbqOuIo57L/pcSeS2mThKdPrD7ceNTk083jQl0fP2f31ND+jhgAbum5/LAHkSonC2V24+cNm+ebEs2bQAm5Xfs2+anu2VhOaSrepV2xdVpDzbK6fhYPmFvo6BR7tt2JyILLI1y+aOzqPNy+GOgZn5n/qcm2mKPDrSp+izgA79yVika+sC6Nt4Mhbp7vVZHoFGunv5QOu3V9H76Psl8vS9veIPvrd88FQ/vYl0H0SevvfR+guTH16Hn5BFujuRp+8LE/3NGN38m/T7wJMiTZfIkTzJdfTNGN2a1C3LUun4968+4MGv+WjNnjKRF7mRHzmSJ7mSr/oK1PtdN42cCaZpIp/PwzAMpYODA+RyuUgTJnLRjMiL3MiPHC981z3+nxp0d8Z2LuQ8iSk6xVkSabKk2ZATeZEb+ZEjeZKr+58affwHSH7mGS/3u1kAAAAASUVORK5CYII=" InformativeScreenshot="f969b78c20e94801a98a136877714804.png" Reference="ibK92gIPHUmRsRCnhmHO7g/J8uqd0qFfESDRxJx1ktnlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -993,7 +980,38 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_select_element'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Co-Applicant: AUTO'" sap:VirtualizedContainerService.HintSize="806,442" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="When select  3and click  Addasset button , 3assets  displayed in Co Applicant second group" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_3" Name="3 Asset rows displayed " Status="Compare" TakeScreenshot="True" />
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="When select  3and click  Addasset button , 3assets not displayed in Co Applicant second group" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_4" Name="3 Asset rows not displayed " Status="Compare" TakeScreenshot="True" />
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903963" DesignTimeRectangle="344, 491, 924, 155" FriendlyName="'chrome.exe Boss'" Guid="625228ac-52f0-44e0-aab8-f9e4a10c122c" ImageBase64="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" InformativeScreenshot="3082b58387729621054960235695e85b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="350, 456, 124, 20" ElementType="Text" FriendlyName="'Co-Applicant: AUTO'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: AUTO' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: AUTO' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: AUTO' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAAYCAYAAAAyC/XlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVGSURBVGhD7VjdZ2NbFL//Wp4O5VDCcGOYCI3LoTSGxqUx9JiXXCpDpS/pw+RljqEx3KPUCSNDnTIyT6FyqZaReQrlUEr5zdp7r32+8tGmzZ1eN+fHIWefvdfea63fXh/5DRlWGhkBVhwZAVYcGQFWHBkBVhz/CwKMjizkchY6P+jlbghnqwy7O1IfM8zFBAGCb21USyaMXA45w0Rxt4PhNX98IsbHFXJUDpXjMY8sBwkC3Pior+WQPxyqj/8mvjakPo2v/P5Q3A3QXCf7rjcxuOMxiRE6Fo1bHfoVw48OLOGPvX70e9Yj5jBGp01U8oYaX8ujsu9jlNgvRYCAFMrTZOOPJtxTH95RHWUyZu5FA/0bnvRosHLiMGkFn4gEAX4lHksAWicvWM5IrX0AAW5G6JNvfPH8XUdBjL9uq3fx/KMul7CJ2CO/1USn66GzX1G+3STZMRLECMCsLLVxGZtw+8WWgqonAY8EGB7ZKK4LZhkwSzY65/rbHFw5KNL86k6V5BXhXPG4gDSkifr7FiyWKyMPi+3v0bnW62gfWjAN+r1WhH00pJMoJAnQR0Mbi3HZrbNcMsCr5HmDcxf1TY544pYc9hGw/nJfow7nmPQVF4EionU4kPvKb2KNfuR+I7h/FlA+6ONWSpiGW/Te0llKNdRKdJ63vdjcBxAgjlnjNz3YZCdj20M81o5PhO0N2F+iHSMCfHdQJmHlj6m7qRl3oYymhZTfucQ4F40NUsaowrsnqg8OTA555CA6nHkw4C8EvknG7zU4XYo8H2qSrSYpJo6qjG2g8MaBd+rB2cnTu0m3RykyjwDBZ0Hg9Hlt9ERE04babKF/NcLgYxUmza2eKGW0k/M7yX2b4ug3AYKuLb/bXfotI+QQrRck700vJOcErj1UaY1Ig+rcZLswxS6JAGxP+3OKhkLf1PyIALzIOpoXnC/RfkkCXrsRs8YuKrSu8P6SB6aAc565r5w+2NdkkK/h3vUzfhe3ZJf2MSj10BzliDp8PZ8VMViR2QQI4G3T75cU1cQngYu2DJsy9JITx9fkvNBOSfJM7MtrrU+sPZ97kRSg6qAKXCGCbRfVRMshgLLHtHOxfiRfYzECMHuTzmZS7PZwxRurh5zHM1QaKaB9wQODprxpYSiaYsi4U5UjInlpQ80mQNKh05AoevWTIEBsXzZ4aKOFCXAJh8K+sJXSnAlacpigz0mAh6SAeQQQ+eZ7PypGToccJTjniY1TT5j/nosAbMD8no+xPEhy/tIJIOsgITP96JqI9dpwnkQAnNWl3MVSgC4CLdpchzwBUjIqAh+RAvh7cU/kYE0OH+5fBTok5z825C9JAWMf7XcNeCIapR14Ry1kuHb5BJCpj+qldswO/mlb2kfVRKx3rgYvXkSct1TqSUfnWQTQtc1CRSAh4Io/v9Wa2QaOPon2Il1UaeNPQuW8WPjX4Hwq8x8b0thoqH25CMxzoagcoffUxVheFWOE2QQgnRJFoIfWJheBwsBkWLlPosiL1t5LgG/qclgHHrdfc7oA3fuH4V+Dnc410S3JlO0a28LvOqhRYTm10J5FAIKwSdyX7mEVBVnwUtSMXfAEAQTGZy1UX3HInvpH0CJtIOe8+A0ModtOyn9MgNp+vA10w3ZUOaKGZrwNPI4kziOAQNQGqvO6sRZ0dBJv8TpobdBvTi33EuCOQva2qh8MWeDO7gJ0Oz0RlgkB3UxxNn0zg/MO7LAuMWQv70+7YHMIILDwH0HPhntC6YQjMiwNGQFWHBkBVhz/DQJkeDZkBFhxZARYcWQEWHFkBFhpAD8BjBUK/J1SOxgAAAAASUVORK5CYII=" SearchSteps="Selector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_select_element'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="DaTKS6WZ9U25E9Amml16oQ" DesignTimeRectangle="354, 334, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[0].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="5a9ec275-5602-4cca-b311-f8e07b99ee3b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANPSURBVHhe7ZzBSxtBHIXz1/Rc2NMeAgYhpZSAYC4NCKY9NBQaEMyloRcRygbakEMQKjnlYrCUeCgRJAUhB1kPEkFIL7G07KGwrRCQuhB4nd2d6Ga1iluHmvo+eGRmZ9gc8vGb2YFN7OevE0xa+u+fI5F4gCfv9vAtPP5lHbnEW2yHrzP/LBMpGTNZoWSM8lAyRnliP06GYBiVid0vAfeWGUZdYslHM+JJLcEwyhLr9XogRCUx+UmIMigZUQ4lIzeOuw8LcqVkmqbJVjS6FQ1apSt75C4QSTJ7t4bC7JTX1qbTKFQ6sIZywhXcmGR7ZfH9ZVDX208kydLxPBoHNhwhljOw0CmloS+0YMs5l0HJ7h6RJNPemLInOWqhoOXQtGT/uIfGqyymvEqXhbE5GjgvmXPQQHHer4pT8wZaX+WAy3EfzdfyPvEk8qsmbCG2dw/3mkx5T84nt5JokqUMtL/LC2GGFpovdOQ/9P1KZ7VhpFJCBMcbHpPMaiIvqmLzUIwNHVifDKRSojp5U220FnSkKyYG7lI8EOKKfnZdCstKNjFEksxczYnqoiO5YKC+0YXl++Mjfnx9roG+7Lr01zLQV3wdgpJ1Kzoya2Mz0ZjTUd0XzcMGMpqBTvDeh21U17sYuG1KNjFEkszjqA9zo+ovdfEMlrb8CmNv5P1qF86pWKO2LSpeaI6Mt/y5Ej1r4myhDUHJJobokgUY7JSR0opoixLjSfay7VebCwhLVtz6w0xK9t9wTcn6nmSFzZAYQxNlsXy6y5yzY0CPGzCDy1zgeONMMgdmSYdeMkUrwGjuRcul3YO5b/nzKdnEEKmS6bNLaMojDBxbMFey4lrV37APe6jNakiXOt6ToNj5o1PKiIrlH3CMbfw/15DW0jC2/THH6sB4LCqi171i4y8eGnJaAS3bgTNmKbltRJLM3qmj+DQJXbTdo4XMYg1m8JBs0EV9MX3u6MFlTDLBYL9+erCrP8yjthu4UfAIYzqLorvpH1U6IWF7WTxQiLH8x+CXk9vGjezJCLkMSkaUQ8mIcigZUQ4lI8q5tmSE/C2UjCiHbysR5fC9S0Z5+AY5ozz8LwxGeSgZozyUjFGe2MwMN/6M2vAIgyiHh7FEOZSMKAb4DYeFZe7I6dF7AAAAAElFTkSuQmCC" InformativeScreenshot="36bd490c26cfee62f540f6c519b05ce9.png" Reference="ibK92gIPHUmRsRCnhmHO7g/Jd0B8tvMBUmj0SGXGvkpCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -1004,7 +1022,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group_add_element1'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group_add_element1'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="9s5FzHWQX0mx8TT0Sj1HWQ" DesignTimeRectangle="352, 536, 174, 20" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl id='react-select-302-option-8' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-302-option-8' tag='DIV' type='' aaname='Life Insurance' check:text='Life Insurance' /&gt;" Guid="db5c7f26-f6c5-4ce7-813f-a07c9f7f726c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQqSURBVHhe7Zi/a+NIFMfnr5jSkCKwRVLF3QYO7NJssYaDELZYs5W2CGYLY66IuWLxFosJLDjF4i0CCgSUYkEpglwc0cGBXQRECFGxhSABd2ncf++N5LHkX4nl9ebO4Q18iEZ6M5qJP5LejACVq6sr9YcLl5Ur2l0WmctKlwmRe70ew6wcLDLzLGCRmWfBkkUO0Dmz0fmRONc1YeQyEEKgepY4zzBLJL3IZ1WSsgp72rWeg9qaROnYH9R9mG8FshUL/i3VFRNtZuGh+UqgcOhNucYwoyxZ5HEiGRd7E7PIzPwsWWQb1WEKER2rlCIibtM5qaL4QtI5ifXXdTh+sg/NmMiXTRREGeZ5fdA2g/x7E51hfADn4y6ya+peGWR3Ev2GbUfHbFcormKHx95hAeJDE60365A67tpGbSeLjBr7Wha7Hx0Eg7ZRvEn3K2Jdqut5GEedYd9qLO6hgXw4FjXHGuxrfa2HoN1AaZBuZXIGWt34GrMYv1BkxeQbOfhexuZWFZb6YW99OJ9IildNeMM+NNNEpjRlz4QXUD/XFsobAqWjKI3xj0uQiX6tShZipwV/2PYRkUUW5W8uPD+gcy7qWxLFL51IXp/mRfXyqbqWiD/2ENwG8E9oTqIEc/DgeF+L8VgovXI/Uz3XiB66Lo1FFtH8R/UVwDsysLlBY6M56bEx6XlikaO6cRIJERJYMEQRLU/HaKaJbMBK/OBKRvmHEx6Hcr0zh2/N3rUL69SdX+T3VtyWBPN9P1Gfcq+ReDVvieq5Ou6g8dvYHOnBMPcbsEl0uyKx/Tn59lbxui2zKE8scnQ9Tjc0BTQvdYxmmsizZexdmjBeSvpUl1A+aMG5TIg0j8i6H41nxamFZmZ8ct7qmOYzNV2I5jQ694j4f8Qswn8g8iZqbV1/iJQih9Cnum2iuV+i/FQir/PatCIHNM4NlVq4lDrMEZ9SZJ0OMcvjiUWmz2hOIH+Q/LTOIo3IJPC5NfoWbtcobx3Eh23L84s87V4f5hV5WmpBefKpQ7l9AGtPQu4l0xJmGTyxyLQoO6JFGS12Gn8NFmm0gi/manAmFjvp3sjOn1nI3xtwwwVXgM4BybZVhxvG0rikROnrYHGm7ql2G2aJ6Zsoyc1wJyL4QX0dl7H9UPzYvB9c7NEDlh0sFFVsQClR+eUuWoldDSY9C4pMP+o44Q/7uMiKzjcD+XALLdp+av6dfHtp0omshLH39fab2vIikRKf96BdRyGxNVd7F7edFDOKj7f5mmjtbw8XeI+JrB6kePuN2r9tjGwx+ud17G5F22/yRRG175xq/CzpRWaY/yEsMvMsGIp8cXHBIjMri3JXOSy63S6LzKwsyl3lsLi5uWGRmZVFuascFnd3dywys7Iod5XD4v7+Pqxw4bKKRbmrHBb9fp9F5rKyRbnb7/fxLwjOdJ8sUoNNAAAAAElFTkSuQmCC" InformativeScreenshot="42137ed47fdbee4a01c9533d400f511e.png" Reference="ibK92gIPHUmRsRCnhmHO7g/5WiWPdj1iUaD_NhIc3GL8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -1016,7 +1034,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_Description1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_20" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_Description1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_16" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="04f-qqbUdEeBNjiJr9G7uw" DesignTimeRectangle="571, 432, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;span&amp;gt;input' idx='2' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" Guid="a74f68fd-5692-42e8-8f9a-95f24cbfe453" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAdCAYAAADmQIN4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIfSURBVHhe7ZxNboMwEEZ7tdwgl+EUnAJ1213VVbgFm1whi+67iOR6DPgHk9gOSkTd96RParBjT6V5mHbB2/fPVRFC8oIwhBTECvPx+aWOx6M6HA6EkCnihLgRCSMD5/NZAYBDnBA3ImHEJgCIETcQBiAThAEoAGEACkAYgAI2CHNRfduopllPN0zTElxOrWreMyc/meFd176TWmCfbBYmV4xbIAz8JZ4uzChEH5xG7enixuZTqe31iuZqeHLZ65pLr1r9uZfGlrFlc8t406refkEYVOddM1LMay/W8IWJ5InWvlMnVMtrhNENZecNnf7sGi88YcY1Z6GEoHFN04bjIfH3zX5TM5u1/MY2tbja8oVJ1AnVslkYe4cN0un7+jRLhAjuvnLHd00aCOM1t8M7IVZPkJDlftLItwULa8kWJlUnVMtrTphMYczPVjo/+cKEc9abeLlPqTDJOqFa9idMdOf2yBFmqsucKouTwDX6fAI+dsIk64Rq2ZUw498U7nEuIksYt6f8c8A9jq3V+5gwyTqhWvYlzLRm0Kh+c2YKM87T63j7zGsvBfLn+JKYujwpzJjdO1EnVMtmYdzz+yJ+490RxjX33GzjuFvLa8JcYWxtiwb2RJJ0Q9j44akS/n7dIHX5e9+pE6plgzAA/w+EASgAYQAKQBiAAhAGoACEAShgVRjeGgMQc/OtMbyXjJA44sTqe8kIIekgDCHZuapfouh+CBtkkSwAAAAASUVORK5CYII=" InformativeScreenshot="79c3377dfd00c5a8ae358caedf114011.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/r-PH6lxVqkmRyVDyLdwcnA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -1029,11 +1047,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61">Co_App_group2_Description1</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">Co_App_group2_Description1</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_assetvalue1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_21" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_assetvalue1'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_17" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="9cfPPUa16EOrTxoaaQJxvQ" DesignTimeRectangle="792, 432, 200, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant[0].value' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[0].value' tag='INPUT' type='text' /&gt;" Guid="088269cb-09b4-4c1d-9b9f-2aa7869483f1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAdCAYAAADmQIN4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHESURBVHhe7ZxBboMwEEV7NW6Qe3CYiHtUYVH1FlHWnCBZZd9FJJexMRhnArh2pSZ9T/oLgoM38/IhC96uXzdDCNkWhCEkIaMw7x+fZrfbmaqqCCF9xAfxQhVGTnZdZwDAIT6IF6owYhQAzBEvEAZgIwgDkADCACRQSJiTaerWnIcjgFclW5jzobZrferDsjbz9U2v2hJn09bTtat9vLoXdbzW+t4Aucic/VgYN/wy9L5h3AA3x2FBzLEZ1jvs9xea6bQPJXHyTFLExyt7AxQgSxgZaDewW27J4gEXZMhr016Gw5BLa+r4nAjn94nkE6yAdy0EUI78hvHNsiqM1gCaRAOKEKFEajtp3wEoSJYwfuBlrUQd/BG9TaaWigjbZGS6htomViiEgd8jUxiPaw8nzoNbLISBF6CcMMNwzx/UQ5xU3JLBM1NcGPWX38JDPzw/WcLY5xc7oF4YrUUCoiFXWyKAv5Xhr5HZMG5IZa2PensVYCUZ14cNoTWQ+2xcf9ce8/3X9gbIReYsQxiPbxiA16aQMAD/A4QBSABhABJAGIAEEAYggYfC8NYYgDmLb43hvWSEzCM+PHwvGSFkPQhDyObczDfEL+qioZlkyQAAAABJRU5ErkJggg==" InformativeScreenshot="87768d950c489b22f6753059054eeec1.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/nKJFfTXFZE2Fi0Mw6vgRdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -1045,11 +1063,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">Co_App_group2_Assetvalue1</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">Co_App_group2_Assetvalue1</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_asset2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_22" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_asset2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_18" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="J8jZIsKpgkSh-Iw8N1SBWA" DesignTimeRectangle="354, 457, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' type='' check:text='Select' /&gt;" Guid="ebfcb979-6de6-4bad-a525-7161e568c0aa" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMvSURBVHhe7ZvBZyNRHMfzP83pHUKrhD2E0rlsKI09bC87lOaysZda1oQVOUQPlVMujbLSQ6VUliWHmh4qoWQvCcscllllKDuE776ZeWknabeV6FvJ9vvhq/PmPZNDP37vN49J9ft9EKKT1Pr6OlZXVxlGW1K/fo/AMDpDyRjtoWSM9lAyRnvY+DPawyMMop2U+kuINigZ0Q4lI89O2Icl0S5Zt2LAqHTViLwE5pLMu6ihsLECw5DCrJkoVDpwR2ryCZ5Nssuy/P0yqOviM7NkQa8KM22hceUhkGIFvotOyYTYacFTax6Dkr08Zpasuy9gfHbUSHHdQsHYRtNV45s+Gh/yWIkqXR726XjivmTBVQPFrbgqrmzZaP1QEyE3AzQ/qeekM7AOHHhS7OgZ4T2V8qVaTxaSmSXzTwswsjbaP9WNaUYumu8ErC+DuNK5bdjZrBQhiKYnJHObsGRVbA7l3CiA+9VGNiurU7TUQ2tHwKw48MOt2JfiynH+SAnLSrY0zN6TjTw4B9uyughkdmzUj7twY39i5D9fbDYwUMOQwWEOYj/WISlZtyKQO5xYicamQLUnL4cN5AwbneSzh21Uj7rww2tKtjTM1fhHXA/gHFfjrS6dw95ZXGG8Y2tiK7vNrVjja09WvKk1KtH2F0r0tom7jXYKSrY0zC9ZAv+8jKxRRFuWmEiy9+242jzAtGTFs7+spGT/DTNKFm5nBgqnU2KMHJTl9hluc8G5DZG24SS3ucTxxp1kAZySgCg58irBeO1D26XXh9Nz4/WUbGmYuZJ5JxbExh6a6ggDNy6c/by8V40b9lEftQ0DZqkTvQnKzh+dUk5WrPiAY6Lx/16DaZiwv8VzgduB/VpWxGj4ROMvXxq2jQJaXoBgwlKyaMy1XXrndRTfZCDCHiqdQW63Bid5SOZ3Ud817x09hExIJvF79duDXfHKQu0i8aDkEcZaHsWw6R9XOilh+6N8oZBz1knyx8mi8Sw9GSGPQcmIdigZ0Q4lI9qhZEQ7lIz8cygZ0Q6/ViLa4XeXjPbwC3JGeygZoz2UjNEeSsZoDxt/Rnt4hEG0w8NYoh1KRjQD/AHl/tfkmPokzgAAAABJRU5ErkJggg==" InformativeScreenshot="fda66de29f9bd300114181ce5cc29df1.png" Reference="ibK92gIPHUmRsRCnhmHO7g/qeJjZTDHG0Kbbb0Br5eOpw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -1061,11 +1079,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">Co_App_group2_assettype</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">Co_App_group2_assettype</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_assettype2'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Co_App_group2_assettype2'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903908" ContentHash="91aBaEZgwki1W0UOCfZ1eg" DesignTimeRectangle="352, 405, 174, 20" ElementType="Text" FriendlyName="'Co_App_group2_assettype2'" FullSelectorArgument="&lt;webctrl id='react-select-306-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-306-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="182a60e3-b46e-4410-a39d-d19331165ae2" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAS8SURBVHhe7ZyxaxtJFMb3r5jS4MKQwqqs7gwHFrgRKSIIHKokUhxyYYQLI1J4SWGUwiyBwLo4dIVhAwG5MMiFWBUBBQzrwrCYwBYuFlyouf6KmC/v7Y7k2ZVkyb4oifZm4ANp387T25nfvpk3hYx//v0K3/dxd3cH3XRbpsbMMrvMcATy9fW1NOmm23I1ZjcB8mAw0NJaOmmQtTIhDbJWJpQ9kK9sFI0GOpNsc8g/LsJ4bsOfYIt03njY/hMUxbzfmWj7v+jxIPNETgSlg4ZhoHGevv6D9bNBDlxYlQLWhEHjJLC2XYXVDSbf+52kQdYgj+k/gXxDY7AhUHjdhheEGNyG8D7UkTfyMHsT7v9O0iAvGOSga6G6tUL3G1jZoszUo8mVtvHBT/f34OzIzCbWUNhpwbsd2gYIe6rvGlqX0haBXIfTbaL0TJB9hfo68GQ/1sy4VFBvXDRfrEHI37HfVqeC7L0rwNiyEr/Fcg9yMHbaCIfXZNZeIZ/GagHVd+69bR77pYNaFD9l/Bcm7IPkWIa9Jsob8vk2ymgueEX4FbQ4kC8sFEQB5nk8iMFpgzJTAdZFbJ8Fcv8wD/HShhfS99CD/VIgd+DG914SrKIE+4IBDOGf1JBbp5j43ghkA/ldBz59D7+0UV83UD2RkzlPXCNQAzgVofgiwCiOySDzvQY2j7zU9bQ8WFuUtd90EPCLSfE1NgwURv1m2V2YlPVLR25kDwnqOtlHYxk4qIo8Gqfq85XR+sJ9s6sngsz7v8kagtjZV8CT4swk5IDPArmzT1C87Y/s4ZWLdtePMhP7TgJDk/+7QKNLnyOQa2gz1NLOvsTrOJa54hqCGvlKQXBWnwKyD/u5geKxn7qeEo2fWDfhqtd6JnJCJocn2L33ylhGMVfh3AztAfqnbfQ1yCnNlZHjSa19vF+yWcHJ/bI8C2ReHourvHTW0DxWJyL2PfUliiYyGR+DHP/WnHENQeVnTUPF1+YCORWn6l/dZrA4ixpF2Fdz2isOAsWeHEsfzp+bELwl2bPQ6sUv/8hXRvVDQfb/Ks0NcqRbyibnLVg7Jdor51H9wJDEvkdbhbSeAPJYXE8COUR7x0DuTTLbs1Sf0ec0qH4LpYdATtsfBDkWr2DOsRnVAmK7CVdZobKoBYE85xK+Nw3k8eUw+LssYSBgdgXEbmqyh3oQ5EVuLWSMafBJCZ80fovcWqhbsNhOe2qqERIJIoNaGMhxUVWC1ZNFx7mJglJURRMiqmhdUXYMA7hHpehkYAjyqMjigocyc3uPYHslMxFNLB9p1aMMzZNHBc9vErgZIM+KKwHdWLHXgbk9rdhjxUVp/pUN1+esHyLwXdgVJXZZzA2LtQH73Bov9qbbU8Xe5xaqarHHY8PP9yl+vpCet0hj1fzEfbOrxYFMCrrKMRAfcyWOgUK4h0V5xJRH+ZCWQbX/TR/28PiNj9AqFtxRAZP0LZ6VYJ5J37NAJj0UVxJk0iOO3yLd+mgflJFf5bg5tk2U91voK7Hz8Vrzj3zieE3dKsy0zzh+C87MxNg0PqqFcTb1eJC1tH5BaZC1MiENslYmpEHWyoQ0yFqZkAZZKxMaA1k33ZaxJUDWfweg2zK2+78D+IpvqAm2OHrZKC4AAAAASUVORK5CYII=" InformativeScreenshot="426d7d8bdbf3fd0788d6ef7c4aed59a6.png" Reference="ibK92gIPHUmRsRCnhmHO7g/IdYXI2esGU6Okb7slWVkDA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -1077,7 +1095,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_Description2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_23" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_Description2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_19" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="UjfJk1vu1kivumhpVaCQpw" DesignTimeRectangle="571, 461, 200, 25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant[1].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[1].description' tag='INPUT' type='text' /&gt;" Guid="c28d77a8-b4ef-4974-92d9-3c0beacab667" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAdCAYAAADmQIN4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKBSURBVHhe7ZxNboMwEEZ7hCxznVwjV8iaU3AK1GOUO2TBKSKli+5aidTls7E9AwGcn1YUvieNlGBjz2IeQyLBy/tnbRgMRloEYT6+Lubr8m2+DSEEwAU4ATeUMDhQ17U5Ho9mv9+b7XZrNpsNg7HagANwAU7ADS+NFQYWYYCiMBg64ATcgCNBGLQe2IQJh8PBnM9n25IIWStwAC7ACbgBR4IwwHcXykKIAy74LgOUMBhAjLHb7dpPhKwD6QWFIWQCCkPIDTwsTJlnJsuuR1G1Eyc4veUme02c/MtUr03uM8mFzI+nCJMqxhAUhvwX/kQYJ0SpulH+dopjvivlpWmP6s4VjjecSpM330sUNsa6xY3xLDdlOAFUphDHrBR+7c4aUpiePL21R/Iki+TvhGkKKsyriuZ7LDzdYVwReqGAKlxbtHpc0z/f7tcWs11LFrbNJeaWLsxEnmSRPEWYcIVVUTTXdYcVQl19ccWPRaqEEcUdER3iagfRdPdDIQ8LpnNJFmYqT7JIniJMUodJFMZ+DtLJSBdGz7lexN19bhVmMk+ySOYpTO/KLUgRpjk73C51OkEsdN8B7+swk3mSRTI7Ydxving71yNJmLgn/hyIt2NOJJ3vfcJM5kkWyfyEaYtaFaoszkRh3LxmHbGPX7srkJwjJbF5CSnsWNh7Ik+ySJ4iTLx/74QsvBFhYnH7YnPjcS1RhKnCBBk6BSxEQhSVLnzdVaJQbi7yknuP5EkWycPCELImKAwhN0BhCLmBh4QhZG0MCsMnLgnRDD5xyWf6CdHAgcFn+vnWGAbjesCJ3ltj+F4yBkMHHIALcKL3XjIvDSxC6yGEjLz5ksFgpERtfgBU6dfC2EACzwAAAABJRU5ErkJggg==" InformativeScreenshot="196711dac3e9f8ea4f30a0e3f2776992.png" Reference="ibK92gIPHUmRsRCnhmHO7g/7s9C3oCS8ESjPjE4DwMNSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -1089,11 +1107,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">Co_App_group2_Description2</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">Co_App_group2_Description2</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_assetvalue2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_24" Version="V1">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Co_App_group2_assetvalue2'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_20" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903836" ContentHash="LQRkO4YSB0a8JVZbxasNTA" DesignTimeRectangle="792, 461, 200, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl idx='2' name='mainApplicant[1].value' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[1].value' tag='INPUT' type='text' /&gt;" Guid="11b0b1b2-3b32-4a0a-97a6-017b675842e1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAdCAYAAADmQIN4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIWSURBVHhe7ZzBbcIwGEY7AkfWYQ1W8DBVFoFFEGwBF3rorUgBly+OYydxE5CDVOA96TuEmOTyv364UvLx9VNaQshtaYT5Pp3t6XyxFwsA8kA+yIueMPqwLEu72+3scrm08/nczmYzQt4ymn95IB/kRSxNJYxM0klEISREPsgL+dESRvUjo7TIGGOPx2NVSwDviOZfHsgHeSE/WsII3y7IAuCk8S0jesLopAIAjtgJhAEYYUJhtrYwa7uvjwBekUmE2a+MXSwWTcxqWJv2+uKq2hB7uzbh2ovP7uqrqM21xu8NkEO2MG74NfS+YdwAF5t6QZdNUa93VN8faKbtZyyJkydI0T0euTdAJtnCaKDdwN7yk6w74EJDbuz6UB/GHNbWdM9JOH+fjnyiErDXQgDTkC1MaIhbhEk1QEqimoQQsUTJdkp9B2AisoXxA3/bHiLdJqGlOsRt0hCukWyTSiiEgccwgTAe1x5OnD9+YiEMPDnTClMPd3ujHuOk4icZPCsPESb5l7+CTT88N9nCVPuXakC9MKkWiegMebIlIvi3MvwnsoXxQ+o3/eMb/1qSZn3cEKkGcp8163vt0b7/2L0BcphAGI9vGIDXZUJhAF4fhAG4A4QBuINBYXjiEiAw+MQlz/QDBDT/g8/089YYQvqRD8m3xvBeMkJCNP/yQD4k30vmpZFJqh+Ad0ceyIdYlpYwhJCxlPYXsidtt+SFcAUAAAAASUVORK5CYII=" InformativeScreenshot="71142bf3ccb22a2932463396f792ebe6.png" Reference="ibK92gIPHUmRsRCnhmHO7g/IteSw0PG1ECXX8KRy7M2Rw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                   <uix:TargetAnchorable.Anchors>
@@ -1105,11 +1123,11 @@
               </uix:NTypeInto.Target>
               <uix:NTypeInto.Text>
                 <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_69">Co_App_group_Asset_value2</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">Co_App_group_Asset_value2</mca:CSharpValue>
                 </InArgument>
               </uix:NTypeInto.Text>
             </uix:NTypeInto>
-            <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903685" ContentHash="_SDgx6hRaEiGYVYR5oJyuQ" DesignTimeRectangle="1234, 225, 34, 16" ElementType="Text" FriendlyName="'SAVE'" FullSelectorArgument="&lt;webctrl aaname='SAVE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SAVE' parentid='deal-banner' tag='SPAN' type='' check:text='SAVE' /&gt;" Guid="2a8cf272-66bb-4c37-91b4-a3e967bec0c9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAUCAYAAADhj08IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVEhL7VSxSgNBEPVP/JF8gX+Qzs7OMp2dnXZ2kibYRFKYQlQQI0KCjQZCDKIRi0PEKBIuSO6yd7vP2b273NydCmujRRYe3M7Ozr57b3aXptvL+I9YELPFgpgtMsS80ybU1Md8TIcI2yuZDQbta7Msu6U0dtKCysdi+LcOrbwiPKB5f2j2FobfgWB7UmKNOlQAqOcaxMEKvP01iHtd0IU8TzdoBCMKS8K4CX8eLyN0KfZeh8dyTXzMcg0x+uFMThEpsZ7e4CCs8oQKwg8i62ymsWoNUvqQfa0Q5TfS/EgZOpTXaJALFFX9WElrYrEV6n6DqVCEOdzIHimhHivpepVU5yR0/h3lyxsECVlrYtsliMEQSlskXaiXDsKL8pe2JGS87g0grllvlCKb5xbH9o5243XCNz2m+kmNCJnmN9irIBh0oCbxJXBbEMnfGlWZfYmt7XiucUVkk5wjnZ9bt1esCO+Q+oMUVA/rZi4c/ftfjFGNKbsDKWjPbRmzh9ecogRbYsEzKfTRwowtamvMjXqr0/dWdCDrH4NLejp4DxHEE9UadyD1xeE9qGGt2DnZR7IrJ3oupnurUc/pWK8cW0QFM7dWI1UoW0sPertOeC7hN1b6Z03ICbMroEsw2CCb8k2dhVF7cszUjp4ZuMfF/G+aP0/2xx77SyyI2WJBzA7L+ATVuILfTjwUWQAAAABJRU5ErkJggg==" InformativeScreenshot="5ce60904c90efaa686b9fc124b81d92c.png" Reference="ibK92gIPHUmRsRCnhmHO7g/DvyWK21LpEmyxBmNFtWBNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -1120,7 +1138,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NClick ClickType="Single" DelayAfter="2" DisplayName="Click 'Refresh'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_34" KeyModifiers="None" MouseButton="Left" Version="V1">
+            <uix:NClick ClickType="Single" DelayAfter="2" DisplayName="Click 'Refresh'" sap:VirtualizedContainerService.HintSize="806,156" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903685" ContentHash="T2BCPE-0I0GyEKbHcXvGQw" DesignTimeRectangle="1151, 95, 19, 19" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' aaname='      ' /&gt;" Guid="3d7b1f75-c400-415e-8750-d05f5a0898a7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFBSURBVEhLxZS7jYUwEEW3NgqgAAogpwvIIYcCKICcAsgpAHLIvTpoBw1mzGdXT3ulq/fMXI4HY/wVRZH7lP8XniSJK8vS1XXthmHYfhlz3coXRbH/D8LTNHV937srMZmepOu67ZqMTTizL8vyg3BuXdftJjFjLfKA0SWcoGie58Nj+jl/EhSEsxTSMaE4jveaZer+BEG4PBod34Gx5LVMOC9GFFoKbQuMTHhVVVuRruVayCEwMuFN05yKllmuLMuC5r1Jdoe3bfsI/savO3/jHS77e5qmU+iJZVn0Ltvhb3eLtjSGTDiWXUD3T/Y5JkcecRbp2gHOm5YvbhzH2wmok0Pc55+UBzjWj0hHeZ4f6jonHSNrKU9wTFCfGZw37CKxLwuMTTj+zXnuOwgXczNHA98BMH4ZX0HFt/C/+IPwyH0DltLD0q2HthgAAAAASUVORK5CYII=" InformativeScreenshot="60a1491ec4db1578ae1f9bda45640f43.png" Reference="ibK92gIPHUmRsRCnhmHO7g/V8vg9i-N1EqU7x6BRgQiHA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -1131,7 +1149,7 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NMouseScroll Direction="Down" DisplayName="Mouse Scroll 'Add Applicant/'" sap:VirtualizedContainerService.HintSize="806,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
+            <uix:NMouseScroll Direction="Down" DisplayName="Mouse Scroll 'Add Applicant/'" sap:VirtualizedContainerService.HintSize="806,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="10" ScopeIdentifier="23c6ee4f-96cf-4c50-8072-4a48fb543298" Version="V1">
               <uix:NMouseScroll.SearchedElement>
                 <uix:SearchedElement DisplayName="{x:Null}">
                   <uix:SearchedElement.Target>

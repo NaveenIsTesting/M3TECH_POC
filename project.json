@@ -43,21 +43,9 @@
     "fileInfoCollection": [
       {
         "editingStatus": "Publishable",
-        "testCaseId": "bc7dc39d-caf8-42ce-889d-9c45c61be162",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-2.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
         "testCaseId": "fd130634-9007-431a-b4f0-38e06f683760",
         "testCaseType": "TestCase",
         "fileName": "Testcases\\TC-3.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "9f0ec596-5548-40f3-a24a-dd09d591434c",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-6.xaml"
       },
       {
         "editingStatus": "Publishable",
@@ -91,9 +79,27 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "2a9b8fe6-e63d-42de-a211-1666bce2ab86",
+        "testCaseId": "552d2607-bac9-411a-a234-8f544b72e24c",
         "testCaseType": "TestCase",
-        "fileName": "Testcases\\test5.xaml"
+        "fileName": "Testcases\\TC-1.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "308cbf98-ec13-48e3-a427-e92e8ef04a1d",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-5.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cb087c14-673b-43bc-b5b5-a6238f7e818a",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-2.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "4ead69fc-b2dc-4d36-9297-c1e3283449b2",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-6.xaml"
       }
     ],
     "modernBehavior": true
