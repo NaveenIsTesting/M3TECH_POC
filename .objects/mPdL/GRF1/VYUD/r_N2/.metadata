@@ -1,15 +1,15 @@
 ﻿{
-  "Id": "nsdqhCsPdk-ACh_L0HU16A",
-  "Reference": "ibK92gIPHUmRsRCnhmHO7g/nsdqhCsPdk-ACh_L0HU16A",
+  "Id": "r_N2C3sIWEyD0fD9ShMKRQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/r_N2C3sIWEyD0fD9ShMKRQ",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
-  "Name": "LibilityBalance 2",
+  "Name": "App_liability_type_autoloan",
   "Type": "Element",
-  "TaxonomyType": "Input",
-  "Created": "2022-04-22T20:39:56.5625331Z",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-25T11:59:49.5321722Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-25T12:16:15.4537346Z",
+  "Updated": "2022-04-25T12:04:34.7592154Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]

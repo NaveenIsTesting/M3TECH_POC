@@ -1,0 +1,14 @@
+﻿{
+  "Id": "uNbDZL9qaUK13k6NVcJ-Uw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/uNbDZL9qaUK13k6NVcJ-Uw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Click 'Credit & Income'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-04-25T13:51:29.3390421Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-25T13:51:29.3390421Z"
+}

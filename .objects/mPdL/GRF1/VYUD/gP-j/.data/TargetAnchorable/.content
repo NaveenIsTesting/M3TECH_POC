@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="S68qQLAKmUeg5zm4FVCkqQ" DesignTimeRectangle="354, 416, 115, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].liabilityType' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].liabilityType' tag='DIV' type='' check:text='Select' /&gt;" Guid="3ae1add3-f9ef-4d71-be99-b03913b508cc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="351, 330, 142, 25" ElementType="InputBox" FriendlyName="'Credit Card'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;input' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='' name='mainApplicant[0].description' tag='INPUT' type='text' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">42tLtDnbLNZU2t0CUnJ-VJ-g</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">041MzzVW_DkeiWtWBYIg1ag</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="9b34b014327de78be51a224b50d834fd.png" xmlns="">0kxAF2be_3kWVFe9yjboovg</imageRef>
+</TargetAnchorable>
