@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903783" ContentHash="P0PkV0OXnEyPAd0uX8vwtA" DesignTimeRectangle="547, 134, 157, 20" ElementType="Text" FriendlyName="'Add Applicant/'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' type='' aaname='Add Applicant/ Applicant Pair' check:text='Add Applicant/ Applicant Pair' /&gt;" Guid="08c56380-07b1-43f7-8985-09904a9ed1cc" Reference="ibK92gIPHUmRsRCnhmHO7g/0qMTEmUGv0Sybio0vsyMwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903960" ContentHash="B6mpWAtcwkSQ-EYPHm3UNg" DesignTimeRectangle="869, 160, 223, 38" FriendlyName="'Add Applicant/'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='DIV' type='' aaname='' check:text='Add Applicant/ Applicant Pair' /&gt;" Guid="353a5ae1-0d0b-4f7d-91be-76eeb99cd56c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="485, 162, 112, 20" ElementType="Text" FriendlyName="'BOSS Automation'" FullSelectorArgument="&lt;webctrl aaname='BOSS Automation' parentid='deal-body' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='BOSS Automation' parentid='deal-body' tag='DIV' type='' check:text='BOSS Automation' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">10A-eQZeytUGBGchxgH7t3Q</imageRef>
+      <Target DesignTimeRectangle="1117, 160, 132, 38" FriendlyName="'Copy Application'" FullSelectorArgument="&lt;webctrl idx='2' parentid='top-bar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='top-bar' tag='DIV' aaname='' check:text='Copy Application' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1J04bhzZu_0Wgx8z2hHr0cg</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0BT0vXaeH2kOq9TrhD6CzLA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="e03490f5c92eafdbd004811d1b9035c6.png" xmlns="">0WTDQyf-4EUieVNO5pkd9Lw</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0DnDUlaF2MEOuC9D7AQArJQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a9f3f2ef75311b04a1428f5759ce2cac.png" xmlns="">07-p2b-genUaCwlMIPAfosQ</imageRef>
 </TargetAnchorable>
