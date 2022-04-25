@@ -1,0 +1,14 @@
+﻿{
+  "Id": "tcJL62wtkkOJ4bmVdV6cNw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/tcJL62wtkkOJ4bmVdV6cNw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Highlight \"Gift_to _vehivle _Downpayment\"",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-24T06:53:23.2033265Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-24T06:53:23.2033265Z"
+}

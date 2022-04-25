@@ -1,0 +1,14 @@
+﻿{
+  "Id": "ZqAjhN70NUW7XoYmacGY8Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/ZqAjhN70NUW7XoYmacGY8Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
+  "Name": "Highlight gift_to_ 'Vehicle'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-24T06:54:07.8714488Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-24T06:54:07.8714488Z"
+}

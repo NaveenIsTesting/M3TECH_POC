@@ -1,0 +1,16 @@
+﻿{
+  "Id": "XlJF48kXQEiW5YPeE_BXyQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/XlJF48kXQEiW5YPeE_BXyQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Applicant_Address section",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-24T08:27:05.0888474Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-24T08:29:35.8852698Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
