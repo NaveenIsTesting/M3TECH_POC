@@ -11,6 +11,7 @@
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
     "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
     "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
   },
   "webServices": [],
