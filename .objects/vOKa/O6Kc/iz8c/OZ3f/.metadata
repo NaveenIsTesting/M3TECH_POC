@@ -1,0 +1,14 @@
+﻿{
+  "Id": "OZ3fM1vmfEOscYltv5VDcw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/OZ3fM1vmfEOscYltv5VDcw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Keyboard Shortcuts Payment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-27T11:05:59.3474298Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-27T11:05:59.3474298Z"
+}
