@@ -21,7 +21,7 @@
     <x:Property Name="Co__APP_lia_Autoloan" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>994,14015</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>994,14565</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -121,15 +121,15 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1004,13950" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence sap:VirtualizedContainerService.HintSize="1004,14500" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,13858" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,14408" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Testcase8" sap:VirtualizedContainerService.HintSize="924,13626" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence DisplayName="Testcase8" sap:VirtualizedContainerService.HintSize="924,14176" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
           </Sequence.Variables>
@@ -454,13 +454,13 @@
             </uix:NCheckState.Target>
           </uix:NCheckState>
           <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="882,11166" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="032836d5-6cc3-4995-a04e-f5ba301dd43c" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="882,11716" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="032836d5-6cc3-4995-a04e-f5ba301dd43c" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,10949" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,11499" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -692,7 +692,7 @@
                       </InArgument>
                     </uix:NTypeInto.Text>
                   </uix:NTypeInto>
-                  <uix:NClick ClickType="Double" DelayAfter="1" DisplayName="Click 'App_lia_Payment'" sap:VirtualizedContainerService.HintSize="806,157" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="032836d5-6cc3-4995-a04e-f5ba301dd43c" Version="V1">
+                  <uix:NClick ClickType="Single" DelayAfter="1" DisplayName="Click 'App_lia_Payment'" sap:VirtualizedContainerService.HintSize="806,157" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="032836d5-6cc3-4995-a04e-f5ba301dd43c" Version="V1">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="M7OPDV5dBEmTTOaAWfmsgg" DesignTimeRectangle="928, 352, 137, 25" ElementType="InputBox" FriendlyName="'App_lia_Payment'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="0e9da266-056d-4c65-a6b5-6db34b865522" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI0AAAAdCAYAAACXOO/mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGaSURBVHhe7ZtBboMwEEV7NW7APThMxD2qsKh6iyhrTpCssu8ikssYnBoY4xjwhr4nfSmJHRbM04eNPx4/T0NISpCGJOclzefXtynL0hRFQcgo4oX4MZNGFtq2NQBTxAvxYyaNGAUQQvxAGkgCaSAZpIFkdpHmdq5MfRm+wOHZKM3V1N1e2d+n7n5ZYry/Ot+G33VExqVrx9YhD3K/V0rTCyCDd01jh1g1RlfhZprKF6X/f7ChLvVIhNm1Y+uQjfXS3BtTDUNz0iwyGbJgB33S+mEqmCCSVaa5y+fYOuRkc9O4holJozaBIlKP1kK+KLF1yMkGaTrs0N97p1BbxWurMXprXE++NEvrkJNt0gxYIZw86uMGaY7EbtLYR4WVQH+v4PF0HPaVJtAAFl6ED8N6aawE/ZCcNGqbvJgOWmsLj4lks2vH1iEbm5rGDqrb+xftUePTi+L2j5oi1EQL146tQx7kfq+WxiHDCzYGHI5dpIH/BdJAMkgDySANJIM0kIwqDacRIETwNALnnkgo4oV67omQd4M0JDFP8wtfnavUZL2KNQAAAABJRU5ErkJggg==" InformativeScreenshot="5c1bcaf87bf5a0d27ad28b988ca14b26.png" Reference="ibK92gIPHUmRsRCnhmHO7g/d3tKxgomxkmX_7DuYvqD9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                         <uix:TargetAnchorable.Anchors>
@@ -704,7 +704,29 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'App_lia_Payment'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,218" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Text="100" Version="V1">
+                  <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Payment'" sap:VirtualizedContainerService.HintSize="806,235" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" ScopeIdentifier="032836d5-6cc3-4995-a04e-f5ba301dd43c" Shortcuts="[d(hk)][d(ctrl)]A[u(ctrl)][u(hk)]" Version="V1">
+                    <uix:NKeyboardShortcuts.Target>
+                      <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="ub4UO0b2ykadoGpWxfSSJw" DesignTimeRectangle="928, 449, 137, 25" ElementType="InputBox" FriendlyName="'App_lia Keyboard Shortcuts Payment'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="034ad627-e890-4f1e-a231-69db10166cfd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI0AAAAdCAYAAACXOO/mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHuSURBVHhe7ZtNboMwEEZ7NW7APXwYxD0qWFS9RZQ1JyCr7ruI5HqMDYN/yBiQkNLvSbMImDFiHmNnwcfP71MjECUBaRDFMUvz+fWt67rWVVUhEKsgL8iPSBo6MQyDBiCEvCA/ImnIKABykB+QBhQBaUAxkAYUc4o0Y6d0e3M/wNtzUJq7bs1YGj9Fa45IoOuU7h/up+Pe8FwU8RgOyZqfe9S9Yrka2Z2B19Dz3CnNJIzqxrnT2CKq3pRrCy9aKAQdl0pnuLUmxzI+nNsKOIsyCUT3Co6zX5pHr5UrmnR58p1ENa25NpCG8r0UzpOSgHUve29BfpJMnB9scbjT+A4jkqZzRcsUVSm+3ISdiLPMvcBECrqQJTUn2MUBaQy2OL7IBUtLooB2eeE5bO5ckVlXYVAnm6WJukr6GlDOMWkcU8GdPJINp/CtX+9LOJDmSk6Txi4V0iVAOM7KmJUGy9NVnCuN9G2OCpj+dzN3jghshK9kvzRsz+GlsZ1BUphEUe210Z5mY58UnA/nXi9taSnBPg51mqnQbi9jY6PInMxSsc6XkCoQcj0+nHsSZT4v2WsBEfQ8d0vjoeKt9xfgnTlFGvC/gDSgGEgDioE0oBhIA4pJSoOvEUCO7NcI+O4JkQvyIvndEwIhDUiDKIyn/gOYOYxWCdxsyAAAAABJRU5ErkJggg==" InformativeScreenshot="0caf27d327192f05d5c1e10efe2f5525.png" Reference="ibK92gIPHUmRsRCnhmHO7g/jJ7nBBnxBE2B_iIm6addNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="917, 411, 191, 20" ElementType="Text" FriendlyName="'App_lia Keyboard Shortcuts Payment'" FullSelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' type='' check:text='Payment:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMMAAAAYCAYAAABHhklGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMRSURBVHhe7Zk/SyNBGIf9KvMlpgw2YmEq0wWuWLgiIFwqSReuWQRZrpBwICIcQRAbYa22CGyX5ohFSIrDKyQWwsIFthCmCPzunT+bTCQg0cWL3PvAQGZ3Z13h9+R9Z7MFhmEMLAPDOFgGhnGwDAzjYBkYxsEyMIxjLRmymwaEEN6Q2PkcIv6Vuys+CI8xGqKB+NHNGYZYX4aDGJmbQ+WYpBFqIsDVvTv2EWAZmBW8TQaDQv9IoHo+stPpAGeHNVR05diuofVjRFcQJoDL0kwu6xCHCXRdGZwINC4SdL/sQNJaudtEd0yy9UIE27oKVRAcpZjYpQY1vkI7qJgqVQlCJA/uhPlbEdJhF81dubT2eXVr3Nj/ZnRagfyammdh/k9KluEO3X2J5vXECpAP0KF51NezDPHBInzFvJXY+GkZxD4F+IGuneUYnAckE4X4OEVGh9S0T/cSaPdcXB8o8LKJ+F7fWyEjaap7HQz01MggUPPWRnve2hWVQf3uI/1o7R5TKm+WIR93KVhVdG5tKPM8tyI4dMjld1s18qS1WD9N0BItJFNzylYGkmiODrsObPFtTxhhTgbus0T90q8TE1x9kugM6aMJewjjoMN/jlUyMMwbN9C6nQkQJl4os/6iTSqGC7AvQN5rz1skjZFhXjWIFYFdyGCriv8cxejc0mmzlqqEWWXxRWIZmFWU0CZ5KGqL9nSbdAc1s4eWQkjRTw51u5KZ1qpokTSvkWHe9jyHZWBeQbkyrArhN1+GoiK00ZaLFkmzngy0TzmWkMf9pZZsDsvAvIJyZchTCnkVYY820E/KvHaty2UZzDW6pXl2n/VkIMZnqIkaotSuUY8poroT7CUZ6Eyk9zlDBeVs4g00U64MhKIN9eJ1ZozktA5x5H+D21ZpKfjE2jIQ+bCL1r59tapfxZ79dGF+UQaF0UXD7GuKTTW/WmXWkqEcaF8huUVhNo93lUHlOe6um5DeWySG2RTeUYYRVQRqS+ohUu+3A4bZFP5Bm8QwmwnLwDAOloFhHFt/1Aw8ePCYsQw8eNgxw1/5ryclUapAwwAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NKeyboardShortcuts.Target>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'App_lia Keyboard Shortcuts Payment'" sap:VirtualizedContainerService.HintSize="806,235" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" ScopeIdentifier="032836d5-6cc3-4995-a04e-f5ba301dd43c" Shortcuts="[d(hk)][k(back)][u(hk)]" Version="V1">
+                    <uix:NKeyboardShortcuts.Target>
+                      <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="ub4UO0b2ykadoGpWxfSSJw" DesignTimeRectangle="928, 449, 137, 25" ElementType="InputBox" FriendlyName="'App_lia Keyboard Shortcuts Payment'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="034ad627-e890-4f1e-a231-69db10166cfd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI0AAAAdCAYAAACXOO/mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHuSURBVHhe7ZtNboMwEEZ7NW7APXwYxD0qWFS9RZQ1JyCr7ruI5HqMDYN/yBiQkNLvSbMImDFiHmNnwcfP71MjECUBaRDFMUvz+fWt67rWVVUhEKsgL8iPSBo6MQyDBiCEvCA/ImnIKABykB+QBhQBaUAxkAYUc4o0Y6d0e3M/wNtzUJq7bs1YGj9Fa45IoOuU7h/up+Pe8FwU8RgOyZqfe9S9Yrka2Z2B19Dz3CnNJIzqxrnT2CKq3pRrCy9aKAQdl0pnuLUmxzI+nNsKOIsyCUT3Co6zX5pHr5UrmnR58p1ENa25NpCG8r0UzpOSgHUve29BfpJMnB9scbjT+A4jkqZzRcsUVSm+3ISdiLPMvcBECrqQJTUn2MUBaQy2OL7IBUtLooB2eeE5bO5ckVlXYVAnm6WJukr6GlDOMWkcU8GdPJINp/CtX+9LOJDmSk6Txi4V0iVAOM7KmJUGy9NVnCuN9G2OCpj+dzN3jghshK9kvzRsz+GlsZ1BUphEUe210Z5mY58UnA/nXi9taSnBPg51mqnQbi9jY6PInMxSsc6XkCoQcj0+nHsSZT4v2WsBEfQ8d0vjoeKt9xfgnTlFGvC/gDSgGEgDioE0oBhIA4pJSoOvEUCO7NcI+O4JkQvyIvndEwIhDUiDKIyn/gOYOYxWCdxsyAAAAABJRU5ErkJggg==" InformativeScreenshot="0caf27d327192f05d5c1e10efe2f5525.png" Reference="ibK92gIPHUmRsRCnhmHO7g/jJ7nBBnxBE2B_iIm6addNA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target DesignTimeRectangle="917, 411, 191, 20" ElementType="Text" FriendlyName="'App_lia Keyboard Shortcuts Payment'" FullSelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' type='' check:text='Payment:' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMMAAAAYCAYAAABHhklGAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMRSURBVHhe7Zk/SyNBGIf9KvMlpgw2YmEq0wWuWLgiIFwqSReuWQRZrpBwICIcQRAbYa22CGyX5ohFSIrDKyQWwsIFthCmCPzunT+bTCQg0cWL3PvAQGZ3Z13h9+R9Z7MFhmEMLAPDOFgGhnGwDAzjYBkYxsEyMIxjLRmymwaEEN6Q2PkcIv6Vuys+CI8xGqKB+NHNGYZYX4aDGJmbQ+WYpBFqIsDVvTv2EWAZmBW8TQaDQv9IoHo+stPpAGeHNVR05diuofVjRFcQJoDL0kwu6xCHCXRdGZwINC4SdL/sQNJaudtEd0yy9UIE27oKVRAcpZjYpQY1vkI7qJgqVQlCJA/uhPlbEdJhF81dubT2eXVr3Nj/ZnRagfyammdh/k9KluEO3X2J5vXECpAP0KF51NezDPHBInzFvJXY+GkZxD4F+IGuneUYnAckE4X4OEVGh9S0T/cSaPdcXB8o8LKJ+F7fWyEjaap7HQz01MggUPPWRnve2hWVQf3uI/1o7R5TKm+WIR93KVhVdG5tKPM8tyI4dMjld1s18qS1WD9N0BItJFNzylYGkmiODrsObPFtTxhhTgbus0T90q8TE1x9kugM6aMJewjjoMN/jlUyMMwbN9C6nQkQJl4os/6iTSqGC7AvQN5rz1skjZFhXjWIFYFdyGCriv8cxejc0mmzlqqEWWXxRWIZmFWU0CZ5KGqL9nSbdAc1s4eWQkjRTw51u5KZ1qpokTSvkWHe9jyHZWBeQbkyrArhN1+GoiK00ZaLFkmzngy0TzmWkMf9pZZsDsvAvIJyZchTCnkVYY820E/KvHaty2UZzDW6pXl2n/VkIMZnqIkaotSuUY8poroT7CUZ6Eyk9zlDBeVs4g00U64MhKIN9eJ1ZozktA5x5H+D21ZpKfjE2jIQ+bCL1r59tapfxZ79dGF+UQaF0UXD7GuKTTW/WmXWkqEcaF8huUVhNo93lUHlOe6um5DeWySG2RTeUYYRVQRqS+ohUu+3A4bZFP5Bm8QwmwnLwDAOloFhHFt/1Aw8ePCYsQw8eNgxw1/5ryclUapAwwAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NKeyboardShortcuts.Target>
+                  </uix:NKeyboardShortcuts>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'App_lia_Payment'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,218" sap2010:WorkflowViewState.IdRef="NTypeInto_9" Version="V1">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="M7OPDV5dBEmTTOaAWfmsgg" DesignTimeRectangle="928, 352, 137, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="0e9da266-056d-4c65-a6b5-6db34b865522" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAI0AAAAdCAYAAACXOO/mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGaSURBVHhe7ZtBboMwEEV7NW7APThMxD2qsKh6iyhrTpCssu8ikssYnBoY4xjwhr4nfSmJHRbM04eNPx4/T0NISpCGJOclzefXtynL0hRFQcgo4oX4MZNGFtq2NQBTxAvxYyaNGAUQQvxAGkgCaSAZpIFkdpHmdq5MfRm+wOHZKM3V1N1e2d+n7n5ZYry/Ot+G33VExqVrx9YhD3K/V0rTCyCDd01jh1g1RlfhZprKF6X/f7ChLvVIhNm1Y+uQjfXS3BtTDUNz0iwyGbJgB33S+mEqmCCSVaa5y+fYOuRkc9O4holJozaBIlKP1kK+KLF1yMkGaTrs0N97p1BbxWurMXprXE++NEvrkJNt0gxYIZw86uMGaY7EbtLYR4WVQH+v4PF0HPaVJtAAFl6ED8N6aawE/ZCcNGqbvJgOWmsLj4lks2vH1iEbm5rGDqrb+xftUePTi+L2j5oi1EQL146tQx7kfq+WxiHDCzYGHI5dpIH/BdJAMkgDySANJIM0kIwqDacRIETwNALnnkgo4oV67omQd4M0JDFP8wtfnavUZL2KNQAAAABJRU5ErkJggg==" InformativeScreenshot="5c1bcaf87bf5a0d27ad28b988ca14b26.png" Reference="ibK92gIPHUmRsRCnhmHO7g/d3tKxgomxkmX_7DuYvqD9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                         <uix:TargetAnchorable.Anchors>
@@ -715,6 +737,11 @@
                         </uix:TargetAnchorable.Anchors>
                       </uix:TargetAnchorable>
                     </uix:NTypeInto.Target>
+                    <uix:NTypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">App_lia_Payment</mca:CSharpValue>
+                      </InArgument>
+                    </uix:NTypeInto.Text>
                   </uix:NTypeInto>
                   <uix:NClick ClickType="Single" DisplayName="Click 'App_Date'" sap:VirtualizedContainerService.HintSize="806,157" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" Version="V1">
                     <uix:NClick.Target>
