@@ -19,7 +19,7 @@
     <x:Property Name="Co_App_Gift_Description" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1148,16999</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1148,16688</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -117,13 +117,13 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1158,16934" sap2010:WorkflowViewState.IdRef="Sequence_14">
+  <Sequence sap:VirtualizedContainerService.HintSize="1158,16623" sap2010:WorkflowViewState.IdRef="Sequence_14">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1116,16842" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1116,16531" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -131,7 +131,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1078,16610" sap2010:WorkflowViewState.IdRef="Sequence_13">
+        <Sequence sap:VirtualizedContainerService.HintSize="1078,16299" sap2010:WorkflowViewState.IdRef="Sequence_13">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
             <Variable x:TypeArguments="sd:DataTable" Name="Exce" />
@@ -426,39 +426,15 @@
             </ui:ForEachRow.DataTable>
           </ui:ForEachRow>
           <l:Login sap:VirtualizedContainerService.HintSize="1036,22" sap2010:WorkflowViewState.IdRef="Login_1" password="password" username="autoboss" />
-          <uix:NCheckState Exists="{x:Null}" CheckVisibility="True" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="1036,446" sap2010:WorkflowViewState.IdRef="NCheckState_7" Version="V1">
-            <uix:NCheckState.IfExists>
-              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_31">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="Login" Status="Pass" TakeScreenshot="True" />
-              </Sequence>
-            </uix:NCheckState.IfExists>
-            <uix:NCheckState.IfNotExists>
-              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_32">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Failed." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_18" Name="Login" Status="Fail" TakeScreenshot="True" />
-              </Sequence>
-            </uix:NCheckState.IfNotExists>
-            <uix:NCheckState.Target>
-              <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/dashboard" DesignTimeRectangle="688, 79, 201, 51" FriendlyName="'chrome.exe Boss'" Guid="15d38bfc-806b-4eee-9de1-e7b9692d48f1" ImageBase64="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" InformativeScreenshot="1bc6ac5107105202cea55ccd32b4d845.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" />
-            </uix:NCheckState.Target>
-          </uix:NCheckState>
+          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="1036,134" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Login" Status="Info" TakeScreenshot="True" />
           <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="1036,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="1036,13945" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="1036,13946" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1002,13728" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1002,13729" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
