@@ -19,7 +19,7 @@
     <x:Property Name="Co_App_Gift_Description" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1112,14127</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1112,14699</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -115,17 +115,18 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1122,14062" sap2010:WorkflowViewState.IdRef="Sequence_18">
+  <Sequence sap:VirtualizedContainerService.HintSize="1122,14634" sap2010:WorkflowViewState.IdRef="Sequence_18">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1080,13970" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1080,14542" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -133,7 +134,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence DisplayName="TC_4_1" sap:VirtualizedContainerService.HintSize="1042,13738" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence DisplayName="TC_4_1" sap:VirtualizedContainerService.HintSize="1042,14310" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
           </Sequence.Variables>
@@ -143,14 +144,14 @@
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence sap:VirtualizedContainerService.HintSize="1000,13410" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <Sequence sap:VirtualizedContainerService.HintSize="1000,13982" sap2010:WorkflowViewState.IdRef="Sequence_7">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="958,469" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="958,429" sap2010:WorkflowViewState.IdRef="CommentOut_1">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Sequence" sap:VirtualizedContainerService.HintSize="376,351" sap2010:WorkflowViewState.IdRef="Sequence_19">
                   <sap:WorkflowViewStateService.ViewState>
@@ -435,13 +436,13 @@
             <l:Login sap:VirtualizedContainerService.HintSize="958,22" sap2010:WorkflowViewState.IdRef="Login_1" password="password" username="autoboss" />
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="958,134" sap2010:WorkflowViewState.IdRef="StepStatus_9" Name="Login" Status="Info" TakeScreenshot="True" />
             <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="958,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="958,11253" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="958,11865" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="22b5e340-8395-4e72-91c2-c12eda3dae73" Version="V1">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="924,11036" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="924,11648" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -556,13 +557,13 @@
                       </uix:NTypeInto.Text>
                     </uix:NTypeInto>
                     <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Details are entered" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="882,134" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="Detailes" Status="Info" TakeScreenshot="True" />
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Assets" sap:VirtualizedContainerService.HintSize="882,9023" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Assets" sap:VirtualizedContainerService.HintSize="882,9635" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,8806" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,9418" sap2010:WorkflowViewState.IdRef="Sequence_5">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Default="vehicel" Name="variable1" />
                             </Sequence.Variables>
@@ -905,7 +906,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NHighlight.Target>
                             </uix:NHighlight>
-                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Downpaymentsection'" sap:VirtualizedContainerService.HintSize="806,446" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Downpaymentsection'" sap:VirtualizedContainerService.HintSize="806,599" sap2010:WorkflowViewState.IdRef="NCheckState_6" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                               <uix:NCheckState.IfExists>
                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_29">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -917,13 +918,33 @@
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Three Assets  Displayed Read only in Downpayment section to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="Three Assets not Displayed Read only in Downpayment section" Status="Fail" TakeScreenshot="True" />
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                        <Literal x:TypeArguments="x:String">3Assetsnot displayed as read only in Downpayment section</Literal>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                        <Literal x:TypeArguments="x:String">UIP</Literal>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                        <Literal x:TypeArguments="x:String">C1097</Literal>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                        <Literal x:TypeArguments="x:String">Bug</Literal>
+                                      </InArgument>
+                                      <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
+                                      <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                        <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                      </InArgument>
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
                                 </Sequence>
                               </uix:NCheckState.IfNotExists>
                               <uix:NCheckState.Target>
@@ -974,7 +995,7 @@
                                 </Sequence>
                               </ui:CommentOut.Body>
                             </ui:CommentOut>
-                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,446" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,599" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                               <uix:NCheckState.IfExists>
                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -986,13 +1007,18 @@
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_17">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total Asset value not displayed at each asset  Applicant section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_4" Name="Total Asset value not  displayed at each asset  Applicant section" Status="Fail" TakeScreenshot="True" />
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
                                 </Sequence>
                               </uix:NCheckState.IfNotExists>
                               <uix:NCheckState.Target>
@@ -1054,7 +1080,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,446" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="806,599" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                               <uix:NCheckState.IfExists>
                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_24">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1066,13 +1092,18 @@
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_25">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total Asset value not displayed at each asset  Applicant section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_13" Name="Total Asset value not  displayed at each asset  Applicant section" Status="Fail" TakeScreenshot="True" />
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
                                 </Sequence>
                               </uix:NCheckState.IfNotExists>
                               <uix:NCheckState.Target>
@@ -1085,7 +1116,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NCheckState.Target>
                             </uix:NCheckState>
-                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="806,446" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
+                            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="806,599" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="27c5e58a-29dc-4667-9603-2dd3880265f7" Version="V1">
                               <uix:NCheckState.IfExists>
                                 <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_26">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -1097,13 +1128,18 @@
                                 </Sequence>
                               </uix:NCheckState.IfExists>
                               <uix:NCheckState.IfNotExists>
-                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_27">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total assets  and networth on the Deal Top Bar not calculated  after create" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_15" Name="Total assets  and  Networth on the Deal Top Bar  " Status="Compare" TakeScreenshot="True" />
+                                  <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                                    <ui:InvokeWorkflowFile.Arguments>
+                                      <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                    </ui:InvokeWorkflowFile.Arguments>
+                                  </ui:InvokeWorkflowFile>
                                 </Sequence>
                               </uix:NCheckState.IfNotExists>
                               <uix:NCheckState.Target>
