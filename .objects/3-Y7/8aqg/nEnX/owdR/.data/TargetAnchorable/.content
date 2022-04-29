@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/dashboard" ContentHash="7qB6tYddSU62w27LxTOGhg" DesignTimeRectangle="1329, 97, 200, 63" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='' /&gt;" Guid="b4a8a1cf-827e-4fe0-95a0-d033be1f5156" Reference="ibK92gIPHUmRsRCnhmHO7g/owdREViR-ke9sAEoVAt5cw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1187, 107, 127, 43" FriendlyName="'addCONTACT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='14' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='page-container' tag='DIV' check:text='addCONTACT' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1V7Fkx2kzkUW0D8QH3_tIbw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0UQglv-7bPk2sV6n3f7vc1w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5f9796307536b68f443087e481d1a647.png" xmlns="">0iYcg7UollEKejAC1PI6oHg</imageRef>
+</TargetAnchorable>

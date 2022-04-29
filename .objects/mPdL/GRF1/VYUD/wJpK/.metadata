@@ -1,15 +1,15 @@
 ﻿{
-  "Id": "3K0RY4ymnUqrmKfNMf-_pw",
-  "Reference": "ibK92gIPHUmRsRCnhmHO7g/3K0RY4ymnUqrmKfNMf-_pw",
+  "Id": "wJpKZQC3zUKHcqI9JG-fpA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/wJpKZQC3zUKHcqI9JG-fpA",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
-  "Name": "CoApplicantFirstName",
+  "Name": "CoapplicantEmail",
   "Type": "Element",
   "TaxonomyType": "Input",
-  "Created": "2022-04-22T17:27:26.2467203Z",
+  "Created": "2022-04-29T04:26:27.4333969Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-29T04:20:53.6933358Z",
+  "Updated": "2022-04-29T04:27:46.3218219Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]
