@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Sjv9W7G3F0iVz0Cblqe-cw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Sjv9W7G3F0iVz0Cblqe-cw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "Click on Deals",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-29T04:03:27.3878253Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T04:04:21.2104935Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

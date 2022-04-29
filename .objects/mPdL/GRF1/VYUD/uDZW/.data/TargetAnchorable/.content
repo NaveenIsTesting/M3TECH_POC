@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="7wMMX0YwK0eCl_4aJEF79Q" DesignTimeRectangle="55, 300, 2272, 55" FriendlyName="'Automation Boss0.0001-0…'" FullSelectorArgument="&lt;ctrl name='Boss' role='document' /&gt;&lt;ctrl role='row' text='*01-0000-02455021*' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Boss' role='document' /&gt;&lt;ctrl role='row' text='*01-0000-02455021*' automationid='' check:text='Automation Boss0.0001-0000-02455021Invoice Checklist' /&gt;" Guid="341348cf-0a56-4887-9bfc-2a39c79ad0b6" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0hCchESJJpUOETDO8WjQSBg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="d8a2a5c95add276f583269fb283a4fb5.png" xmlns="">0zihvbwYiLkC9oug8s9vVlg</imageRef>
+</TargetAnchorable>

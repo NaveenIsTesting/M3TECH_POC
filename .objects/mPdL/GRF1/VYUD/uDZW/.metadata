@@ -1,0 +1,16 @@
+﻿{
+  "Id": "uDZW3NNDCUG7nQtK1NVrRA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/uDZW3NNDCUG7nQtK1NVrRA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "Select_Recent Deal",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-29T10:13:16.3993168Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T10:26:07.8302959Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

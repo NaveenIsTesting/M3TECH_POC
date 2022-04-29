@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="_lgw1WCwwkyUQyV-JlI0aA" DesignTimeRectangle="352, 543, 174, 20" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl id='react-select-106-option-8' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-106-option-8' tag='DIV' type='' aaname='Life Insurance' check:text='Life Insurance' /&gt;" Guid="a4a2dff0-4554-40e2-9fdf-ff48b1fa36fa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TargetAnchorable.Anchors>
-    <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="354, 341, 149, 35" ElementType="Text" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select' parentid='mainApplicant[1].type' tag='DIV' type='' check:text='Select' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">4EHW8LAuwwU-r5Dsq6JmwdQ</imageRef>
-      </Target>
-    </scg:List>
-  </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">03mFas1beMUSleAbzPFtXiA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="370110d9befac84b5c1a28029b4dd597.png" xmlns="">0Aoy-HKFot0aVi60afXNwzw</imageRef>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904327" ContentHash="b0-WlFMea028BrBHctxYIw" DesignTimeRectangle="356, 602, 169, 25" FriendlyName="'chrome.exe Boss'" Guid="2c7e3328-f439-4d1e-a940-c52f9f61e39b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">04tNTW9LH0EWMeq_DfOMtCg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6fd57456ed7a8148e0070d84b73ddc02.png" xmlns="">0BRN827gIB0m_jkTw5p4Oew</imageRef>
 </TargetAnchorable>

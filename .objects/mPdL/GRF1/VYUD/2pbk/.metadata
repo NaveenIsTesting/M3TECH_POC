@@ -1,0 +1,16 @@
+﻿{
+  "Id": "2pbkP4IIq0ak7lysvAMgSA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/2pbkP4IIq0ak7lysvAMgSA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "MyDeal",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-29T09:57:49.3616019Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T10:02:18.2162275Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

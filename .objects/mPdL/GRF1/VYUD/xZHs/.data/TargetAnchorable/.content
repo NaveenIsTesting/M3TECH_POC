@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/advanced-search?module=lead&amp;searchQuery=01-0000-02455027" ContentHash="UsYHd2txNEuAPWI22S956A" DesignTimeRectangle="51, 459, 200, 55" ElementType="Text" FriendlyName="'BOSS Automation'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' aaname='BOSS Automation' check:text='BOSS Automation' /&gt;" Guid="9d26546d-426d-42fc-8301-d3125c018627" Reference="ibK92gIPHUmRsRCnhmHO7g/xZHs2-sX3UCsS_883cNcTg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="51, 404, 200, 55" FriendlyName="'Applicant Full'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Applicant Full Name' tag='TH' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Applicant Full Name' tag='TH' type='' check:text='Applicant Full Namekeyboard_arrow_up' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1aoDxUs1Jq06zH82IONr7NA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0gNLj6BYiwESwkhMnwHY41A</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="2d7c4bf3a5f246ed7eb655ff7779d21d.png" xmlns="">0FhXWXikpu0iChatppIVnOQ</imageRef>
+</TargetAnchorable>

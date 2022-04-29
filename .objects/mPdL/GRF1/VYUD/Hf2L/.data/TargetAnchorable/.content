@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/dashboard" ContentHash="P-id4ps5t0uZdcD9oduSXw" DesignTimeRectangle="1197, 426, 67, 22" ElementType="Text" FriendlyName="'Deals'" FullSelectorArgument="&lt;webctrl parentid='page-container' tag='DIV' class='label' innertext='Deals' parentclass='activity-label' title='Boss' aaname='Deals' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='page-container' tag='DIV' class='label' innertext='Deals' parentclass='activity-label' title='Boss' aaname='Deals' type='' check:text='Deals' /&gt;" Guid="8cae7629-201a-49a2-9a18-dcae8575a55c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="928, 364, 339, 20" ElementType="Text" FriendlyName="'Recent Activities'" FullSelectorArgument="&lt;webctrl aaname='Recent Activities' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Recent Activities' parentid='page-container' tag='DIV' type='' check:text='Recent Activities' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1AIr-CtGtzk6hUZmrWwPXIw</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0jZkqqHqWekmaxeOe0xP8uQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="a9e83b313b4530051172a7b04fc13d43.png" xmlns="">0LD9z3BlrY0eCfZUliswdPg</imageRef>
+</TargetAnchorable>
