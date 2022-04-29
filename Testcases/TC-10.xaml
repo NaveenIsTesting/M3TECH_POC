@@ -15,7 +15,7 @@
     <x:Property Name="Province" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>986,12208</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>986,12209</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="82">
@@ -118,22 +118,22 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="996,12143" sap2010:WorkflowViewState.IdRef="Sequence_24">
+  <Sequence sap:VirtualizedContainerService.HintSize="996,12144" sap2010:WorkflowViewState.IdRef="Sequence_24">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="954,12051" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="954,12052" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="916,11819" sap2010:WorkflowViewState.IdRef="Sequence_17">
+        <Sequence sap:VirtualizedContainerService.HintSize="916,11820" sap2010:WorkflowViewState.IdRef="Sequence_17">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="test_10" sap:VirtualizedContainerService.HintSize="874,11491" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="test_10" sap:VirtualizedContainerService.HintSize="874,11492" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
             </Sequence.Variables>
@@ -374,13 +374,13 @@
             <l:Login sap:VirtualizedContainerService.HintSize="832,22" sap2010:WorkflowViewState.IdRef="Login_4" password="password" username="autoboss" />
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="832,134" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name="Login" Status="Info" TakeScreenshot="True" />
             <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="832,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_3" />
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Deal button" sap:VirtualizedContainerService.HintSize="832,9498" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="552ef80c-2946-4427-9add-81b81b57fe82" Version="V1">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Deal button" sap:VirtualizedContainerService.HintSize="832,9499" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="552ef80c-2946-4427-9add-81b81b57fe82" Version="V1">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="798,9281" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="798,9282" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -430,13 +430,13 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="756,8399" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="13e7ddce-dd2e-41d4-a76c-7558ee394b69" Version="V1">
+                    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="756,8400" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="13e7ddce-dd2e-41d4-a76c-7558ee394b69" Version="V1">
                       <uix:NApplicationCard.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="722,8182" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="722,8183" sap2010:WorkflowViewState.IdRef="Sequence_7">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -839,7 +839,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NCheckState.Target>
                             </uix:NCheckState>
-                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Click on  Credit &amp; income" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Click on  Credit &amp; income" Status="Pass" TakeScreenshot="True" />
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on  Credit &amp; income" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_1" Name="Click on  Credit &amp; income" Status="Info" TakeScreenshot="True" />
                             <uix:NClick ClickType="Single" DelayBefore="10" DisplayName="Click 'Select'" sap:VirtualizedContainerService.HintSize="680,157" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13e7ddce-dd2e-41d4-a76c-7558ee394b69" Version="V1">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/credit_bureau?id=4903829" DesignTimeRectangle="438, 527, 124, 30" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="5407b3b6-a42a-479e-b511-d1b19e1bc57a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAAiCAYAAACX6tEuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADTSURBVHhe7doxDoMwEADBfNofhNJfgC+4pHV0kZLKgKJcYWV3pCtorvHiyo8uNAOAMwA4A4AzADgDgLsM4DiOvu97ysQuzec0gFprL6WkTuzUXIYBtNaGB5gx3gRzGQawbdvnwJZleX3/MrHjvS++NY/bADIOLHuf8hgAnAHAGQCcAcAZAJwBwBkAnAHAGQCcAcAZAJwBwBkAnAHAGQDcbQDrug7f+H0zscMA5jQMwCdhHMMAgo9CGU4DCPG3xpWdMf75c7oMQP/PAOAMAM4A0Hp/Ag4EhecVgrQvAAAAAElFTkSuQmCC" InformativeScreenshot="d66546837daeb89cda089a2ed9016a31.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
@@ -1003,7 +1003,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Click on Request  Bureau Button" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="Click on Request  Bureau Button" Status="Pass" TakeScreenshot="True" />
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Request  Bureau Button" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="Click on Request  Bureau Button" Status="Info" TakeScreenshot="True" />
                             <uix:NClick ClickType="Single" DelayAfter="1" DelayBefore="5" DisplayName="Click 'Click COPY LIABILITIES'" sap:VirtualizedContainerService.HintSize="680,157" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="13e7ddce-dd2e-41d4-a76c-7558ee394b69" Version="V1">
                               <uix:NClick.Target>
                                 <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/credit_bureau?id=4904115" ContentHash="p6filNbJXUuuYkjPZ7mIYA" DesignTimeRectangle="986, 628, 129, 24" FriendlyName="'Click COPY LIABILITIES'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div' parentid='cb-summary-table-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='cb-summary-table-1' tag='DIV' aaname='' check:text='COPY LIABILITIES' /&gt;" Guid="bed445cb-8605-4668-ae18-2ef6b3350569" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIUAAAAcCAYAAABPs3y3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVMSURBVGhD7VvPb+JGFPatfwd/wt63lxxz3CPXPaZSD3vkmuMec6iqdKseciOXdlcbKUrVKBLRqhFtoi3SRsGlYQNOCDFgwPwIvL5vPAO2mU2AuFEDHulD9pvnGXu+z2/e2MYYDoc0GAzo9vaW+v0+dbtdAdd1BdrtdowFg+JWcQ3ewT90AD0Y2ICx1+sJx1arRY7jUL1eF7BtO8aCQXELnsE3eAf/0AH0YKjoAAXB6cdchb5++w999dMpGW8+xVhQgF/wDL7BO/hXUcOAQmBoNBr0baakbSDGYgO8g3/oAHowEDqglB/+utIeEGM5AP6hA+jBwJyCeQahROccYzkA/qED6MGAOq6vr+McYskB/qED6MFAFnp5eal1jLFcgA6gByEKy7K0TjGWC9CBEAXmkXK5rHWaFYnfbMo0h6SK7bTo9a7PZ/eG9pyBrA3Vf+DcRtpHpdujd9kCJf5wyeXd8rlPvAdNKrPNLl1RQtl87eROfTaJVyX03aXNgL1CmR7MLXrlt5922egrgyHZFZtWZX2gLeE7oL0PvuMlNmtw47Z11ycLriF43le0F+pelFpNtLl60iJT1fN5lS2bkunJvmcFdAA9RCeKdNUbXLdDm0clSh41KIf9dpNeCh++UDDLa+Ht40taO26SeQt/SYYcFPNvPnafcWjTnhBYj7Z2irRVx6ZLKdGWSetXXDdgUnZk/wqziiLrCY5oSJmszy6Jzpx455Mq9ISfmS9OtjWNKNJFeoHrYmzjWrouvZb7L96belHUHW8sFHYLZOw74mZwuS7FtrWcK44Twgr1PSsCoiiVHv58YiUPBfTp3cHYljiTtn3eznV4Ozjwno0o+5H3dWSedAQRol6SlztlUnYaZPK2diBmFIUQV7tDWSbBtSpj/wmibyjLIlZ9ziyKe2xaUcjIEMAn2dfvY1uq0KWcVaOk328OQAeRikJ7F/qgr69Rjq32BSe6YTL5zlq3cIwnKuONjBYceTbQli5KADOJgolmE4hOWSwOjkTrqi5E9DMWJdqdO1LcY5taFDs8ZoiwIuJatBLBtKEQuSi0F+qDGMSJeikK35waLEMyz305wyjUfyFKADOIIhC9ZN6SzXEoR70gOljceoNeShIeRRSBMm4/kWlQVuVunFOYpZtIcor/baQY5RT7F5q7oEjbDgaC29FFCWBqUZi0UeXdUXTwogZVbU+EAaILtHrIUxbXqynmUUQRyCkmxyPx3uKo6eU6galvTkQuii/nFDxYh6G7UtX7c4Y7yPTjvog0tSjSniAnC9dj8DVEi75l4vwootBMH2vnLIJehzZGNtObVu8akykRuSiMtJeIkevSxiEr+47VxxavTtaOHcrhwkOrj6hEMY4447vMT6Qn4iFPFz4/Fi5OUeQNkmi1+lBZvlu5Ef3oRKF8PXymZ1z3IFGEVx+/Fikhp1C7UhOrj+SR463iVIR7AKIXBQPPKbKunOu4zPOcIipRBIt3F4+JlEnrRDvymQXnDiuC6GCxnSYvLT3fSVGEi1f3IFGEizjGpORH33MKLjiv1M++tubEfyKKGE8bAVFE9UQzxtNG9E80Yzx5jEShXojFr86XG+B/9EIMP3hl+vxtQescYzkA/kevztVHNt8fx8nmMgP8jz6yUZ/jIXR8c/BZe0CMxQZ4B//QgfgcT324W61WxZLkuz8v6PkvhTjHWHCAX/AMvsE7+IcOxIe7/k/8UQHFFItFKhQKZJqmQD6fp7OzsxhPHOBRcQp+wTP4Bu+BT/zDfwZCCMHcgqQDB2CZAkBNMZ42FJfgFfyCZ/AN3sG/92egPv0L0P2ITGebSekAAAAASUVORK5CYII=" InformativeScreenshot="515eeaa7d3892cbb83e4d2a78fbd7055.png" Reference="ibK92gIPHUmRsRCnhmHO7g/r_LTU9pURUakttPL1nxMOg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
@@ -1015,7 +1015,7 @@
                                 </uix:TargetAnchorable>
                               </uix:NClick.Target>
                             </uix:NClick>
-                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Click on Copy Liabilities But it is the user not  redirected to Liabilities section automatically " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="Click on Copy Liabilities" Status="Compare" TakeScreenshot="True" />
+                            <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Click on Copy Liabilities But it is the user not  redirected to Liabilities section automatically " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="680,134" sap2010:WorkflowViewState.IdRef="StepStatus_7" Name="Click on Copy Liabilities" Status="Exception" TakeScreenshot="True" />
                           </Sequence>
                         </ActivityAction>
                       </uix:NApplicationCard.Body>

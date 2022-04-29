@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Hf2Ltij3S0aIUcl0ABXDdQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Hf2Ltij3S0aIUcl0ABXDdQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "Click on Recent Deals",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-29T04:11:55.2938848Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T04:14:35.8992258Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

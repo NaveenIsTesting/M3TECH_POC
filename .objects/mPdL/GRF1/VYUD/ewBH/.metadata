@@ -1,0 +1,16 @@
+﻿{
+  "Id": "ewBHGY_x7UiEnxEGM4VL1Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/ewBHGY_x7UiEnxEGM4VL1Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "Search box",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-29T10:50:24.2112035Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T10:52:15.7249141Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
