@@ -1,0 +1,13 @@
+﻿{
+  "Id": "owdREViR-ke9sAEoVAt5cw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/owdREViR-ke9sAEoVAt5cw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/nEnXUbb02UmrQVBCvHPJaw",
+  "Name": "Search Bar",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-29T11:14:09.9742885Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T11:14:09.9742885Z"
+}

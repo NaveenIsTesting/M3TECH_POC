@@ -1,0 +1,14 @@
+﻿{
+  "Id": "3-Y7IT0czEWpZLkmiYn6Ew",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/3-Y7IT0czEWpZLkmiYn6Ew",
+  "Name": "Main/Dashboard",
+  "Type": "App",
+  "Created": "2022-04-29T11:14:09.7572121Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T11:16:03.2301225Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
