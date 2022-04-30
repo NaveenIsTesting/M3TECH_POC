@@ -19,7 +19,7 @@
     <x:Property Name="Co_App_Gift_Description" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1114,10395</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1114,10592</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="45">
@@ -118,13 +118,13 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1124,10330" sap2010:WorkflowViewState.IdRef="Sequence_14">
+  <Sequence sap:VirtualizedContainerService.HintSize="1124,10527" sap2010:WorkflowViewState.IdRef="Sequence_14">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1082,10238" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1082,10435" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -132,7 +132,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1044,10006" sap2010:WorkflowViewState.IdRef="Sequence_13">
+        <Sequence sap:VirtualizedContainerService.HintSize="1044,10203" sap2010:WorkflowViewState.IdRef="Sequence_13">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
             <Variable x:TypeArguments="sd:DataTable" Name="Exce" />
@@ -426,15 +426,15 @@
               </InArgument>
             </ui:ForEachRow.DataTable>
           </ui:ForEachRow>
-          <l:Login password="{x:Null}" username="{x:Null}" sap:VirtualizedContainerService.HintSize="1002,22" sap2010:WorkflowViewState.IdRef="Login_1" />
+          <l:Login sap:VirtualizedContainerService.HintSize="1002,22" sap2010:WorkflowViewState.IdRef="Login_1" />
           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="1002,134" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Login" Status="Info" TakeScreenshot="True" />
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="1002,7715" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="1002,7912" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="968,7498" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="968,7695" sap2010:WorkflowViewState.IdRef="Sequence_84">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="ReadOut" />
                   </Sequence.Variables>
@@ -510,7 +510,7 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="926,6231" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="926,6428" sap2010:WorkflowViewState.IdRef="Sequence_101">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Default="vehicel" Name="variable1" />
                       <Variable x:TypeArguments="x:Int32" Name="verifyDP" />
@@ -761,22 +761,12 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total Asset value not displayed at each asset  Applicant section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_42" Name="Total Asset value not  displayed at each asset  Applicant section" Status="Compare" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description">
-                                <Literal x:TypeArguments="x:String" xml:space="preserve">Total Asset value not  displayed at each asset  Applicant section</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                                <Literal x:TypeArguments="x:String">C128</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                                <Literal x:TypeArguments="x:String">Bug</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total Asset value not  displayed at each asset  Applicant section</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -812,22 +802,12 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Applicant total asset value not displyed to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_44" Name="Applicant total asset value not displyed" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description">
-                                <Literal x:TypeArguments="x:String">Applicant total asset value not displyed</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                                <Literal x:TypeArguments="x:String">C128</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                                <Literal x:TypeArguments="x:String">Bug</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">Applicant total asset value not displyed</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -863,22 +843,12 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="CoApplicant total asset value not displyed to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_46" Name="CoApplicant total asset value   notdisplyed" Status="Compare" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description">
-                                <Literal x:TypeArguments="x:String">CoApplicant total asset value not displyed</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                                <Literal x:TypeArguments="x:String">C128</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                                <Literal x:TypeArguments="x:String">Bug</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">CoApplicant total asset value not displyed</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -893,6 +863,17 @@
                         </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Mortgage Information'" sap:VirtualizedContainerService.HintSize="884,157" sap2010:WorkflowViewState.IdRef="NClick_33" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904369" DesignTimeRectangle="68, 544, 190, 20" ElementType="Text" FriendlyName="'Mortgage Information'" FullSelectorArgument="&lt;webctrl aaname='Mortgage Information' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mortgage Information' parentid='side-nav' tag='DIV' type='' check:text='Mortgage Information' /&gt;" Guid="9ed738a2-8b78-4521-9e8b-63ed147f747b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMIAAAAYCAYAAACoRCJ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVcSURBVHhe7ZnfS1tJFMf3r/EpT/GhFHIfFMFSoaAEWpAiBBGhheA+KIXgQoNCyILclw0+1BQ2ChIW1AWJD0sKJQGJQlBB7kJRoSGwaJBsQRTku2funWvm/oppUzYFz8MHcu+ZmTsz53xnzkx+wu0XMMxDh4XAMAQLgWEIFgLDECwEhiFYCAxDsBA6pLaTwORgHx69zuHcx94z6oc4ufR5z3wVihDK0MPk6IkV1JQCNrX1KB6RXd/32jqinsNMOIkDP1sv2E92HtSXW5gPx5A/9bH9zxws9WFm40w+11F6G8LL3w8dZZivxyuE8ACyR85CuNlDdkTYHqgQfqC+O4XAfC9cQoghnYpCSxVxrRS6LiegTSSQfq0I4eYMleUYnkZIIJHHmFzMo3YjbSLIppLIvn0GjQLo40bMFJGN3cb5ro5XIt0I91N9HfpUy3b9dw7piX6zvPYkhtWjhtW2tC28CJEthKfxDLK/qMHRwMmGTGPMdrda/VJRhSADfdNOf2g8M+/3rDkQ5ZS+299R+zc0No3Val22fYZNmqeF5Yw5NlFeBO+r33LIxh/TfFB5msvi8R42F6MYome/8XnHbi9UEtl3pzCcY3/+cwYHdtpkjjeDwnvps8Eo0juGrMd4hLB5lMdceBqFC/t9A6XFPsxtk+MUIRjvhqHFczi5omcSRSk1jNGlshI8w0h/MNC8kA52r6oX4jtRZGUANXeTeE4ONtu/KiIdGYa+K23lJEYjVFcEtLk7hTC/LZ1/Su2SY+1gaO7EoY0lUREBQP0qJEKYXPdxuEcIIcys7aEpvnG6Qs80F3VZ1tN3SpVE/8qyf8dUPmKXt4SgxVdg1Oto0vyIYBVBaJh9qqPy6wDND6Van6y5af5FC834Ck5E2+3GTs/uHUF9vhu78B19x1iLQbPHeOcTWdbV7kPHkxrp+w1UUiEKfLnCiYCNJFC5stIjSwhlZCLPyJF2XVkunEBJCENM+lTOedZwBdP5n7RLvNlC866M/X36fdNoCUhwU7REKgKtmoI2osO4q2cFnhUMFPjxPqQ/KnXVgFfxCEEJdNmmLXrfvi8WHLumsTyAl2siV5d1d1s2d/CCRO/ok9p+u7HTc7AQfMZuLhrST555kAufLfYHjo8Q6PeRjlF5aBaH5NHlPafddxKVd37B5w4mkS7RDuKs3wo+kTbNjVnpgUVQ204hiN+tOpJISglySTdC8PRdfeeqS3iE4B6Du/2gsZOtnRDc33W8YyG0xV8ItwbyE3RorpZpRYnK2xLVHrQjxFEU238HQhDbuHNVVdqn1GQyEkfhs726KU47JpHaaYSJ5Wx1VVRX40C6EULAjjD6TiwYXQqh3djpuZ0Q/HcE8uMx/WYhtCVACBSo29PQBvuhzeZl+uK0O88IlPcu0bN9yA4UwixK/8pnM88OOCOIYB9JomTmug3UPiTIJp0mnDsWfEYQQToU03EgzzjN/Qz0DcMRtCZdCMF9Rrj+JPpgLxhdCqHd2Mku2lKvS9W2nWcEOjj/QWcE+zqchdCWQCFYh7YQ0mV1ZVLs990auYUgVqw34tYkhEzVetesZjDzRNz+iNudWQoGu/0GDPt2g9qeX1+hvig70Gle3qqIW6NZzI+rgabenAi7jso/sp5KN0Ig7rs1+mYh3DP266pujS2eN+s7277v1oiFEIQihB7guLEQjhnH5mf1XQCOejLwOkmHGCaA3gnhsoCFFwmU5IpUE9v4mA7j3uu8Q6xOxJA/VlIqyqmLMhVimG+hpzuCuB2xUiNKYWIJFDvZDQhPWqL8GcUw30JvUyOG+UFgITAMwUJgGIKFwDAEC4Fhbr/gP/Z4gfRkGEitAAAAAElFTkSuQmCC" InformativeScreenshot="f074d73f0aeb4ebc81cef6cda8a46ae7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="28, 469, 230, 20" ElementType="Text" FriendlyName="'Subject Property'" FullSelectorArgument="&lt;webctrl aaname='Subject Property' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Subject Property' parentid='side-nav' tag='DIV' type='' check:text='Subject Property' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAOoAAAAYCAYAAAD0zmFcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVXSURBVHhe7ZvfSyNXFMf71/TJp/ogC/qgCC4rCC7CCkGE4IOLBYkPWYSQhwYF0SLzklCKRjBLkbyoW5ZIWbJQNiC6IIllSYuooARERVQQheXbc+7MJDPONYms2iQ9Dx8yuffcX5P7nXPOHf0OXy/B/PF7Qn0KglB7iFAFoQ4QoQpCHSBCFYQ6oChUQRBqFxGqINQBDyTUDIwfvkfLjwkce+pOkZ3zYeC1gezV7TpBaFxaWBP3QNeHjVuohTTiYz140coNm/DCH8LKl4KrgZ7yQt2YaUZLRxCfzm7X3YNCAgEeYzajrc/OlhZs0oxXYwY2jry2T0+5+yM0KpXE56R6oV6lMc0Cbe1BeGYKsWgIIx284fuQ3HE38vIEG7EqobYjMMVzJyZ96GT71hA2/nNPLkL9P/I4Qt0yzI09ky5WXq9PYcDXg4m1feBzRHUWWKZrrncJx9qIvhCM8Wdoo+vOwRDSB2Y/poj8WClYY+2lYIyadm3P+zC9ljfLecy/E5geJA+s6vyIr9N49lg2mg3vGYPYXexR9sbnSxwv+9X1xKyBIXoAhdcoUrjIYWWyz4wgWp9haDKB3QuzrWnfhMBPIWXP9YGFTVxbfd+5Bus+jdDDLvy8Cb1zv5n3pkgE2W0DvdzOfuicrSLMdSLkhoJ/b125jkq2Do+aQewlb6RmDIViSG3ncX3jMK5GqNR2ZDaBlYVhvOLvg/M4JFuXiGgco5u+t/bBWJpHbKyL6roQ/0J1J7RhWTQvh/F2OQHD30R15NH/ySP7PoIB7jMYw8YWzc2el4VHqDf7SIW4fRNiWyWhqpCYHj5vtwpIj3M9z3keyag557bxVZxTe9u+zR9EsjiXdhL9afk1WPdJpQ79/JD7C7uZGN5wmS+CVCaH85tNxLl9t4E8jXX9Z0i1Kd5boSHg31RXrqOSrTtHPdtUHkZ5VqbD6ynKCrXoEU7xaZL78CNFOaJTROdro6qfN++t3PcggRH63ju3ieN3pjiMde6D2FtVYewKiaq60NdLZzCJQ3rgFD3qRxIatzlKmv1NpizRu+ds27M3VvY78+pB0RbNlF2DfZ8GFnNmneL2/blE/pd2sutRaUV2lh8C7mhAqH94H/Dnr7Gf1bUOrnPa3oVbqDZX+9j9SF5AeVi3p6hOqG5xOq9Lnu0W1I9HHE6qEqojR11KIrtTOgjz9K3pz2lTzr7cGjz3SeG9P7DC38DyquldJextOHgf8OeDCvV4Lajy0di65XGYjCMke2CPGn6Xx/lJoQTlhh6PepLDRiaN7AHNqSqh3u2VPMJ7AI+qW0PVQi2Gv+2WYJ32QiPA+0BXrqOSbcmjFmjjcn7Y4cM0e6RoBOF+R15mC8XOH1+bBz4uoVaTo16krNPlPkyQ10st0TiDw1jhg6e7ctQ9qruidtxnt5/mt6r6dS7k3kL96sxRS3P25Kj9o465tCO+TW3LrUEr1BySPp5fH8LReWSt11Rm+Ft+3kL9wr+trlxHJVt36FtI423IOgWlhp0kmHjG3nCnyC/4zTrOXeciKi9zCTUYQdw6CS176nvE72u7rNcn7tNW7amvPf6i9cqlw0BWlZW4v1AJ56kvCdZ76kt56FSkeOobXsqVDrHuWoNWqNTfB4pYlLiHlcdW5Vb4K2FvY8L7QFeuo5KtPkd9YCqJqBbRCvuhscJpCXsbk/oR6lkGyWgQQ8qTRJB1vu6pcR5bqIcfpjChwmnysCd6G6G+4f1zH3R92DyuUO0DGwqV45zn6mxqlMcWqooyWvk9a+mPPQThLp4k9BUE4dsoClX+cVwQahcRqiDUASJUQagDRKiCUPNc4l+PjlM+nAZ6oQAAAABJRU5ErkJggg==" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
                     <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="884,599" sap2010:WorkflowViewState.IdRef="NCheckState_15" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_103">
@@ -914,28 +895,18 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000 not displayed" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_48" Name="Mortgage  section" Status="Compare" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description">
-                                <Literal x:TypeArguments="x:String" xml:space="preserve"> Down Payment under the Subject Property/Mortgage Information section $ 40,000 not displayed</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                                <Literal x:TypeArguments="x:String">C128</Literal>
-                              </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                                <Literal x:TypeArguments="x:String">Bug</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve"> Down Payment under the Subject Property/Mortgage Information section $ 40,000 not displayed</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
-                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904350" DesignTimeRectangle="739, 568, 265, 43" FriendlyName="'chrome.exe Boss'" Guid="d5688d87-af19-4245-b656-e9c2946b2640" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAQkAAAArCAYAAABre33tAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAdrSURBVHhe7Z1Na9tIGMf3I/TYr6OToGAIGBZqCmsKzUVQWFNYs4dcYgpLDsGF4r1kD/UpFGr2EALBgZKFkoUQQ8GwZKG4UFwoNQQMAUPg2XnmRRqNZEnZWknU/H8gsCJp5pnn5T8jyTg/EAAAZACRAABkApEAAGQCkQAAZAKRAABkApEAAGQCkQAAZAKRAABkApEAAGQCkQAAZAKRAABkApEAAGQCkQAAZAKRACvj8vKSRqMRNRoNun//Pt27dw/bLdw4NhwjjhXHLA+IBFgZnHQQh+psHCuOWR4QCbAyeHbi5AuCgL5+/ar/Cm4bHBuOEceKY5YHRAKsDLOKgEDcfjhGZjWRB0QCrAxOOt7uIp7n6U/VoWi8IBJgZUAkqsXKRGL6JpAOMJtfb9HW/hnN9fGbxLXN83yqPe7Q4J/bYN0V+DygwAto8FnvV5QriwSPe/tU71Qbzr+qsVqRCAY05Z3LBU3/HVL3iU91EdybLsWYbcxiTpPDDtW9JvU/6L9VgTsoEqfbtrh71D3RB/I46YrzuxSXllPqWm0Fb8KMSEe2Yc5P+j0++bh9TWkQmGNi0yLHn9PJsS3HljIpRyQMsyG1/Tr1xnpfMB/1qf2TLwfr/9Sm/nstIefi3Njgx9Rb86jzdqH3F3S06VHj1UR8ZocGtPtujzqyLbEyeLpD4yVqlGqbbq/2uzbuyzH1fq6Tz0F4UKfWH2MlbrIwm7T7UZ4lmbxqkPdsj2bajp39HQrWLDvOpzTcbOq2mtQ5iPc8f2/7oEN7pm3Z1xYNR1F7zc0hTS/dhDRJJHz0wKeNw2qtiIomnRQIjptZSRQWSVNwduGqoo2KT52zVHTcvlzRcfbdHJO2h6ufqG+OXZIc2/JsKZlyRSJW2IIPfWr669Q7mcnd2buuNZsrR4WiIM5tCEf5oaNZNGpacJQT/ad9GnNTF2e0K64NC94hXyTOaOdHn4LXE1rwd0bOj6kr9jt/sS1uANV+a587VnbUnw9pciF2Z6fUeyzsYmE4nIq2FnqMbRqey4uJPu1S4AuB+yDa5hXXQYdqayLgfL1MBtXeVBxezI5oSwhl+0CLQKJI5nT2bkhnX/RuRSiWdMrPslB43GEe5MMF2t3OLmpG5sWSduNFzlj2JHKC4VzQsUnEScD9ixxMFYkc27JtKZ+SRSI+wNNtMdO+jBfy+GUtFAKeof0X6jO31xCBbq/1hDwI2PG+cKT84hcHpBG7VZD9Px2I2T1Jmm2zsZitvZpwtCrW+flcCYSG7Ta2zPZb0fWzPWp5LdqTHbEd67T7iT8rpq/XyXuya/WlhMQElH0QiqZkQv1HPnX5uyoyuTp0xIKhse1ITb4KUjTpwty5ikhwwfG5TuGl5mdKcSrSRMCyx4mpwromrV0duzSRyLYtz5byuUaRUIONbh8U84N2dN24R7VHfVE2cxr+wqsGvkaJweJth7zNIzH/M5Zqa5b1z8hjIjj25q+J2X7fKtbP1u2G2UwQLGGQ9spbDaaIHXZCKR/YdphNHpeJFE+uWDLcMZEwvov5KBP2r/ZPmki4RZXib4WKk9tf1EYy7gzHKhSJRC6qa3gcLtm25dlSPiWLhH27oQbrisTsT+u6S+FIsRQffDyijl5B8OqCHX/6wo+W3SlBSu9fkXVMciHaW+PbjbNwNRFX6hntPeNl/1SOR91qMEXs4HPiIhGNwwEikY4ctxGLtKJWsO/DGRcisTLKFQnnwWXe7YYRldav7ehv/Gwi6FDnkX17UaQ4I7KOSVKS5fg3WyTMCqItxmNuNZirioQY33Of/OdmRaQxtzkpdkAkBDxu6QNVMO7SW8Ln2H5PEwk3B5xzItL7iWJhx9RgXZPWro7dUpFYalueLeVTjkjwA7nxgDYeOq9ARcE3xUqhL582Cg056VHTeQ0p2xGOjFYc6i2HZ55NSFYsEudD2vBr1DmY0OJiQZPDLWr4ThDk2xfxt1g7VxUJgbilqnt1+WCTWXwaUudhWwlPnkhcHtMWP0cZLWgh3fM9P7i0CEVC+SNNJEzeJDcdn5TCldcsKbRkEdozelrhWrmgBSEm5ty/yAu2KUGObdm2lM9qRcIKzrIvU81HO9SqW69AR84ZvHKw3wYIeAUSrTaYFYuEYP7efu04oL0XDesZCKNuOZYmhibZlyMSgpgP1gLq/a2XJnkiIawZv1qXz03Uw8zv+RWo8pv0txGJtOJbRqLw3MJOxiWG25fbnrPvxj0et6hvjnmSHNvybCmZlYnEd495XlIkQUEmRZNOFUc08fBWePZMLSRVfKatmOCnnS//Zs5Pxj4+Mbp9qcIPj2vB4M/pApVhG5NjS5lAJAqwOBfL+tcB+eFbDfAtFBYJg1lJlMzpdvmzsxKJagGRyIVXEGJ5/3CDhtb3IcD/58oicR1ckxBBJAAowK0UiWsCIgFAAe6ySFQRiAS4dvDLVNUBv0wFbgT8xmU14NjgNy7BjYBfy67WxrHCr2WDawX/d6MaG8eGY8Sxwv/dAAB8MxAJAEAmEAkAQCYQCQBAJhAJAEAGRP8BCEZ6SpfWP1AAAAAASUVORK5CYII=" InformativeScreenshot="d84aaf4045c9429c9e5123414f6821f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" />
+                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904369" DesignTimeRectangle="743, 509, 258, 30" FriendlyName="'chrome.exe Boss'" Guid="6a290f26-e8c1-4e89-83f2-acdbe444d7e0" ImageBase64="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" InformativeScreenshot="c36d880a852c06ff0d1a129c24859bbf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" />
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
                     <uix:NClick ClickType="Single" DelayAfter="1" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="884,157" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" Version="V1">
