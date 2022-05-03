@@ -17,7 +17,7 @@
     <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1114,13315</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1114,13428</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="45">
@@ -122,21 +122,21 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="1124,13250" sap2010:WorkflowViewState.IdRef="Sequence_10">
+  <Sequence sap:VirtualizedContainerService.HintSize="1124,13363" sap2010:WorkflowViewState.IdRef="Sequence_10">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1082,13158" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1082,13271" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1044,12926" sap2010:WorkflowViewState.IdRef="Sequence_14">
+        <Sequence sap:VirtualizedContainerService.HintSize="1044,13039" sap2010:WorkflowViewState.IdRef="Sequence_14">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="testcase7" sap:VirtualizedContainerService.HintSize="1002,12598" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="testcase7" sap:VirtualizedContainerService.HintSize="1002,12711" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataTable" Name="EXcelData" />
             </Sequence.Variables>
@@ -256,13 +256,13 @@
             </ui:ForEachRow>
             <l:Login sap:VirtualizedContainerService.HintSize="960,22" sap2010:WorkflowViewState.IdRef="Login_1" />
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="960,134" sap2010:WorkflowViewState.IdRef="StepStatus_9" Name="Login" Status="Info" TakeScreenshot="True" />
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="960,10977" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="9f37dc42-3d3d-4090-8b93-e9b7af2f2175" Version="V1">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="960,11090" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="9f37dc42-3d3d-4090-8b93-e9b7af2f2175" Version="V1">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="926,10760" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="926,10873" sap2010:WorkflowViewState.IdRef="Sequence_5">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="ReadOut" />
                       <Variable x:TypeArguments="x:String" Name="GetSavingsDownpayment" />
@@ -466,7 +466,7 @@
                         </InArgument>
                       </ui:MessageBox.Text>
                     </ui:MessageBox>
-                    <If sap:VirtualizedContainerService.HintSize="884,389" sap2010:WorkflowViewState.IdRef="If_2">
+                    <If sap:VirtualizedContainerService.HintSize="884,542" sap2010:WorkflowViewState.IdRef="If_2">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">GetSavingsDownpayment =="$ 20,000.00"</mca:CSharpValue>
@@ -483,13 +483,33 @@
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_25">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="DownPayment field is  accepting  value greater than asset value" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                            <ui:InvokeWorkflowFile.Arguments>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">DownPayment field is  accepting  value greater than asset value</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C129</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                            </ui:InvokeWorkflowFile.Arguments>
+                          </ui:InvokeWorkflowFile>
                         </Sequence>
                       </If.Else>
                     </If>
@@ -575,12 +595,22 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The asset is not visible in the Down Payment section under the Subject Property. " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_19" Name="Asset not Visible" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve"> Asset not  Displayed Read only in Downpayment section to us</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">The asset is not visible in the Down Payment section under the Subject Property. </Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C129</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -791,26 +821,36 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="New asset value for the first group:applicant : $190,000.00 and coapplicant 1 : $150,000.00 is  not verified" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total Asset value displayed at each applicant asset section is not  validated</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">New asset value for the first group:applicant : $190,000.00 and coapplicant 1 : $150,000.00 is  not verified</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
                       </If.Else>
                     </If>
-                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="884,809" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="884,769" sap2010:WorkflowViewState.IdRef="CommentOut_7">
                       <ui:CommentOut.Body>
-                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="848,731" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="848,691" sap2010:WorkflowViewState.IdRef="Sequence_32">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="806,639" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="9f37dc42-3d3d-4090-8b93-e9b7af2f2175" Version="V1">
+                          <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="806,599" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="9f37dc42-3d3d-4090-8b93-e9b7af2f2175" Version="V1">
                             <uix:NCheckState.IfExists>
                               <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -906,12 +946,22 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $340,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_23" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total assets and Networth on the Deal Top Bar is not  $340,000.00</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">Total assets and Networth on the Deal Top Bar is not  $340,000.00</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>

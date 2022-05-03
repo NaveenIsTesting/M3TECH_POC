@@ -1343,7 +1343,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="after save and refresh the information inserted is  saved and empty rows are disappeared." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="Information inserted" Status="Pass" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="New asset value for the first group:applicant : $170,000.00 and coapplicant 1 : $150,000.00 is verified" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="Validating Total Asset Value" Status="Pass" TakeScreenshot="True" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
@@ -1353,15 +1353,23 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Information inserted" Status="Fail" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="New asset value for the first group:applicant : $170,000.00 and coapplicant 1 : $150,000.00 is  not verified" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_28" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -1385,7 +1393,7 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="after save and refresh the information inserted in all fields is not  saved and the empty rows   not disappeared" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_24" Name="after save and refresh in  First Applicant  " Status="Pass" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="after save and refresh the information inserted in all fields is not  saved and the empty rows   not disappeared" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_24" Name="after save and refresh in  First Applicant  " Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared</InArgument>
@@ -1450,12 +1458,22 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_16" Name="after save and refresh in  second CoApplicant  " Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">after save and refresh the information inserted in all fields  not saved and the empty rows not disappeared</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -1522,12 +1540,22 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $320,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_27" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total assets and Networth on the Deal Top Bar is not  $320,000.00</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">Total assets and Networth on the Deal Top Bar is not  $320,000.00</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
