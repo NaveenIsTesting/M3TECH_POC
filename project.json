@@ -54,12 +54,6 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "246fd687-2b6f-4d8f-8f8e-77dad2012bcd",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-10.xaml"
-      },
-      {
-        "editingStatus": "Publishable",
         "testCaseId": "901846e8-d040-4bad-9765-2e916f74dd69",
         "testCaseType": "TestCase",
         "fileName": "Testcases\\TC-7.xaml"
@@ -108,9 +102,15 @@
       },
       {
         "editingStatus": "Publishable",
-        "testCaseId": "fe6477b2-f74c-465e-a425-6a1b8b7a4192",
+        "testCaseId": "07b69e0e-30e8-4245-b510-66f022401bc9",
         "testCaseType": "TestCase",
         "fileName": "Testcases\\TC-9.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "246fd687-2b6f-4d8f-8f8e-77dad2012bcd",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-10.xaml"
       }
     ],
     "modernBehavior": true

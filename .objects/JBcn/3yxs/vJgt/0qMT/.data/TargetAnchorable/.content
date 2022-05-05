@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904397" ContentHash="_-uAry6bD0qLXS7WDB8KYQ" DesignTimeRectangle="526, 138, 16, 13" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='IMG' type='' aaname='' /&gt;" Guid="44d26d46-b64c-4de9-8d5a-b5276ae6180f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904493" ContentHash="rW8o1MpHUkKgD4RyEXiVsQ" DesignTimeRectangle="526, 138, 16, 13" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='IMG' parentclass='top-bar-button-container' title='Boss' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='IMG' parentclass='top-bar-button-container' title='Boss' type='' aaname='' /&gt;" Guid="1a5e6195-daf6-4561-b10b-e640df28acf2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
       <Target DesignTimeRectangle="547, 134, 157, 20" ElementType="Text" FriendlyName="'Add Applicant/'" FullSelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='top-bar' tag='SPAN' type='' aaname='Add Applicant/ Applicant Pair' check:text='Add Applicant/ Applicant Pair' /&gt;" SearchSteps="Selector">
-        <imageRef attrName="ImageBase64" xmlns="">3BsBu91gRlUyRzjtqGiKtSw</imageRef>
+        <imageRef attrName="ImageBase64" xmlns="">11s-KQDB2iUWeZVR2VpNrCA</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">02XlVKCQ-PU-JdWQAZA606g</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="30da1e53f9fa395e450f3ba7daac8509.png" xmlns="">0HmmIYNOt4UePHCsWNmX81w</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0PhjcVTD9mEKvd1hVhO1B8Q</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="30da1e53f9fa395e450f3ba7daac8509.png" xmlns="">0om7b6P76iUyOE3Sq2MpFJg</imageRef>
 </TargetAnchorable>
