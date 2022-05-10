@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="fx0IUdF87E6jh5eNh9iW6w" DesignTimeRectangle="352, 552, 174, 20" ElementType="Text" FriendlyName="'Household Goods'" FullSelectorArgument="&lt;webctrl id='react-select-107-option-7' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-107-option-7' tag='DIV' type='' aaname='Household Goods' check:text='Household Goods' /&gt;" Guid="184be638-2906-4596-b6b2-cdebc3937d88" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TargetAnchorable.Anchors>
-    <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="350, 530, 178, 24" ElementType="Text" FriendlyName="'Other'" FullSelectorArgument="&lt;webctrl id='react-select-107-option-6' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-107-option-6' tag='DIV' type='' aaname='Other' check:text='Other' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">1IWFvviIgHk6KqiVr5TWMpA</imageRef>
-      </Target>
-      <Target DesignTimeRectangle="354, 341, 149, 35" ElementType="Text" FriendlyName="'Life Insurance'" FullSelectorArgument="&lt;webctrl aaname='Life Insurance' parentid='mainApplicant[1].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Life Insurance' parentid='mainApplicant[1].type' tag='DIV' type='' check:text='Life Insurance' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">2eJtXbnKxeU-j1BWdWGig0Q</imageRef>
-      </Target>
-    </scg:List>
-  </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0AYid28003Em6_IHvwfxjYA</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="1e711b51c25908a5a54faeb390fbe365.png" xmlns="">0fRr4usTJyU6rkUuuO17CRA</imageRef>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904327" ContentHash="Cd5KAvQV4km2BS58pmBovw" DesignTimeRectangle="355, 608, 138, 28" FriendlyName="'chrome.exe Boss'" Guid="fd7f5486-d1c4-4f8c-a62a-8613b33403cb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0TrExLyXOGkime5u3Eax8JQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e903af3ec849433192dd091d1662f209.png" xmlns="">0pEVV4Urh0kuESsPli19AMg</imageRef>
 </TargetAnchorable>

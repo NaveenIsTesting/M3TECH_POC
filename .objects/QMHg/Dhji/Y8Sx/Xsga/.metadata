@@ -2,14 +2,14 @@
   "Id": "XsgaRwSkPEW4W8rYn9io9Q",
   "Reference": "ibK92gIPHUmRsRCnhmHO7g/XsgaRwSkPEW4W8rYn9io9Q",
   "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/Y8Sxjs3CmU6PP7zOVAzcIg",
-  "Name": "Co_applicant_highlight_total_value",
+  "Name": "Co_applicant_total_value",
   "Type": "Element",
   "TaxonomyType": "Element",
   "Created": "2022-04-19T13:33:09.0548868Z",
   "CreatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ],
-  "Updated": "2022-04-19T13:34:51.1221775Z",
+  "Updated": "2022-04-24T12:10:03.7479157Z",
   "UpdatedBy": [
     "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
   ]

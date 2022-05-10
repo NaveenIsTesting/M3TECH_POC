@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903955" ContentHash="n1AX-Yh7VkyFz8C8rKP7iA" DesignTimeRectangle="345, 313, 940, 112" FriendlyName="'chrome.exe Boss'" Guid="84e362b6-18aa-4e86-bee8-8ff94ded99d1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="335, 416, 951, 39" FriendlyName="'Start Date:date_rangeer…'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='40' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='border-box' tag='DIV' check:text='Start Date:date_rangeerrorEnd Date:date_rangeerrorStatus:Selecterror&amp;#xD;&amp;#xA;  &amp;#x9;.t14937fbb-98c6-4f09-abc4' /&gt;" SearchSteps="FuzzySelector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1kH8OpLz4sU2-tMziyNjmYA</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0_QcBOkejp0ujSqXTNl0eUg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="174768ee8f6a6a110c9304c7326accd0.png" xmlns="">0_YFwDdg3LUyi2oHHbYjNnQ</imageRef>
+</TargetAnchorable>

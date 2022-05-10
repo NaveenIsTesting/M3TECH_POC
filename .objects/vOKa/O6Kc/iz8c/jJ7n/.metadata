@@ -1,0 +1,14 @@
+﻿{
+  "Id": "jJ7nBBnxBE2B_iIm6addNA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/jJ7nBBnxBE2B_iIm6addNA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "App_lia Keyboard Shortcuts Payment",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-04-27T11:06:44.8019847Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-27T11:06:44.8019847Z"
+}

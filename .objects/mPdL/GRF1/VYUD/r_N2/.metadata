@@ -1,0 +1,16 @@
+﻿{
+  "Id": "r_N2C3sIWEyD0fD9ShMKRQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/r_N2C3sIWEyD0fD9ShMKRQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "App_liability_type_autoloan",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-25T11:59:49.5321722Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-25T12:04:34.7592154Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

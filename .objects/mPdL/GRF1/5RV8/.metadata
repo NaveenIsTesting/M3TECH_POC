@@ -1,0 +1,15 @@
+﻿{
+  "Id": "5RV8MzJaKkCH3j87e7v_rQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/5RV8MzJaKkCH3j87e7v_rQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/GRF1Bel_9kqYQ-znq8XG4g",
+  "Name": "Deal Screen",
+  "Type": "Screen",
+  "Created": "2022-04-29T11:30:12.258359Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T11:30:39.4358918Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

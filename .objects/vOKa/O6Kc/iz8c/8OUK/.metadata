@@ -1,0 +1,14 @@
+﻿{
+  "Id": "8OUKRhfq0EeW29vZihYcJw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/8OUKRhfq0EeW29vZihYcJw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Check App State chrome.exe Boss",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-27T09:18:24.2706729Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-27T09:18:24.2706729Z"
+}

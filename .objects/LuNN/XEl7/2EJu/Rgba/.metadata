@@ -1,0 +1,16 @@
+﻿{
+  "Id": "Rgba66aNvkCWcsAfFROaGA",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/Rgba66aNvkCWcsAfFROaGA",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/2EJuP6a62kKr_atNYYgQeQ",
+  "Name": "Co_App_Group2_App2_tickmark",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Created": "2022-04-29T05:11:14.7458654Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T05:13:00.1421035Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

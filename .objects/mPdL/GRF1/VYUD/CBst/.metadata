@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CBst3YP0kki9KjCxiddUGQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/CBst3YP0kki9KjCxiddUGQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "VIEW Deals",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-29T10:55:33.2104132Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T10:58:26.1661642Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

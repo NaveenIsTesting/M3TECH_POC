@@ -1,0 +1,17 @@
+﻿{
+  "Id": "geBrNXWoaE-ukyDEamrbHQ",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/geBrNXWoaE-ukyDEamrbHQ",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "App State 'Address' image",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2022-04-24T07:41:53.8999348Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-24T08:26:23.209089Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

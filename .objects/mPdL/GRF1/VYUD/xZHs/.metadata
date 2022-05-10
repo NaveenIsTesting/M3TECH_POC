@@ -1,0 +1,16 @@
+﻿{
+  "Id": "xZHs2-sX3UCsS_883cNcTg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/xZHs2-sX3UCsS_883cNcTg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "Applicantname",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-29T11:03:46.9165307Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-29T11:05:48.4830636Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

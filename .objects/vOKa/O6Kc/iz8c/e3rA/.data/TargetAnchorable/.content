@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904090" ContentHash="8GKEFRRE9EyE2bqJrw0esw" DesignTimeRectangle="8, 395, 270, 24" FriendlyName="'starsCredit &amp; Income'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;button&amp;gt;div' idx='2' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='side-nav' tag='DIV' check:text='starsCredit &amp;amp; Income' /&gt;" Guid="bc498dbf-fe85-45fa-a8d1-f88c0eafd0eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="28, 360, 230, 20" ElementType="Text" FriendlyName="'Mortgage Request'" FullSelectorArgument="&lt;webctrl aaname='Mortgage Request' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mortgage Request' parentid='side-nav' tag='DIV' type='' check:text='Mortgage Request' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">17vGenyLRY0mQ7I1b2_eWgg</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0lhHxQ8xhvkKPx14I2kZ02w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="945f3e8a27b1366752dd8055762b347a.png" xmlns="">07xlmcLJQZEeJkY9BVsI9dg</imageRef>
+</TargetAnchorable>

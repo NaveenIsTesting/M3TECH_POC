@@ -1,0 +1,17 @@
+﻿{
+  "Id": "r_LTU9pURUakttPL1nxMOg",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/r_LTU9pURUakttPL1nxMOg",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/iz8cedaJykWgqbAI0Jt1Dg",
+  "Name": "Click COPY LIABILITIES",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-04-27T05:55:20.3720067Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-27T07:00:30.2659336Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

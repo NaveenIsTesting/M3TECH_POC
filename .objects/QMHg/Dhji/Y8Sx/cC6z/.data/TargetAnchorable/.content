@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="rB3FGSAnZUu5y7ACmIvl5w" DesignTimeRectangle="350, 520, 178, 24" ElementType="Text" FriendlyName="'Savings'" FullSelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-108-option-1' tag='DIV' type='' aaname='Savings' check:text='Savings' /&gt;" Guid="1b183e0e-27c6-4dc4-b5d6-8a669dbe2680" Reference="ibK92gIPHUmRsRCnhmHO7g/cC6zftd9zE224Dpbf_zhmQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TargetAnchorable.Anchors>
-    <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="350, 386, 102, 20" ElementType="Text" FriendlyName="'Applicant: BOSS'" FullSelectorArgument="&lt;webctrl aaname='Applicant: BOSS' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Applicant: BOSS' type='' parentid='border-box' tag='DIV' check:text='Applicant: BOSS' /&gt;" SearchSteps="Selector">
-        <imageRef attrName="ImageBase64" xmlns="">1SY-SvuicqkGZ1jT3IwanIw</imageRef>
-      </Target>
-      <Target DesignTimeRectangle="352, 542, 174, 20" ElementType="Text" FriendlyName="'RRSP'" FullSelectorArgument="&lt;webctrl id='react-select-108-option-2' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-108-option-2' tag='DIV' type='' aaname='RRSP' check:text='RRSP' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">2lgWUIm2gIE6hI1RQayz3JA</imageRef>
-      </Target>
-    </scg:List>
-  </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">00bqSZJ1yIkCcE76J4eoO7Q</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="adeaf0d01df0bdaee96b6b63debe3fb0.png" xmlns="">0iKddx5JsrkGbnEh7bZ_87g</imageRef>
+<TargetAnchorable ContentHash="yDjyac2KJ0-a8VTv9ZatTg" DesignTimeRectangle="356, 525, 75, 24" FriendlyName="'chrome.exe Boss'" Guid="6106325d-8caa-4b01-8b19-edd5598b9909" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0bqL6xM_L6kuiE5n8OJwAaA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="92b1158fe4fa3b3a67588938d100717e.png" xmlns="">0yX8x3QR0EUG9i8FwhWt7Xg</imageRef>
 </TargetAnchorable>

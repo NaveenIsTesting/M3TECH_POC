@@ -1,0 +1,16 @@
+﻿{
+  "Id": "gP-j2MHIaki1BrK-hBRO1Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/gP-j2MHIaki1BrK-hBRO1Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/VYUDpTXQIUikR9H9FZPzIQ",
+  "Name": "App_liability_type2",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2022-04-25T11:56:18.1857596Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-04-25T11:58:55.5906061Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

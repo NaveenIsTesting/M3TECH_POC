@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="wVUGNfqpRkyOQKl6E6nrbw" DesignTimeRectangle="1287, 756, 213, 31" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[1].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[1].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="93f5cd16-179e-41ad-990c-3a10c2f4af07" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="OuVvIlG4h0evHVSYzDTXuw" DesignTimeRectangle="928, 420, 137, 25" ElementType="InputBox" FriendlyName="'$ 0.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[1].payment' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[1].payment' tag='INPUT' type='text' aaname='' /&gt;" Guid="93f5cd16-179e-41ad-990c-3a10c2f4af07" Reference="ibK92gIPHUmRsRCnhmHO7g/UdGUfF8dd0ionGwfbSIK4Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="1273, 518, 281, 25" ElementType="Text" FriendlyName="'Payment'" FullSelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Payment:' parentid='border-box' tag='DIV' type='' check:text='Payment:' /&gt;" SearchSteps="Selector">
-        <imageRef attrName="ImageBase64" xmlns="">16b1G44hUIk-_UGRTGl8z9w</imageRef>
+      <Target DesignTimeRectangle="736, 420, 137, 25" ElementType="InputBox" FriendlyName="'$ 1,000.00'" FullSelectorArgument="&lt;webctrl name='mainApplicant[1].balance' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[1].balance' tag='INPUT' type='text' aaname='' /&gt;" SearchSteps="Selector, Image">
+        <imageRef attrName="ImageBase64" xmlns="">1ATJ4FCR_ZEO4lwqoOaoRvw</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0Sdy6DNc3oEmHf2DLWMTSTQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="18b2f660ffdc478e1715b8f2e24b0b57.png" xmlns="">0WlH_DgIk6E68X6sw9p03xw</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">0DolvEJMJlUGBHJVYC4TUZQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="90a858d2526358d5d3151aa5b53c8681.png" xmlns="">0hrvP8I5xm025XlDMFtPL0g</imageRef>
 </TargetAnchorable>

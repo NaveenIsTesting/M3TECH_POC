@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="ozx7wjH9kUOnhQmkeQSHGg" DesignTimeRectangle="350, 455, 178, 24" ElementType="Text" FriendlyName="'Gift'" FullSelectorArgument="&lt;webctrl id='react-select-109-option-3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-109-option-3' tag='DIV' type='' aaname='Gift' check:text='Gift' /&gt;" Guid="9ffd163f-a5cc-4737-8019-fce1a3a0f161" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TargetAnchorable.Anchors>
-    <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="350, 281, 118, 20" ElementType="Text" FriendlyName="'Co-Applicant: boss'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' idx='4' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant: boss' type='' parentid='border-box' tag='DIV' check:text='Co-Applicant: boss' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">1qnssA0-O9UaD61Lsj0iXOw</imageRef>
-      </Target>
-    </scg:List>
-  </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">0G3GSO659zUq-W5FewYp4OQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="301c5669c7667d9f9f64c7228508a433.png" xmlns="">0_S1a8iayOUG1DdYkcnWWjQ</imageRef>
+<TargetAnchorable ContentHash="e-fW-edEtEe_aKh2rX2JmA" DesignTimeRectangle="355, 523, 61, 33" FriendlyName="'chrome.exe Boss'" Guid="3ca1d2c9-e7f1-4870-99e3-10c59cc0a051" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0cu811d7YuEan4SsUFVCDyQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ee58fed71aa5fc359e8775e303cb2445.png" xmlns="">07auMKy58T0q38LeDBRz9Ow</imageRef>
 </TargetAnchorable>
