@@ -6,7 +6,7 @@
     <x:Property Name="DOB" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>994,6641</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>994,6639</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="90">
@@ -110,15 +110,15 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1004,6576" sap2010:WorkflowViewState.IdRef="Sequence_19">
+  <Sequence sap:VirtualizedContainerService.HintSize="1004,6574" sap2010:WorkflowViewState.IdRef="Sequence_19">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,6484" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="962,6482" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="924,6256" sap2010:WorkflowViewState.IdRef="Sequence_1">
+        <Sequence sap:VirtualizedContainerService.HintSize="924,6255" sap2010:WorkflowViewState.IdRef="Sequence_1">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
           </Sequence.Variables>
@@ -243,20 +243,20 @@
               </InArgument>
             </ui:LogMessage.Message>
           </ui:LogMessage>
-          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase execution start" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="882,132" sap2010:WorkflowViewState.IdRef="StepStatus_12" Name="TC_ID :-C10443" Status="Info" TakeScreenshot="True" />
           <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="882,4341" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Newdealdetailpage" sap:VirtualizedContainerService.HintSize="882,4512" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,4125" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,4296" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
+                  <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase execution started" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="806,132" sap2010:WorkflowViewState.IdRef="StepStatus_12" Name="C10443" Status="Info" TakeScreenshot="True" />
                   <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="806,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="11f3a89f-f450-4cab-85b4-ec9e6bf2e3c4" Version="V1">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="xnScnNN7_EidAERyg5XQRg" DesignTimeRectangle="461, 239, 150, 25" ElementType="InputBox" FriendlyName="'First Name'" FullSelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant.firstName' tag='INPUT' parentclass='render-input' parentid='border-box' type='text' aaname='' /&gt;" Guid="1c0192b1-7213-4641-a8a9-cad0ee8dab3a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJoAAAAdCAYAAABSSnV3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGxSURBVHhe7ZvBjYQgFEC3NTuYPixmYiPj0SYmnq1gpwxGEPSj4IwrEjZ5L/kH8IsHXj5gwo8CyACiQRZm0bquU7fbTVVVRRCnQ7uknXLMoukHwzDYFsA5tEvaKccsmrYQICXSKUSDy0A0yAKiQRYQDbKAaJCFv4v2bEzeJupW/dqUhV41q7z6sc1S45tt7edV994+W+jvq5zgN6Ek9Dw5jou2mWAripTDCumLZfO896e+T3lGspV8k3jNqDOUSmLRRjUetRBhqmTN0zY9VmK9WlVXtWpfU3PG64+Nt/cdKIELKpqQxVSznUrjjWGX18BSuRCqhPAfOCeaFiMQrrKY6rYnhalWQkTTlmMFKpwTUgSVrHz0PDmSLJ1mv2T7D4smkSLHxvDEZI9WMslF8/ZURpZvl84Y3+y/QgcJKImLRHNy7UniyxGvfiJvR9zQaRTKIblomwk3cnz+beGk3MjiyRU5DMgqCkVyTjQtxjqCVWm7gQ8vc1YkmRuTWeawPysePU+OY6IBHADRIAuIBllANMgCokEWgqJxCwpSEr0Fxb1OImVol4L3OgGuBNEgA0q9ASF0d5z0WK0qAAAAAElFTkSuQmCC" InformativeScreenshot="682f55e21b396b6d52fc6501b84d5b31.png" IsResponsive="True" Reference="ibK92gIPHUmRsRCnhmHO7g/D3I7t80apEiP6hDAKJdESA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
@@ -377,15 +377,23 @@
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Alerts Message is not Visible to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_2" Name="Alert Message not Displayed" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal 'button on the BOSS Top Bar
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal 'button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -click create
--Click on green check button present near the Save button </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C10443</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Click on green check button present near the Save button </Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <Literal x:TypeArguments="x:String">UIP</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C10443</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -426,16 +434,24 @@
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Error List is not Visible to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_4" Name="Error List not Displayed" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal ' button on the BOSS Top Bar
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal ' button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -click create
 -Click on green check button present near the Save button  (see Expected results 1)
--click on the red pull-out tab to expand Errors list</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C10443</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-click on the red pull-out tab to expand Errors list</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <Literal x:TypeArguments="x:String">UIP</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C10443</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -476,17 +492,25 @@
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Applicant DOB field is not cursor ready" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_6" Name="Applicant Birth Date is not ready " Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -click create
 -Click on green check button present near the Save button 
 -click on the red pull-out tab to expand Errors list 
--click on 'Applicant BirthDate is mandatory 'validation rule from the list </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C10443</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-click on 'Applicant BirthDate is mandatory 'validation rule from the list </Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <Literal x:TypeArguments="x:String">UIP</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C10443</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -512,7 +536,7 @@
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="928,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="928,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -523,7 +547,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
                   <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">exception.Source.ToString()</mca:CSharpValue>

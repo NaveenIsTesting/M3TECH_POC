@@ -118,14 +118,14 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="test1" sap:VirtualizedContainerService.HintSize="966,8036" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="test1" sap:VirtualizedContainerService.HintSize="966,8208" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="TestCase1" sap:VirtualizedContainerService.HintSize="924,7944" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence DisplayName="TestCase1" sap:VirtualizedContainerService.HintSize="924,8116" sap2010:WorkflowViewState.IdRef="Sequence_8">
               <Sequence.Variables>
                 <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
               </Sequence.Variables>
@@ -270,13 +270,13 @@
               <l:Login sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Login_1" />
               <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Login Success." DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="882,132" sap2010:WorkflowViewState.IdRef="StepStatus_9" Name="Login" Status="Info" TakeScreenshot="True" />
               <l:Clickondealbutton sap:VirtualizedContainerService.HintSize="882,22" sap2010:WorkflowViewState.IdRef="Clickondealbutton_1" />
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="New_Detail" sap:VirtualizedContainerService.HintSize="882,6208" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="9f7104f9-a748-4919-926c-0582e3b37678" Version="V1">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="New_Detail" sap:VirtualizedContainerService.HintSize="882,6380" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="9f7104f9-a748-4919-926c-0582e3b37678" Version="V1">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,5992" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="848,6164" sap2010:WorkflowViewState.IdRef="Sequence_7">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -645,6 +645,7 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
+                      <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase executed  succesfully" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="806,132" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name=" C73 " Status="Info" TakeScreenshot="True" />
                     </Sequence>
                   </ActivityAction>
                 </uix:NApplicationCard.Body>
@@ -654,7 +655,6 @@
               </uix:NApplicationCard>
             </Sequence>
           </Sequence>
-          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase executed  succesfully" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="966,132" sap2010:WorkflowViewState.IdRef="StepStatus_8" Name="TC_ID :- C73" Status="Info" TakeScreenshot="True" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
