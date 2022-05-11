@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC_5" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_5" this:TC_5.URLaddress="https://devboss5.mortgageboss.ca/#/main/dashboard" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Firstname" Type="InArgument(x:String)" />
@@ -17,9 +17,10 @@
     <x:Property Name="App_Description2" Type="InArgument(x:String)" />
     <x:Property Name="App_Asset_value_2" Type="InArgument(x:String)" />
     <x:Property Name="Co_App_Gift_Description" Type="InArgument(x:String)" />
+    <x:Property Name="URLaddress" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1499,10531</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1499,11753</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="45">
@@ -118,13 +119,13 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1509,10466" sap2010:WorkflowViewState.IdRef="Sequence_14">
+  <Sequence sap:VirtualizedContainerService.HintSize="1509,11688" sap2010:WorkflowViewState.IdRef="Sequence_14">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1467,10374" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1467,11596" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -132,7 +133,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1429,10147" sap2010:WorkflowViewState.IdRef="Sequence_13">
+        <Sequence sap:VirtualizedContainerService.HintSize="1429,11368" sap2010:WorkflowViewState.IdRef="Sequence_13">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
             <Variable x:TypeArguments="sd:DataTable" Name="Exce" />
@@ -426,13 +427,13 @@
               </InArgument>
             </ui:ForEachRow.DataTable>
           </ui:ForEachRow>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="1387,8335" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Dashboard" sap:VirtualizedContainerService.HintSize="1387,9556" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1353,8119" sap2010:WorkflowViewState.IdRef="Sequence_84">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1353,9340" sap2010:WorkflowViewState.IdRef="Sequence_84">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="ReadOut" />
                   </Sequence.Variables>
@@ -476,15 +477,15 @@
                       </Sequence>
                     </ui:CommentOut.Body>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,326" sap2010:WorkflowViewState.IdRef="CommentOut_63">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,327" sap2010:WorkflowViewState.IdRef="CommentOut_63">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,248" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,249" sap2010:WorkflowViewState.IdRef="Sequence_124">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ClickType="Single" DisplayName="Click 'VIEW Deals'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                        <uix:NClick ClickType="Single" DisplayName="Click 'VIEW Deals'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904332" ContentHash="M0FagqRUEkSaOH3_UL5gpA" DesignTimeRectangle="915, 173, 475, 54" FriendlyName="'VIEW Deals'" FullSelectorArgument="&lt;webctrl parentid='react-autowhatever-1-section-0-item-0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='react-autowhatever-1-section-0-item-0' tag='DIV' type='' aaname='' check:text='View more results' /&gt;" Guid="83b5aab8-ca54-4547-91e9-7587e86cf9cc" ImageBase64="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" InformativeScreenshot="fd041df91adea07d62198045c0e3c051.png" Reference="ibK92gIPHUmRsRCnhmHO7g/CBst3YP0kki9KjCxiddUGQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                               <uix:TargetAnchorable.Anchors>
@@ -498,15 +499,15 @@
                       </Sequence>
                     </ui:CommentOut.Body>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,326" sap2010:WorkflowViewState.IdRef="CommentOut_64">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,327" sap2010:WorkflowViewState.IdRef="CommentOut_64">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,248" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,249" sap2010:WorkflowViewState.IdRef="Sequence_125">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ClickType="Single" DisplayName="Click 'Search_for Results'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" Version="V1">
+                        <uix:NClick ClickType="Single" DisplayName="Click 'Search_for Results'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" Version="V1">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/advanced-search?module=lead&amp;searchQuery=01-0000-02455027" ContentHash="iTjIPc2K_EitIoAes0NKgA" DesignTimeRectangle="1004, 278, 130, 40" FriendlyName="'SEARCH'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div' parentid='page-container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='page-container' tag='DIV' aaname='' check:text='SEARCH' /&gt;" Guid="bbe00c0a-af2c-47b2-a6b8-808df14ab47d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIYAAAAsCAYAAACg/sAZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQUSURBVHhe7ZxPTttAFId9iPYAOUKv0GWPwJYjZNkrsESqKiF2dBU2lZCQEBKoUiqEFLpog4gSp0pEHAWCyR/i2o55nd+Mx7GdQaUSpYDfSJ+ox+PJKO/zzLMLY0VRRPP5nIIgIN/3yfM8yWw2YwqAjjdiDwfgApywwjCUlWg0nU5pPB7TaDQi13WZAoBYI+aIPRyAC3DC0lJ8/HFBrz81ydo8YwoIYg8HtBwW/gFrWAoGDsAFOGFhChkOh8aGTPGAC3DCwvoyGAyMjZjiARfghIWpo9/vGxsxxQMuwAkLmanjOMZGTPGAC3CCxWAyZMTo9XrGRkzxgAssBrMEi8EYYTEYIywGY4TFYIywGIyRZyVGqTqm2jSipPghVU97VIrPb1zH9fni31A51Y9VcamGbqJftF5J1QvKvVT/uvgB7X9ffA4oHbhUzYwl20aNxaeN1DVA919vZOufGs9HjN1rqs/FNzoPqdYd01ZzSrXZrai4pfpZV7ZRwRCyNHE+xemA3qb6KjV8NJSl3rAXnyFQgRN9ys8QtD2y8bmirlqL2+3FY4ki1a59Q3XZZX4sLMa/Jw6m3VZfvKQyJhuVk4kM/F3ByNKlrZFoFoTkBOLnaJyRRgUuov2j1DUnHnmi1huo/31eG4oDiHKSkmo3HstsSivimMV4LGoqOOR5tHaQvcs19xLjcEqOaOV0+3GQQto5XJw3inF0Qy66Hl6J4wHtw9H88iSEK5+K2aMxZDEeF5vK56H8UlE8L6DqTxGEVI6ggpEv2SCvdtGHkOGLOP6ykESfXxLjc5+2rrFkIZiYrcQygoMlMbKYx7IoLMYDUzoY0nY/IFeu+6LMxV25p86pYORzDJfKu/r6C6pi+YiXHmuzRzszcRx49D7uX9/R+eL0r+idbPM3YiznOzuJZObrngrPTowFNq00fbW8yCn+7uk7QS9HS2WRWCoxdPI5IXGJKAFtx/LxUvLEUAlfbu3Xd+8fEj6FTeuyj/xd7MnlRMuVX0pKOvG8uk6S1GQsx6lcp3K/sbAYD0zpOE4Ak8fVCVUnalp2z9WvJN41fcvHVf3uIllGNF3anoj6+J1GXgycV/2mnkL2xBMImumx8OPq/+XN19wLrjneI+i1XwfDUMS0/6GF5CL3uBuz0lFJrd0Sy8GSGII4ScVssBrXqZdtSkxZ+AUXUwRYDMYIi8EYYTEYIywGY4TFYIywGIwRFoMxwmIwRlgMxgiLwRjJiMF/1Mxo+K/dGSOJGLxxCpMm2ThFb7XEm7MxcCDZaklvzrb+zaFXLEdhQezhQLI5m97O8fLyUmaknU6H2u022bZNrVaLms0m8wJBbBFjxBoxR+zhAFyQ2znqDWBRAVswlWCdQRICcAHz8tDxRawRc8ReS+H7Pv0GBQ/XIXpls0EAAAAASUVORK5CYII=" InformativeScreenshot="80c779b086625a113f3776f6bf516954.png" Reference="ibK92gIPHUmRsRCnhmHO7g/HKH3waAlk0O4Z63n4KL9Rg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                               <uix:TargetAnchorable.Anchors>
@@ -520,15 +521,15 @@
                       </Sequence>
                     </ui:CommentOut.Body>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,326" sap2010:WorkflowViewState.IdRef="CommentOut_65">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1311,327" sap2010:WorkflowViewState.IdRef="CommentOut_65">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,248" sap2010:WorkflowViewState.IdRef="Sequence_126">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,249" sap2010:WorkflowViewState.IdRef="Sequence_126">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ClickType="Single" DisplayName="Click 'Applicantname'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" Version="V1">
+                        <uix:NClick ClickType="Single" DisplayName="Click 'Applicantname'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" Version="V1">
                           <uix:NClick.Target>
                             <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/advanced-search?module=lead&amp;searchQuery=01-0000-02455027" ContentHash="UsYHd2txNEuAPWI22S956A" DesignTimeRectangle="51, 459, 200, 55" ElementType="Text" FriendlyName="'BOSS Automation'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' aaname='BOSS Automation' check:text='BOSS Automation' /&gt;" Guid="9d26546d-426d-42fc-8301-d3125c018627" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAA7CAYAAAA3tWVTAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVFSURBVHhe7Zk/a+NIGMbzVfQlpjRpwhbnKu4MWwiuCCycYSGYg5DmMIFgUiziIJjAYQ6CWVhQYEHFgooFN4dTBC3H4hTGKRZUGFQsuAg8NzOa2JKcP34xl+xxzw9eyGjs0Z+8v3ln5K3ZbAYGg7FeUBgGQxBbk8kEDAZjvdgCIWRtKAwhAigMIQIoDCECKAwhAigMIQIoDCECKAwhAigMIQIoDCECKAwhAigMIQIoDCECKAwhAigMIQIoDCECKAwhAigMIQIoDCECKAwhAigMIQIozIuTYXqdur/Jj45ImNE7D563DPXKR+dijLnrt2QJBgc+auYzagf+UYhx5vosGUanbTS2zRgKOz93EH4tfGA2Qm+/8cj3V8miNryfekhcey2+hdjzAoxc89monve6j6bqIP7u2uSHRi7Mu0KKpREOVR29L649TxDsKrTOE2S3pp0hOW9B7S6TOTlroH4UI3WWZV8HaCkfg4lpJejt1tH5lDoJM4zN9/0BprZ9H1MM/CaarxW6w5K6j/OjCEP+U2wmDFKEbzy0PuZLivRiD95+pNO8SIZo38PhJ3M0/3znczmxk7OmlSRPpg7Kea8leq1n4IdWLV96qL8eIPncWTm3ud69i8IXLwN4b0L8ba6zUCmDy7x7fh2i49fssdpuG/0rN5q9rkP0LzrwTWXUla/1R4LpXz20Xin9+ZquhHFBalNFW9hRZvxln30+1fNWBTIV9pcdKN1vK3i0HNXez58R+q6/5uvncuM6ybOwkTDzSYjWdgvRt7y9kqCO6Xlz8b30o64Y23voxWNkKwUhRfRWofamh/g6Ky/1HiA5rcN/r5NqPkRX7SF012J4SBh7ZCVRY10tGwiGuSR55XPj2c/mlc9yM9BtD/WToaukY/T95UQwfe9DvQ0xNX23ugLqSWJxHdXzltqmwuoK/WGa33sao6srbnCZj2uf/27XTR4Zhid1qNIERv5tNtrDeN4O2h/vZsC8ktwnjJ1ZC//Y7CpEYGfJe/YwepzkIshn7qf2MFaSu+XcHMNjlcvjkAhjRPaOhiVJjYzNcz1eNcl1vQj3lpXJUDrX96w0GUw/FO7/MWGuAihdLZd3oJ+G2Z+563r0fsizsNmSbG5mT+WWW/f8Qx3FClPiVu9R4gC+ntkX+6AiszHi3/VsXdgDFbHJVNzf6ARShc2/SJiK1IbFsRVh8qXlw8KMER75bknmYh1h7hOgcIzCvDwb7mHKiWb/fmwPo5c9nXv2I6OTPBGyTx00f4srCTBC1ysvtXLypC1XPBNqsfkXCfNAhamfaf1EwrhKdzbKl2uakoyPCfNQhTmI7TOlMC/PZsLMEvR14rQjp0j1LZmuIOW3ZBniA4XG8fIt2fybWaerPMndPqKrjcq753oZ30VDdSsvAjSTAXyvjWjm2g7zFk4d54lvE1UnlE3AeYr4qF4R5nD5Oreyh7H7s7vlnkgYc4/6b700tJesn9FA78vKwhTOWxq7soeZDe3zXGsCIM/CZnuY7Qbap3omdf2Wp36HuU0xXPwOk7+NCqLCbznpcPk7jFdDYz9AdL3oXWBnf52EKz2zCO07kfSSMfz17o1TC/3Tw0KCpYhsn0JwZQ888ZZsXWE0N7qS3o3jBxicaXEX1aty3urYT70lozAvikgYQv7vUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBFAYQgRQGEIEUBhCBGxNJhMwGIz1YivLMjAYjHUiwz8Dr9RAFIMPBwAAAABJRU5ErkJggg==" InformativeScreenshot="2d7c4bf3a5f246ed7eb655ff7779d21d.png" Reference="ibK92gIPHUmRsRCnhmHO7g/xZHs2-sX3UCsS_883cNcTg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                               <uix:TargetAnchorable.Anchors>
@@ -542,7 +543,7 @@
                       </Sequence>
                     </ui:CommentOut.Body>
                   </ui:CommentOut>
-                  <uix:NClick ClickType="Single" DisplayName="Click 'Assets'" sap:VirtualizedContainerService.HintSize="1311,156" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                  <uix:NClick ClickType="Single" DisplayName="Click 'Assets'" sap:VirtualizedContainerService.HintSize="1311,157" sap2010:WorkflowViewState.IdRef="NClick_29" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904350" DesignTimeRectangle="68, 405, 190, 20" ElementType="Text" FriendlyName="'Assets'" FullSelectorArgument="&lt;webctrl aaname='Assets' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assets' parentid='side-nav' tag='DIV' type='' check:text='Assets' /&gt;" Guid="b4184473-b012-455d-ad8a-a6639e9d1f08" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMIAAAAYCAYAAACoRCJ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL2SURBVHhe7ZixTxpRHMf9M2517Mjo2nRydGR1ZOzIyujoSCSaEpsamw7Ykqh10TaRlNTYaO44DhRQxMBxSHIhwXz7e9wdHEg7gTHxO3wSuN977274fd77/d4CHrsg5LVDEQgRKAIhAkUgRKAIhAgUgRCBIhAiTBXBzplY2Coh338amy0NpD/pSFxOixHyfEwR4Q7JbQNv0zri5+2J2KyhCORl8FQEs4RIuoz8mZwKu9eww7FuHelMAYsbOhZSOqJHN3CDWLOKtR0d2iBWwPtfjdG8UEzbNLFutoDGFVbU2IBsTcZ2YF9YiG56zxa3i9ird0brEDInJkToIH9gYPn4DnCriEtCpxujeP67gcjXKmxVMjlVJD4Ep0YTe591rKh5amztClGZm6zJ7/4t1mRc9ETFJNGNEpZTRRy6as2JE8GpILah5jny34F1YkLbLsPy30/IvBgXwU/+QQI/tnGY0T0p/Lh1XIC2U8KPW9t71m3CdtWO7Y1dylRw0VJidOA+NOH2ZIxhQZMTZpTM4eSfEGHwfgPxXN1bt9+G7fjvImSOjIkwaJLDO/ClJHG4ae43cZErYlV2eE2VRvv+6aBivQYOj0ysbPml0c+6VzbJGsPyJ0T09F7mTekR7qtY/1LAkqyvSqN0WcqoIEbInAiJ4CXltKT1yp/QLq/Gu9JUy3gvoR24TgtuIEW7grgIkTDktzoRPl79o7yZEKFnw34IGnQH9nkRkZSF/NgcQmbPSIRaGcsbJnZb4QHSM0hfoGWqsrv7pdLBjXcK9MIiqJsmHbFTv0GW/mEogluTXsJALHfniSIC7WalvHLU+p4Isd/+rq++ISXfcK96BOkn/lAE8jz4InhNciRbG90CBbSusRoI0r1BUsqW4a1RtgIrOAXqFSRCt0ax4//cKAVlk3Ar5dgbWUvb926NrLNi6NbIRFLdMAXrEDInxptlQl4pQxEm+4KXxLtv5ScfTsgs4YlAiEARCBEoAiECRSBEoAiECBSBkMcu/gK7jboFQ16OmQAAAABJRU5ErkJggg==" InformativeScreenshot="be87d7016e877c1e080723b58f10299d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                         <uix:TargetAnchorable.Anchors>
@@ -553,7 +554,7 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1311,6006" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1311,7223" sap2010:WorkflowViewState.IdRef="Sequence_101">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Default="vehicel" Name="variable1" />
                       <Variable x:TypeArguments="x:String" Name="verifyDP" />
@@ -563,6 +564,8 @@
                       <Variable x:TypeArguments="x:String" Name="TotalAssetValue" />
                       <Variable x:TypeArguments="x:String" Name="TotalNetWorthonTopBar" />
                       <Variable x:TypeArguments="x:String" Name="TotalAssetValueonTopBar" />
+                      <Variable x:TypeArguments="x:String" Name="ApplicantTotalAssetsvalue" />
+                      <Variable x:TypeArguments="x:String" Name="GetCoApplicantTotalAssets" />
                     </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -570,7 +573,7 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Gift'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NClick_30" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Gift'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NClick_30" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903942" DesignTimeRectangle="354, 527, 149, 35" ElementType="Text" FriendlyName="'Gift'" FullSelectorArgument="&lt;webctrl aaname='Gift' parentid='coApplicant[0].type' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Gift' parentid='coApplicant[0].type' tag='DIV' type='' check:text='Gift' /&gt;" Guid="5722eb56-93f9-4dfc-bfb1-8957ad4c8a55" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJkAAAAnCAYAAAAcnOq/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIzSURBVHhe7Zu/a9tAGIb1P92kIRDjoXQIGKIpEGjaxQQS6OAlpUNCoHiJ0NCl4C5eGlKKM5QWiguBDEWL0RDQZEKKhoLTgKA0AsHbO0f+UZGkkZuvxfb7wIN9J2l7OJ0Esr7/vMS02X27jlLpAR6/6uBr/vjpAaqlPRzl5+l/cyojo9MlI6PiMjIqrnV+mYJSSRkZFdeqVCr6Sa1EqZhWGIYgRBIr+yVEDEZGxGFk5N4x+7Bx7imyBFEnQPQjGxqiNuqPFqGUgtvJ5shcMFlkaYRjrwanrPrRLC7X4B5F2UFDgEbZxs7nOBvHaG8pOJ6PONVDY8fV17r6TDLrFI9MB9Z6asPZbiH8luhxgt7JPjYXbDz7NIgqTw+tjdwKxsjmhsKRJV/qsBfq8HVf48Qfa1Cr++j2RwHc4W3x6r9Z8a508c4bH/P2OesUjix8vQT14ljvum5jPDIDV7J5pnBkgVmFvD+lwcjIiL+OrD8e3voG0TAyMqJwZN03K1Bbbf28mOO3aBgZGVE4Mpw0sKRq+HCRjQcwMnIDxSPTW/7Ac2A/eQn/LEaS6pmLCL63BrXcvObp0nBNZFELVRNrL0Fy+1MEmXImiEyTxggP61h7aOvVSO/Fyg6qz5vwe9nxu0Sm59q7K7D1eZvvhxeSGWSyyAgpACMj4jAyIg4jI+IwMiIOIyP/HEZGxOHXSkQcfndJxeUX5FRcRkbFZWRUXEZGxeXGn4rLVxhEHL6MJeIwMiIM8AsC52MUT9x70wAAAABJRU5ErkJggg==" InformativeScreenshot="8dc068d3cfa9a45326f3aa94db6ed1c0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                           <uix:TargetAnchorable.Anchors>
@@ -581,7 +584,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Co_applicant_select_Gift_to_vehicle'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Co_applicant_select_Gift_to_vehicle'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903738" ContentHash="NGXmP1YwbU2lVHB8OT3m2g" DesignTimeRectangle="352, 416, 174, 20" ElementType="Text" FriendlyName="'Gift_to_vehicel'" FullSelectorArgument="&lt;webctrl id='react-select-132-option-4' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-132-option-4' tag='DIV' type='' aaname='Vehicle' check:text='Vehicle' /&gt;" Guid="03b628d0-eba7-454d-bd50-6b23f4104a81" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAYCAYAAABeDafgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM2SURBVHhe7Zmxa9tAFIfvr7gx0MGQoZ6SPWCNJkMEgZIpoZM8BJPBaIrpENKhiEBBmZQh4IBBGQrKUJSh4EDAGQIiGDR0EHjwli1DIPn1TlLlU2SI7dJSK+/gA5/enbV89+7diUG0u7s7jEYjglg4pLv39/cgkYmFRrr78PBAIhOLjXT38fGRRCYWG+nu09MTiUwsNtLd5+fnfydycFwHa3kTY5LoxoN3E02M5fFgMgbzYlKMeGtId2WbTuSBgy1WRfuyGIvOm+BsB52fxZjKayL7+0vgHzsIJ8TykMjEmNlEHkVwGwy8IKJ4vsvBd11EuedFXhN5ekhkYkwmcq/Xm0LkNPNyE576PHLR5FyRqg+3paPCGRivQD/wswwbi7zXgX+Qxt9pME772X95LfFMFX3gob1REdk+HXvcSxdLUeR+14S+zMEYR2XjEH44jhHlRrorHZ5a5FignLRC7q4B9r4NP+5H8PaqWG25CIeiP/BxuM5QPw7isbHIbBXNswDRMELYbaIqS5JUupzIkQ9zhUP/2k/kDTpoin7zXNbQeZGjb+J/Vky4A9EfhvA/i/es2wjkPKL0ZCJPV1ok+PtVpYxIyo3qJz+J39qoMwNuNB4fi77pxFLFIjfUEkQKKRbG96SvihzPW7PQz8aOEF5YaMcZXBU5gC0Wi9FVDolilzCYDicYzyXKi3Q3Li1mEXl02UaVNxNZww52mAbrOo1dmCLjChlfkmbHYo2cz6yqyEkZoo5VUeclv4vvrcO+fTmPKCPziSxqYGst2eLD0x2wmpI1pchZmVHk74k8+TaFeBvMKbI4WB1porxwYG8zbJ2E49i1BU3N0C+YReRJpYW8Z3av5PvUeWJh1Ri0o/GhkXhbzC1yUgvL7XsLjjxgZbEQnW0OvmmhJw9w8uD1RYcmamhZF88i8iyHPbkzcK7D+pEsqvDSgl4TO4NSqxPlZX6RhbDOByFd7uCWMuzDaWjJ9Rpbgtaw0Us/lMwkskS5fuPLOsyz31k3P0/SPzGgxddvDEs1A/bVNF8IiTLwByITxP8DiUyUAhKZKAUkMlEKSGSiFJDIRCkoiEyN2iI2EplaKVriLvAL1YgUB+XkWUIAAAAASUVORK5CYII=" InformativeScreenshot="659d043fb548e49b921aef06a15d916c.png" Reference="ibK92gIPHUmRsRCnhmHO7g/1ulCbWNer0ynRMoCWxLtww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                           <uix:TargetAnchorable.Anchors>
@@ -593,16 +596,16 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Vehicle'" sap:VirtualizedContainerService.HintSize="1269,1215" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Vehicle'" sap:VirtualizedContainerService.HintSize="1269,1225" sap2010:WorkflowViewState.IdRef="NCheckState_13" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="839,999" sap2010:WorkflowViewState.IdRef="Sequence_117">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="839,1007" sap2010:WorkflowViewState.IdRef="Sequence_117">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The Downpayment field in the asset section was diabled" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="797,132" sap2010:WorkflowViewState.IdRef="StepStatus_56" Name="DownPayment field disabled" Status="Pass" TakeScreenshot="True" />
-                          <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Vehicle'" sap:VirtualizedContainerService.HintSize="797,156" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The Downpayment field in the asset section was diabled" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="797,134" sap2010:WorkflowViewState.IdRef="StepStatus_56" Name="DownPayment field disabled" Status="Pass" TakeScreenshot="True" />
+                          <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Vehicle'" sap:VirtualizedContainerService.HintSize="797,157" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                             <uix:NGetText.Target>
                               <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904463" DesignTimeRectangle="1012, 462, 188, 25" ElementType="InputBox" FriendlyName="'$ 10,000.00'" FullSelectorArgument="&lt;webctrl name='coApplicant[0].downPayment' tag='INPUT' type='text' parentclass='render-input disabled' parentid='border-box' title='Boss' /&gt;" FuzzySelectorArgument="&lt;webctrl name='coApplicant[0].downPayment' tag='INPUT' type='text' parentclass='render-input disabled' parentid='border-box' title='Boss' aaname='' /&gt;" Guid="de32ffb2-3f84-442a-8abb-ca2a6d0f351a" ImageBase64="" InformativeScreenshot="261b0e3f0052ed55d196f560f9b6ba60.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                                 <uix:TargetAnchorable.Anchors>
@@ -618,31 +621,31 @@
                               </OutArgument>
                             </uix:NGetText.Text>
                           </uix:NGetText>
-                          <If sap:VirtualizedContainerService.HintSize="797,537" sap2010:WorkflowViewState.IdRef="If_8">
+                          <If sap:VirtualizedContainerService.HintSize="797,542" sap2010:WorkflowViewState.IdRef="If_8">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60">verifyDP=="$ 10,000.00"</mca:CSharpValue>
                               </InArgument>
                             </If.Condition>
                             <If.Then>
-                              <Sequence sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_119">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Value automatically updated to zero" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_58" Name="Values updation" Status="Pass" TakeScreenshot="True" />
+                                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Value automatically updated to zero" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_58" Name="Values updation" Status="Pass" TakeScreenshot="True" />
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                              <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_120">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Value does not automatically  updated to  zero" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_59" Name="Values updation" Status="Fail" TakeScreenshot="True" />
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                                <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Value does not automatically  updated to  zero" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_59" Name="Values updation" Status="Fail" TakeScreenshot="True" />
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
@@ -661,13 +664,13 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_118">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_118">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The Downpayment field in the asset section was not diabled" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_57" Name="DownPayment field disabled" Status="Fail" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The Downpayment field in the asset section was not diabled" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_57" Name="DownPayment field disabled" Status="Fail" TakeScreenshot="True" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
                       <uix:NCheckState.Target>
@@ -680,7 +683,7 @@
                         </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
-                    <uix:NMouseScroll DelayBefore="2" Direction="Down" DisplayName="Mouse Scroll 'Downpaymentsection'" sap:VirtualizedContainerService.HintSize="1269,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_11" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
+                    <uix:NMouseScroll DelayBefore="2" Direction="Down" DisplayName="Mouse Scroll 'Downpaymentsection'" sap:VirtualizedContainerService.HintSize="1269,258" sap2010:WorkflowViewState.IdRef="NMouseScroll_11" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
                       <uix:NMouseScroll.SearchedElement>
                         <uix:SearchedElement DisplayName="{x:Null}">
                           <uix:SearchedElement.Target>
@@ -707,7 +710,7 @@
                         </uix:TargetAnchorable>
                       </uix:NMouseScroll.Target>
                     </uix:NMouseScroll>
-                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Gift'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Timeout="5" Version="V1">
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Gift'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Timeout="5" Version="V1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" DesignTimeRectangle="654, 413, 243, 25" ElementType="InputBox" FriendlyName="'Gift'" FullSelectorArgument="&lt;webctrl name='downPaymentArray[3].description' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='downPaymentArray[3].description' tag='INPUT' type='text' aaname='' /&gt;" Guid="739c87dd-79a0-47ab-894a-e682bf9337df" ImageBase64="" InformativeScreenshot="a57481bd0fe32c25588b19faefd800c3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -723,31 +726,31 @@
                         </OutArgument>
                       </uix:NGetText.Text>
                     </uix:NGetText>
-                    <If sap:VirtualizedContainerService.HintSize="1269,537" sap2010:WorkflowViewState.IdRef="If_6">
+                    <If sap:VirtualizedContainerService.HintSize="1269,542" sap2010:WorkflowViewState.IdRef="If_6">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_52">DownPaymentGift==" "</mca:CSharpValue>
                         </InArgument>
                       </If.Condition>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_111">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_111">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="The old asset type gift is  removed  from  the Downpayment section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_52" Name="The  asset-gift  " Status="Fail" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="The old asset type gift is  removed  from  the Downpayment section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_52" Name="The  asset-gift  " Status="Fail" TakeScreenshot="True" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_112">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_112">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The old asset type gift is not removed  from  the Downpayment section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_53" Name="The asset -gift  " Status="Pass" TakeScreenshot="True" />
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The old asset type gift is not removed  from  the Downpayment section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_53" Name="The asset -gift  " Status="Pass" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
@@ -763,7 +766,7 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <uix:NMouseScroll DelayBefore="3" Direction="Down" DisplayName="Mouse Scroll 'Scroll_assest'" sap:VirtualizedContainerService.HintSize="1269,256" sap2010:WorkflowViewState.IdRef="NMouseScroll_12" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
+                    <uix:NMouseScroll DelayBefore="3" Direction="Down" DisplayName="Mouse Scroll 'Scroll_assest'" sap:VirtualizedContainerService.HintSize="1269,258" sap2010:WorkflowViewState.IdRef="NMouseScroll_12" InteractionMode="HardwareEvents" MovementUnits="10" Version="V1">
                       <uix:NMouseScroll.SearchedElement>
                         <uix:SearchedElement DisplayName="{x:Null}">
                           <uix:SearchedElement.Target>
@@ -790,26 +793,26 @@
                         </uix:TargetAnchorable>
                       </uix:NMouseScroll.Target>
                     </uix:NMouseScroll>
-                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="1269,594" sap2010:WorkflowViewState.IdRef="NCheckState_12" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Assets'" sap:VirtualizedContainerService.HintSize="1269,599" sap2010:WorkflowViewState.IdRef="NCheckState_12" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_94">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_94">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value displayed at each applicant asset  section validated,before saving" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_41" Name="Validating total asset value" Status="Pass" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value displayed at each applicant asset  section validated,before saving" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_41" Name="Validating total asset value" Status="Pass" TakeScreenshot="True" />
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_95">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_95">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value is not displayed at each applicant asset  section validated before saving" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_49" Name="Validating total asset value" Status="Pass" TakeScreenshot="True" />
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value is not displayed at each applicant asset  section validated before saving" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_49" Name="Validating total asset value" Status="Pass" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
@@ -834,7 +837,7 @@
                         </uix:TargetAnchorable>
                       </uix:NCheckState.Target>
                     </uix:NCheckState>
-                    <uix:NClick ClickType="Single" DisplayName="Click 'Mortgage Information'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NClick_33" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NClick ClickType="Single" DisplayName="Click 'Mortgage Information'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NClick_33" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904369" DesignTimeRectangle="68, 544, 190, 20" ElementType="Text" FriendlyName="'Mortgage Information'" FullSelectorArgument="&lt;webctrl aaname='Mortgage Information' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mortgage Information' parentid='side-nav' tag='DIV' type='' check:text='Mortgage Information' /&gt;" Guid="9ed738a2-8b78-4521-9e8b-63ed147f747b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMIAAAAYCAYAAACoRCJ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAVcSURBVHhe7ZnfS1tJFMf3r/EpT/GhFHIfFMFSoaAEWpAiBBGhheA+KIXgQoNCyILclw0+1BQ2ChIW1AWJD0sKJQGJQlBB7kJRoSGwaJBsQRTku2funWvm/oppUzYFz8MHcu+ZmTsz53xnzkx+wu0XMMxDh4XAMAQLgWEIFgLDECwEhiFYCAxDsBA6pLaTwORgHx69zuHcx94z6oc4ufR5z3wVihDK0MPk6IkV1JQCNrX1KB6RXd/32jqinsNMOIkDP1sv2E92HtSXW5gPx5A/9bH9zxws9WFm40w+11F6G8LL3w8dZZivxyuE8ACyR85CuNlDdkTYHqgQfqC+O4XAfC9cQoghnYpCSxVxrRS6LiegTSSQfq0I4eYMleUYnkZIIJHHmFzMo3YjbSLIppLIvn0GjQLo40bMFJGN3cb5ro5XIt0I91N9HfpUy3b9dw7piX6zvPYkhtWjhtW2tC28CJEthKfxDLK/qMHRwMmGTGPMdrda/VJRhSADfdNOf2g8M+/3rDkQ5ZS+299R+zc0No3Val22fYZNmqeF5Yw5NlFeBO+r33LIxh/TfFB5msvi8R42F6MYome/8XnHbi9UEtl3pzCcY3/+cwYHdtpkjjeDwnvps8Eo0juGrMd4hLB5lMdceBqFC/t9A6XFPsxtk+MUIRjvhqHFczi5omcSRSk1jNGlshI8w0h/MNC8kA52r6oX4jtRZGUANXeTeE4ONtu/KiIdGYa+K23lJEYjVFcEtLk7hTC/LZ1/Su2SY+1gaO7EoY0lUREBQP0qJEKYXPdxuEcIIcys7aEpvnG6Qs80F3VZ1tN3SpVE/8qyf8dUPmKXt4SgxVdg1Oto0vyIYBVBaJh9qqPy6wDND6Van6y5af5FC834Ck5E2+3GTs/uHUF9vhu78B19x1iLQbPHeOcTWdbV7kPHkxrp+w1UUiEKfLnCiYCNJFC5stIjSwhlZCLPyJF2XVkunEBJCENM+lTOedZwBdP5n7RLvNlC866M/X36fdNoCUhwU7REKgKtmoI2osO4q2cFnhUMFPjxPqQ/KnXVgFfxCEEJdNmmLXrfvi8WHLumsTyAl2siV5d1d1s2d/CCRO/ok9p+u7HTc7AQfMZuLhrST555kAufLfYHjo8Q6PeRjlF5aBaH5NHlPafddxKVd37B5w4mkS7RDuKs3wo+kTbNjVnpgUVQ204hiN+tOpJISglySTdC8PRdfeeqS3iE4B6Du/2gsZOtnRDc33W8YyG0xV8ItwbyE3RorpZpRYnK2xLVHrQjxFEU238HQhDbuHNVVdqn1GQyEkfhs726KU47JpHaaYSJ5Wx1VVRX40C6EULAjjD6TiwYXQqh3djpuZ0Q/HcE8uMx/WYhtCVACBSo29PQBvuhzeZl+uK0O88IlPcu0bN9yA4UwixK/8pnM88OOCOIYB9JomTmug3UPiTIJp0mnDsWfEYQQToU03EgzzjN/Qz0DcMRtCZdCMF9Rrj+JPpgLxhdCqHd2Mku2lKvS9W2nWcEOjj/QWcE+zqchdCWQCFYh7YQ0mV1ZVLs990auYUgVqw34tYkhEzVetesZjDzRNz+iNudWQoGu/0GDPt2g9qeX1+hvig70Gle3qqIW6NZzI+rgabenAi7jso/sp5KN0Ig7rs1+mYh3DP266pujS2eN+s7277v1oiFEIQihB7guLEQjhnH5mf1XQCOejLwOkmHGCaA3gnhsoCFFwmU5IpUE9v4mA7j3uu8Q6xOxJA/VlIqyqmLMhVimG+hpzuCuB2xUiNKYWIJFDvZDQhPWqL8GcUw30JvUyOG+UFgITAMwUJgGIKFwDAEC4Fhbr/gP/Z4gfRkGEitAAAAAElFTkSuQmCC" InformativeScreenshot="f074d73f0aeb4ebc81cef6cda8a46ae7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -845,7 +848,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NGetText DisplayName="Get Text 'Down Payment'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Down Payment'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" DesignTimeRectangle="886, 472, 110, 25" ElementType="InputBox" FriendlyName="'$ 50,000.00'" FullSelectorArgument="&lt;webctrl name='downPayment' tag='INPUT' type='text' parentclass='render-input' parentid='border-box' title='Boss' /&gt;" FuzzySelectorArgument="&lt;webctrl name='downPayment' tag='INPUT' type='text' parentclass='render-input' parentid='border-box' title='Boss' aaname='' /&gt;" Guid="f192e4ad-edf1-4bc0-bb31-ad28c87fb147" ImageBase64="" InformativeScreenshot="5861215612fa574ba8a4b6651c5bda5e.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -861,31 +864,31 @@
                         </OutArgument>
                       </uix:NGetText.Text>
                     </uix:NGetText>
-                    <If sap:VirtualizedContainerService.HintSize="1269,537" sap2010:WorkflowViewState.IdRef="If_5">
+                    <If sap:VirtualizedContainerService.HintSize="1269,542" sap2010:WorkflowViewState.IdRef="If_5">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">GetMortageDownPayment =="$ 40,000.00"</mca:CSharpValue>
                         </InArgument>
                       </If.Condition>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_108">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_108">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000.00  is visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_50" Name="Validating the DownPayment " Status="Pass" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000.00  is visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_50" Name="Validating the DownPayment " Status="Pass" TakeScreenshot="True" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_109">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_109">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000  is  not visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_51" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000  is  not visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_51" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
@@ -901,7 +904,127 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <uix:NClick ClickType="Single" DelayAfter="1" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" Version="V1">
+                    <uix:NClick ClickType="Single" DelayAfter="1" DisplayName="Click 'Assets'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NClick_34" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" DesignTimeRectangle="68, 392, 190, 20" ElementType="Text" FriendlyName="'Assets'" FullSelectorArgument="&lt;webctrl aaname='Assets' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Assets' parentid='side-nav' tag='DIV' type='' check:text='Assets' /&gt;" Guid="f54542c4-bb77-4e86-9c70-0f6d714f863f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMIAAAAYCAYAAACoRCJ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALpSURBVHhe7ZhNSxtRFIb7a7LKyi5EyCwUQalQiAQsSBGCFKGFkE2lENwECyGFMJuKCz8WupBBqC2EdDWCEChREONmujGCISCJhFEIBuTtuTOZZPLRrowUfBcPTHLOvcniPHPPuS/wcAdCnjsUgRCBIhAiUARCBIpAiEARCBEoAiHCQBHs7BJGZ3RYzf7Y43KJgw8B6CeDYoQ8HQNEsGAsvMbb+SDS+Zue2GNDEcj/Qb8I5zrC85uwjhIY/WjA9sduizj4HMHkSACjoTHEt49x78WuTWzFxqCp2EQE6Z9WZ50vpk1HsXsuglV2EFe5Hpm8k1v9pSM+HXS+m1xIwLxq7UHIEOkTwVofx+KeFHHDRDoUxUHFF9sYR/iLCVu1THUT+qx3alRgfgogrtap3JIUeSgCoyTPzWNsSV58343ZpzoWQwkUGmrPnhOh/h0rI1F3nXwu70ehLWyirGKEDJFuEZzibxXwww0KqaArRSte3otAi+k4K7VaptsKbKeg3dy5lIGLazd2X6/gXglzmoImJ8xFa4/u4u8Rwfn9KaSzRVTVvs0b2LVht2eE9IjgDMn+N/BJEpp/aG5WYGWTWH4jbY5qjdZNVNuxSxS2Y3g/+9Jtjb4V3bZJ9mi3Pz7iPy5l3YAZoWJiNzGPuQm3NTr4TRHI8PGJ4BZlf9F2hub2W17lN4owJN8taInVfLFaDvpMEGun8qxOhHc7f2lvekRQJ0C9U/j2URLhUApn7XxChkNHhNImFkeWkKt1J1gbU9BSprzdW63Set6dEZqWTwR10xTEStaVwpkfPBEaeazNTmFV2h1HFBEol9FRqKv9XRFWD1vFr/5DKIZcay6x8xSBPA1tEdSQHM7kO7dAHjUDy54gt8cwEr5bo0wOZe8UuJJTwHdrtLL3jxslr20SqtkYXoUC0L66t0blw6Tv1igGQ90wefsQMiS6h2VCnikUgRCBIhAiUARCBIpAiEARCBEoAiECRSDk4Q5/AOJhnhxXtsEqAAAAAElFTkSuQmCC" InformativeScreenshot="82d73f7a669c530e71e9aa2212d2b1ab.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="68, 352, 190, 20" ElementType="Text" FriendlyName="'Employment'" FullSelectorArgument="&lt;webctrl aaname='Employment' parentid='side-nav' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Employment' parentid='side-nav' tag='DIV' type='' check:text='Employment' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMIAAAAYCAYAAACoRCJ4AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM2SURBVHhe7ZjPSxtREMf71+TkKT0EYXOoCJYeCorQQw5CELFUkL20FIKX0EBIIeTS4KGmh1iQUEhakHgoOYgBSQTRguRQ0hwkIBpKKgQD4duZ/RF3N6kxmNSoc/iAu2/e7IvMZ9+bfYTWOQThoSMiCAIhIggCISIIAiEiCAIhIggCcQsi5BFz+5GpdhsThNvBIgIXqAseJ0tJnFom3Jw7JMJecAi/XxhFOkSI7dkDBo+IIIwe1xbhIOrCqw9JJJbH4aW4ybkAckdFZEKzmKRr71M/1n/U9HguoIUgEsaYZ2IWse2KkcshQrOCwqofzxSKU8YxH0rhuEn3q0mo7mXkfhtxrUOkfGP6+rT8YWTMeZQ/slVEKR3A/ISeR/1UxIU2jzjJtddtW6f2jCAyW53z+Pde7oxylLvv9CWCZymOEhdms4rC+ydagaR+6kVV/x6A17eGMsdzodLY+lFVH9sN4oV7EdkzzmUXofRxCt7lJMoNzlvBTngK09E8FWMV2dcurGzpOfBrDfNKEAcsiTN/PohpWru6cYgLHj/7iojynNbGOYtIzIxB/VLSY/djlCeAAj9PE4HGPhdR53n0DNVa9LIjPBh69gimGCyCmjbf6gQVt61IjLfrAf/dUUA17ITMoraKkEfcLFgz9iyFN+4AdqhQ65uL8ISy2hv6NO2HlwTRYpz5mzn7LtOqILNkrH0/fCmoc8y6ZucYX4sID4a+dgSbCM4iuVIE63y7CPYCdtxrS1FF7q1xLOKYjvzOPJaC5liH3Iz6jdYiIggG/0mEfncEszdgAVyIpJNYMY9FXfNfIQLvCAtJHLdjLYgIgsHwRFCof7D2CAoVd88egXqPKF2Hc+1G92Kbeg9l7PJYxPQjQoNkm5nCu02jf2gcIhuNocCiXUcEXxxlU0Dh3tKzR/AYhdK3CLavRj4kds25jqL911cjM28jiwg1tDZB+xGBry1fjbQvTGmSgu/3EoEkSsw9pv+BH9kTM0a4j1hEGCAdhXoDWATrsUgQhsBoi9Csobzhx/Rqsfu4IAyIERaBG2kXJl/GUfrTbVwQBsdwRBCEO4aIIAiEiCAIhIggCISIIAitc/wFM37PqUw78FQAAAAASUVORK5CYII=" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904561" DesignTimeRectangle="790, 411, 234, 20" ElementType="Text" FriendlyName="'$50,000.00'" FullSelectorArgument="&lt;webctrl aaname='$50,000.00' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='border-box' tag='DIV' type='' /&gt;" Guid="3da5d5aa-495e-48e1-8fd9-d10252a659e3" ImageBase64="" InformativeScreenshot="3d2508b46e50a6a629094c4abde8afba.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="783, 328, 110, 77" FriendlyName="'chrome.exe Boss'" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.Text>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_34">ApplicantTotalAssetsvalue</mca:CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.Text>
+                    </uix:NGetText>
+                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'chrome.exe Boss'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_10" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904561" DesignTimeRectangle="790, 584, 234, 20" ElementType="Text" FriendlyName="'$30,000.00'" FullSelectorArgument="&lt;webctrl aaname='$30,000.00' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='border-box' tag='DIV' type='' /&gt;" Guid="fd09cf1c-532a-4d52-8331-bb9e348fefdb" ImageBase64="" InformativeScreenshot="06f5265ddf2c72f7b708ed2035988960.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="786, 505, 98, 70" FriendlyName="'chrome.exe Boss'" ImageBase64="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" SearchSteps="Image" TargetType="ImageBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NGetText.Target>
+                      <uix:NGetText.Text>
+                        <OutArgument x:TypeArguments="x:String">
+                          <mca:CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_35">GetCoApplicantTotalAssets</mca:CSharpReference>
+                        </OutArgument>
+                      </uix:NGetText.Text>
+                    </uix:NGetText>
+                    <If sap:VirtualizedContainerService.HintSize="1269,542" sap2010:WorkflowViewState.IdRef="If_9">
+                      <If.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_62">ApplicantTotalAssetsvalue=="$50,000.00" &amp;&amp; GetCoApplicantTotalAssets=="$30,000.00"</mca:CSharpValue>
+                        </InArgument>
+                      </If.Condition>
+                      <If.Then>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_127">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value displayed at each applicant asset section is validated" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_60" Name="Validating Total Asset Value" Status="Pass" TakeScreenshot="True" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_128">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value not displayed at each applicant asset section is validated" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_61" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                            <ui:InvokeWorkflowFile.Arguments>
+                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
+-fill First name, Last Name and email for the applicant
+-Enable the co-applicant
+-fill First name, Last Name and email for the co-applicant
+ 
+-go to Assets section  
+ 
+For the applicant
+  -fill the Asset fields
+ 
+Asset Type : Vehicle
+Description: Vehicle
+Asset Value: 30000
+DownPayment:  -should be disabled
+ 
+-click 'Add Asset'and fill the fields in the new Asset section
+Asset Type : Savings
+Description: Savings
+Asset Value: 20000
+Down Payment = 30000
+-validate that the Down Payment field does not accept  a value grater than Asset Value
+-fill 20000 in Down Payment
+ 
+For the co applicant
+    -fill the Asset fields
+Asset Type : RRSP
+Description: RRSP
+Asset Value: 20000
+Down Payment = 30000
+-validate that the Down Payment field does not accept  a value grater than Asset Value
+-fill 20000 in Down Payment
+ 
+-click 'Add Asset' and fill the fields in the new Asset section
+Asset Type : Gift
+Description: Gift
+Asset Value: 10000
+Down Payment = 20000
+-validate that the Down Payment field does not accept  a value grater than Asset Value
+-fill 10000 in Down Payment
+ 
+-Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created Verify Total Asset value displayed at the end of each applicant asset section</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C1097</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            </ui:InvokeWorkflowFile.Arguments>
+                          </ui:InvokeWorkflowFile>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NClick ClickType="Single" DelayAfter="1" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" Version="V1">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4903685" ContentHash="_SDgx6hRaEiGYVYR5oJyuQ" DesignTimeRectangle="1234, 225, 34, 16" ElementType="Text" FriendlyName="'SAVE'" FullSelectorArgument="&lt;webctrl aaname='SAVE' parentid='deal-banner' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SAVE' parentid='deal-banner' tag='SPAN' type='' check:text='SAVE' /&gt;" Guid="2a8cf272-66bb-4c37-91b4-a3e967bec0c9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACYAAAAUCAYAAADhj08IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVEhL7VSxSgNBEPVP/JF8gX+Qzs7OMp2dnXZ2kibYRFKYQlQQI0KCjQZCDKIRi0PEKBIuSO6yd7vP2b273NydCmujRRYe3M7Ozr57b3aXptvL+I9YELPFgpgtMsS80ybU1Md8TIcI2yuZDQbta7Msu6U0dtKCysdi+LcOrbwiPKB5f2j2FobfgWB7UmKNOlQAqOcaxMEKvP01iHtd0IU8TzdoBCMKS8K4CX8eLyN0KfZeh8dyTXzMcg0x+uFMThEpsZ7e4CCs8oQKwg8i62ymsWoNUvqQfa0Q5TfS/EgZOpTXaJALFFX9WElrYrEV6n6DqVCEOdzIHimhHivpepVU5yR0/h3lyxsECVlrYtsliMEQSlskXaiXDsKL8pe2JGS87g0grllvlCKb5xbH9o5243XCNz2m+kmNCJnmN9irIBh0oCbxJXBbEMnfGlWZfYmt7XiucUVkk5wjnZ9bt1esCO+Q+oMUVA/rZi4c/ftfjFGNKbsDKWjPbRmzh9ecogRbYsEzKfTRwowtamvMjXqr0/dWdCDrH4NLejp4DxHEE9UadyD1xeE9qGGt2DnZR7IrJ3oupnurUc/pWK8cW0QFM7dWI1UoW0sPertOeC7hN1b6Z03ICbMroEsw2CCb8k2dhVF7cszUjp4ZuMfF/G+aP0/2xx77SyyI2WJBzA7L+ATVuILfTjwUWQAAAABJRU5ErkJggg==" InformativeScreenshot="5ce60904c90efaa686b9fc124b81d92c.png" Reference="ibK92gIPHUmRsRCnhmHO7g/DvyWK21LpEmyxBmNFtWBNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image">
                           <uix:TargetAnchorable.Anchors>
@@ -912,7 +1035,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NGetText DisplayName="Get Text 'Assets'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NGetText DisplayName="Get Text 'Assets'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904427" DesignTimeRectangle="541, 218, 95, 28" ElementType="Text" FriendlyName="'$80,000.00'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' /&gt;" Guid="2e65e2a2-4e65-4993-b7e6-52377a296a69" ImageBase64="" InformativeScreenshot="64377b79d1d9f5a6c4f6727c9839c7c0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -928,7 +1051,7 @@
                         </OutArgument>
                       </uix:NGetText.Text>
                     </uix:NGetText>
-                    <uix:NGetText DisplayName="Get Text 'Net Worth'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NGetText DisplayName="Get Text 'Net Worth'" sap:VirtualizedContainerService.HintSize="1269,157" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904427" DesignTimeRectangle="729, 218, 95, 28" ElementType="Text" FriendlyName="'$80,000.00'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='5' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' /&gt;" Guid="0b545d8f-1fa4-48a5-84df-b6fe9fecf72f" ImageBase64="" InformativeScreenshot="0c650ea65b93e70d0b94f15a8364705e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -944,31 +1067,31 @@
                         </OutArgument>
                       </uix:NGetText.Text>
                     </uix:NGetText>
-                    <If sap:VirtualizedContainerService.HintSize="1269,537" sap2010:WorkflowViewState.IdRef="If_7">
+                    <If sap:VirtualizedContainerService.HintSize="1269,542" sap2010:WorkflowViewState.IdRef="If_7">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <mca:CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_61" xml:space="preserve">TotalAssetValueonTopBar =="$80,000.00" &amp;&amp;  TotalNetWorthonTopBar =="$80,000.00"</mca:CSharpValue>
                         </InArgument>
                       </If.Condition>
                       <If.Then>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,226" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,228" sap2010:WorkflowViewState.IdRef="Sequence_114">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets  and Networth on the Deal Top Bar is $80,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_54" Name="Asset and Networth  value ondeal top bar" Status="Pass" TakeScreenshot="True" />
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets  and Networth on the Deal Top Bar is $80,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_54" Name="Asset and Networth  value ondeal top bar" Status="Pass" TakeScreenshot="True" />
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_115">
+                        <Sequence sap:VirtualizedContainerService.HintSize="376,381" sap2010:WorkflowViewState.IdRef="Sequence_115">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $80,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_55" Name="Asset  and Networth value on deal top bar" Status="Fail" TakeScreenshot="True" />
-                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
+                          <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $80,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134" sap2010:WorkflowViewState.IdRef="StepStatus_55" Name="Asset  and Networth value on deal top bar" Status="Fail" TakeScreenshot="True" />
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
                               <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
@@ -984,19 +1107,25 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase executed  succesfully" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="1269,132" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="C128" Status="Info" TakeScreenshot="True" />
+                    <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Testcase executed  succesfully" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="1269,134" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="C128" Status="Info" TakeScreenshot="True" />
                   </Sequence>
                 </Sequence>
               </ActivityAction>
             </uix:NApplicationCard.Body>
             <uix:NApplicationCard.TargetApp>
-              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="I4LpEniEiUeuzDHtuHV5mg" IconBase64="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" InformativeScreenshot="8e21d9b36d56b4071bdaf68c3bbc8d53.png" Reference="mOJq_cvjNkm-PtnMbjKZKw/XCOngDYkk0GS-BZb9bSSaQ" Selector="&lt;html app='chrome.exe' title='Boss'/&gt;" Url="https://devboss5.mortgageboss.ca/#/main/dashboard" />
+              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="8e21d9b36d56b4071bdaf68c3bbc8d53.png" Selector="&lt;html app='chrome.exe' title='Boss'/&gt;">
+                <uix:TargetApp.Url>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">URLaddress</mca:CSharpValue>
+                  </InArgument>
+                </uix:TargetApp.Url>
+              </uix:TargetApp>
             </uix:NApplicationCard.TargetApp>
           </uix:NApplicationCard>
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
-        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1433,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="1433,22" sap2010:WorkflowViewState.IdRef="Catch`1_1">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1007,7 +1136,7 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
             </ActivityAction.Argument>
-            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,93" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
               <ui:LogMessage.Message>
                 <InArgument x:TypeArguments="x:Object">
                   <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">exception.Source.ToString()</mca:CSharpValue>

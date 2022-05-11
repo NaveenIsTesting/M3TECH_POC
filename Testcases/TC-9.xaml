@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC_9t" this:TC_9t.applicant_liab_Limit_1="5000" this:TC_9t.applicant_liab_payment_1="100" this:TC_9t.Applicant_liab_description_1="Credit Card" this:TC_9t.applicant_liab_Limit_2="10000" this:TC_9t.applicant_liab_balance_2="1000" this:TC_9t.applicant_liab_payment_2="100" this:TC_9t.Applicant_liab_description_2="Auto Loan" this:TC_9t.applicant_liab_Limit_3="8000" this:TC_9t.applicant_liab_balance_3="800" this:TC_9t.applicant_liab_payment_3="100" this:TC_9t.Applicant_liab_description_3="Credit Card" this:TC_9t.co_app_liab_limit_1="5000" this:TC_9t.co_app_liab_Balance_1="500" this:TC_9t.co_app_liab_payment_1="100" this:TC_9t.co_app_liab_description_1="Credit Card" this:TC_9t.co_app_liab_limit_2="7000" this:TC_9t.co_app_liab_balance_2="700" this:TC_9t.co_app_liab_payment_2="100" this:TC_9t.co_app_liab_description_2="Auto Loan" this:TC_9t.applicant_liab_balance_1="500" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_9t" this:TC_9t.applicant_liab_Limit_1="5000" this:TC_9t.applicant_liab_payment_1="100" this:TC_9t.Applicant_liab_description_1="Credit Card" this:TC_9t.applicant_liab_Limit_2="10000" this:TC_9t.applicant_liab_balance_2="1000" this:TC_9t.applicant_liab_payment_2="100" this:TC_9t.Applicant_liab_description_2="Auto Loan" this:TC_9t.applicant_liab_Limit_3="8000" this:TC_9t.applicant_liab_balance_3="800" this:TC_9t.applicant_liab_payment_3="100" this:TC_9t.Applicant_liab_description_3="Credit Card" this:TC_9t.co_app_liab_limit_1="5000" this:TC_9t.co_app_liab_Balance_1="500" this:TC_9t.co_app_liab_payment_1="100" this:TC_9t.co_app_liab_description_1="Credit Card" this:TC_9t.co_app_liab_limit_2="7000" this:TC_9t.co_app_liab_balance_2="700" this:TC_9t.co_app_liab_payment_2="100" this:TC_9t.co_app_liab_description_2="Auto Loan" this:TC_9t.applicant_liab_balance_1="500" this:TC_9t.URLaddress="https://devboss5.mortgageboss.ca/#/main/dashboard" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="applicant_liab_Limit_1" Type="InArgument(x:String)" />
     <x:Property Name="applicant_liab_payment_1" Type="InArgument(x:String)" />
@@ -20,6 +20,7 @@
     <x:Property Name="co_app_liab_payment_2" Type="InArgument(x:String)" />
     <x:Property Name="co_app_liab_description_2" Type="InArgument(x:String)" />
     <x:Property Name="applicant_liab_balance_1" Type="InArgument(x:String)" />
+    <x:Property Name="URLaddress" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>994,32277</sap:VirtualizedContainerService.HintSize>
@@ -370,21 +371,13 @@
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Liabilities 5 rows are not visible in the applicant section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_13" Name="Add liability" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
--select 5 in the dropdown near the 'Add a Liability'button</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+-select 5 in the dropdown near the 'Add a Liability'button</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                             <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -1202,8 +1195,7 @@ for the applicant
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="3 rows for Liabilities  are not visible in the Coapplicant section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_16" Name="Add liability" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability' button
@@ -1238,17 +1230,10 @@ Payoff: From Proceeds
 -for the first co-applicant in the second group
  
 -select 3 in the dropdown near the 'Add a Liability' button
--press the button 'Add a Liability'</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+-press the button 'Add a Liability'</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                             <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -1911,8 +1896,7 @@ Payoff: From Proceeds
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total value is not visible at the end of each applicant asset section and co-applicant asset section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name=" Total Value not Visible before  save" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability'button
@@ -1967,21 +1951,12 @@ Maturity Date: 12/04/2021
 Description: Auto Loan
 Payoff: From Proceeds
  
-Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -2117,8 +2092,7 @@ Verify Total for  Limit, Balance and Payment displayed at the end of each applic
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total value is not visible at the end of each applicant asset section and co-applicant asset section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_9" Name=" Total Value not Visible after save" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability'button
@@ -2173,17 +2147,10 @@ Maturity Date: 12/04/2021
 Description: Auto Loan
 Payoff: From Proceeds
  
-Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                             <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -2213,8 +2180,7 @@ Verify Total for  Limit, Balance and Payment displayed at the end of each applic
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="After clicking on save and refresh all the  empty rows are not  deleted in applicant group" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Validating empty fields" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability'button
@@ -2269,17 +2235,10 @@ Maturity Date: 12/04/2021
 Description: Auto Loan
 Payoff: From Proceeds
  
-Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                             <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -2328,8 +2287,7 @@ Verify Total for  Limit, Balance and Payment displayed at the end of each applic
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="After clicking on save and refresh all the  empty rows are not  deleted in Coapplicant second group " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_24" Name="Validating empty fields" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability'button
@@ -2384,17 +2342,10 @@ Maturity Date: 12/04/2021
 Description: Auto Loan
 Payoff: From Proceeds
  
-Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                             <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
                           </ui:InvokeWorkflowFile.Arguments>
@@ -2479,8 +2430,7 @@ Verify Total for  Limit, Balance and Payment displayed at the end of each applic
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Liabilities  and Networth on the Deal Top Bar is not  recalculated Liabilities : $3,500.00 ,Networth : -$3,500.00 " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_11" Name="Total Liabilities and Networth" Status="Pass" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description">
-                              <Literal x:TypeArguments="x:String" xml:space="preserve">go to Liabilities in the first applicant group
+                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Liabilities in the first applicant group
  
 for the applicant
 -select 5 in the dropdown near the 'Add a Liability'button
@@ -2535,21 +2485,12 @@ Maturity Date: 12/04/2021
 Description: Auto Loan
 Payoff: From Proceeds
  
-Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                              <Literal x:TypeArguments="x:String">UIP</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
-                              <Literal x:TypeArguments="x:String">C144</Literal>
-                            </InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
-                              <Literal x:TypeArguments="x:String">Bug</Literal>
-                            </InArgument>
+Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section. -Save ,-refresh</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C144</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
-                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -2560,7 +2501,13 @@ Verify Total for  Limit, Balance and Payment displayed at the end of each applic
               </ActivityAction>
             </uix:NApplicationCard.Body>
             <uix:NApplicationCard.TargetApp>
-              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" ContentHash="-Wtbbo3InkSxGAa3wJBC2g" IconBase64="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" InformativeScreenshot="d671cbc9595aff4376b2ac66ba572277.png" Reference="ibK92gIPHUmRsRCnhmHO7g/nr-u7-sMLUyeYezbHTntkg" Selector="&lt;html app='chrome.exe' title='Boss' /&gt;" Url="https://devboss5.mortgageboss.ca/#/main/dashboard" />
+              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="d671cbc9595aff4376b2ac66ba572277.png" Selector="&lt;html app='chrome.exe' title='Boss' /&gt;">
+                <uix:TargetApp.Url>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_51">URLaddress</mca:CSharpValue>
+                  </InArgument>
+                </uix:TargetApp.Url>
+              </uix:TargetApp>
             </uix:NApplicationCard.TargetApp>
           </uix:NApplicationCard>
         </Sequence>

@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="MwoKMDoZnUOmYsq3W6mVeg" DesignTimeRectangle="352, 478, 140, 20" ElementType="Text" FriendlyName="'Auto Loan'" FullSelectorArgument="&lt;webctrl id='react-select-109-option-3' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='react-select-109-option-3' tag='DIV' type='' aaname='Auto Loan' check:text='Auto Loan' /&gt;" Guid="a9d96a3b-ea41-4362-aea5-b8c18ee4d2a4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <TargetAnchorable.Anchors>
-    <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="346, 402, 191, 20" ElementType="Text" FriendlyName="'Liability Type'" FullSelectorArgument="&lt;webctrl aaname='Liability Type:' parentid='border-box' tag='DIV' class='col-sm' innertext='Liability Type:' parentclass='row' title='Boss' idx='2' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Liability Type:' parentid='border-box' tag='DIV' class='col-sm' innertext='Liability Type:' parentclass='row' title='Boss' type='' check:text='Liability Type:' /&gt;" SearchSteps="Selector">
-        <imageRef attrName="ImageBase64" xmlns="">6hwzaa5YNgEqDX3nqzyuCcg</imageRef>
-      </Target>
-    </scg:List>
-  </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">05aF-Ctc3MUmG5J7HPM7Djg</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="f9c84e6033aec34ec57c45099d4ba5a4.png" xmlns="">0EkRVuJtu5E2-KicTOrYh5w</imageRef>
+<TargetAnchorable ContentHash="86i77XsR5E-jv6_LaNRAKg" DesignTimeRectangle="357, 536, 78, 23" FriendlyName="'chrome.exe Boss'" Guid="424abbe5-a3a6-4dc3-929b-1e602e0c7f44" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0GkC54XGP20eNx8fZG7vkiA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="dced4330ca2cf0bfc9f794d742a0f99f.png" xmlns="">012qkV4y-Y0Cm_quj5q7iyw</imageRef>
 </TargetAnchorable>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="8_PJ4uXcqUKFGdIV9KeIIA" DesignTimeRectangle="1252, 388, 24, 24" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' parentid='border-box' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='border-box' tag='svg' aaname='' /&gt;" Guid="1063876b-7b65-4a6e-87ab-7fa34c9ed757" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="f_Jf3F8V7EuDYQEMZ0ARgA" DesignTimeRectangle="1252, 348, 24, 24" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl parentid='border-box' tag='svg' parentclass='flex-row applicants' title='Boss' idx='2' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='border-box' tag='svg' parentclass='flex-row applicants' title='Boss' type='' aaname='' /&gt;" Guid="6e5c621d-fa4a-4f92-b85f-c9abd8b28401" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TargetAnchorable.Anchors>
     <scg:List x:TypeArguments="ITarget" Capacity="4">
-      <Target DesignTimeRectangle="832, 383, 241, 35" ElementType="InputBox" FriendlyName="'Salutation:Selecterror …'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span' idx='20' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='' parentid='border-box' tag='SPAN' /&gt;" SearchSteps="FuzzySelector, Image">
-        <imageRef attrName="ImageBase64" xmlns="">10EvmCPvBng0CxGD3LTczJ-Q</imageRef>
+      <Target DesignTimeRectangle="836, 319, 81, 20" ElementType="Text" FriendlyName="'Co-Applicant'" FullSelectorArgument="&lt;webctrl aaname='Co-Applicant' parentid='border-box' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Co-Applicant' parentid='border-box' tag='DIV' type='' check:text='Co-Applicant' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">4Bo-l3gykikSz2ETrBTu4AA</imageRef>
       </Target>
     </scg:List>
   </TargetAnchorable.Anchors>
-  <imageRef attrName="ImageBase64" xmlns="">09QbW7EgSh0qu0dd6vcaZ8g</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="5ee5fb8adb9ffb7e7ba683aa8b89dcee.png" xmlns="">0E0pwUrYgfEGSVW_M3fyChw</imageRef>
+  <imageRef attrName="ImageBase64" xmlns="">03TGZyOVgnkyXS73vpMseZA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="462ae82c8c6cd29a74e0feb447a14b9a.png" xmlns="">0o2N9Ju1xVEaF1qbzuSN1qQ</imageRef>
 </TargetAnchorable>
