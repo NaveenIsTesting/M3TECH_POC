@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="e-fW-edEtEe_aKh2rX2JmA" DesignTimeRectangle="355, 523, 61, 33" FriendlyName="'chrome.exe Boss'" Guid="3ca1d2c9-e7f1-4870-99e3-10c59cc0a051" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0cu811d7YuEan4SsUFVCDyQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="ee58fed71aa5fc359e8775e303cb2445.png" xmlns="">07auMKy58T0q38LeDBRz9Ow</imageRef>
+<TargetAnchorable ContentHash="zN6T1M6Wb0eaguuSjuB-Zg" DesignTimeRectangle="357, 574, 57, 19" FriendlyName="'chrome.exe Boss'" Guid="642d076c-5238-4703-999d-73b781f8b31f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0qPTAweB6Ik64o7wXO4lnOA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e85286cca00e4f7f91ee19a949d56904.png" xmlns="">0v9WC2KHgrk-kRjYsALIdjw</imageRef>
 </TargetAnchorable>
