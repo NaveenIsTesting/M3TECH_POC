@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="uGh5_r2ZGUGfRrg1C_4eGQ" DesignTimeRectangle="1036, 447, 130, 40" FriendlyName="'CONFIRM'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;div&amp;gt;div' parentid='body' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='body' tag='DIV' aaname='' check:text='CONFIRM' /&gt;" Guid="053be955-1e81-4af4-b0be-fdf7d884b446" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0fFgNZVFPZkWNYINKWeO4OA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ab0fcd3eee57892b1597911fccfe4392.png" xmlns="">0QT7cTdQ-b0KfiHd5E_gDnw</imageRef>
+</TargetAnchorable>

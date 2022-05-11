@@ -1,0 +1,16 @@
+﻿{
+  "Id": "HvETaPwyKEqKEKjluK2gvw",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/HvETaPwyKEqKEKjluK2gvw",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/TtfySiBIEEGLBvai6oT9yA",
+  "Name": "Confirmbutton",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2022-05-11T14:25:36.8595178Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-05-11T14:26:26.3623898Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

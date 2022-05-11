@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" ContentHash="VVkt6o7ssUWBox5yVyvtgQ" DesignTimeRectangle="939, 458, 85, 17" ElementType="Text" FriendlyName="'CANCEL'" FullSelectorArgument="&lt;webctrl parentid='body' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='body' tag='SPAN' type='' aaname='CANCEL' check:text='CANCEL' /&gt;" Guid="be585fe4-ce09-4543-bb5f-891b6fa120cb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0vdMmyeyKaU6t_livg3fsSA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="66fadb7bbe4f1f9cf1c67ccabeecb69b.png" xmlns="">0lY2uCAmL4UWkgxJWu63kcg</imageRef>
+</TargetAnchorable>
