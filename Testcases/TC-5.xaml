@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC_5" this:TC_5.URLaddress="https://devboss5.mortgageboss.ca/#/main/dashboard" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC_5" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:ra="clr-namespace:ReporterForUiPath.Activities;assembly=ReporterForUiPath.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
     <x:Property Name="Firstname" Type="InArgument(x:String)" />
@@ -116,6 +116,7 @@
       <AssemblyReference>System.ValueTuple</AssemblyReference>
       <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="1509,12167" sap2010:WorkflowViewState.IdRef="Sequence_14">
@@ -880,7 +881,7 @@
                         </uix:TargetAnchorable>
                       </uix:NClick.Target>
                     </uix:NClick>
-                    <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Down Payment'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
+                    <uix:NGetText ContinueOnError="True" DelayBefore="1" DisplayName="Get Text 'Down Payment'" sap:VirtualizedContainerService.HintSize="1269,156" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="2d569c03-76d3-475c-949e-7ae5699ca3c9" Version="V1">
                       <uix:NGetText.Target>
                         <uix:TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail" DesignTimeRectangle="886, 472, 110, 25" ElementType="InputBox" FriendlyName="'$ 50,000.00'" FullSelectorArgument="&lt;webctrl name='downPayment' tag='INPUT' type='text' parentclass='render-input' parentid='border-box' title='Boss' /&gt;" FuzzySelectorArgument="&lt;webctrl name='downPayment' tag='INPUT' type='text' parentclass='render-input' parentid='border-box' title='Boss' aaname='' /&gt;" Guid="f192e4ad-edf1-4bc0-bb31-ad28c87fb147" ImageBase64="" InformativeScreenshot="5861215612fa574ba8a4b6651c5bda5e.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector">
                           <uix:TargetAnchorable.Anchors>
@@ -922,15 +923,29 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 40,000  is  not visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_51" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
 -do not change the Down Payment value - it was $10000
--change the Asset Type 'Gift ' to Type Vehicle</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-change the Asset Type 'Gift' to Type Vehicle
+ 
+-Verify that the Down Payment Field in the Assets section was disabled and automatically updated to zero
+ 
+-Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C128</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -1005,7 +1020,8 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value not displayed at each applicant asset section is validated" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_61" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -Enable the co-applicant
 -fill First name, Last Name and email for the co-applicant
@@ -1045,12 +1061,21 @@ Down Payment = 20000
 -validate that the Down Payment field does not accept  a value grater than Asset Value
 -fill 10000 in Down Payment
  
--Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created Verify Total Asset value displayed at the end of each applicant asset section</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C1097</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created Verify Total Asset value displayed at the end of each applicant asset section</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C128</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
