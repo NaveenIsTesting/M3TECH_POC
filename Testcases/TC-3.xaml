@@ -5,6 +5,8 @@
     <x:Property Name="Email" Type="InArgument(x:String)" />
     <x:Property Name="Address" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>1070,8083</sap:VirtualizedContainerService.HintSize>
@@ -107,6 +109,7 @@
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
       <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="1080,8018" sap2010:WorkflowViewState.IdRef="Sequence_17">
@@ -392,14 +395,27 @@
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="While entering 2005 sheppard ........address is not visible to us" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_18" Name="address is not visble" Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to address section
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">go to address section
 -Locate the Address Lookup field
--start type the address '2005 Sheppard ...'</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C316</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-start type the address '2005 Sheppard ...'</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C316</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -483,14 +499,27 @@
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Verification for Address Could not be done" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_20" Name="Verifying Address  " Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to address section
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">go to address section
 -Locate the Address Lookup field
--start type the address '2005 Sheppard ...</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C316</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-start type the address '2005 Sheppard ...</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_20">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C316</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -587,15 +616,28 @@
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Verification for Address Could not be done after Clicking on Save&amp; Refresh " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="Verifying Address  " Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to address section
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">go to address section
 -Locate the Address Lookup field
 -start type the address '2005 Sheppard ...'
--select an addresses suggestions 2005 Sheppard Ave E , North York, ON M2J 5B4, Canada</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C316</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-select an addresses suggestions 2005 Sheppard Ave E , North York, ON M2J 5B4, Canada</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C316</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>

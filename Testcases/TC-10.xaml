@@ -14,6 +14,8 @@
     <x:Property Name="AuthorizationMethod" Type="InArgument(x:String)" />
     <x:Property Name="Province" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>986,13026</sap:VirtualizedContainerService.HintSize>

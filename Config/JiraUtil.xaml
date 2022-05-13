@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="JiraUtil" this:JiraUtil.Description="Demo" this:JiraUtil.Project_Key="UIP" this:JiraUtil.Summary="Demo m3tech" this:JiraUtil.Issue_Type="Bug" this:JiraUtil.FilePath="C:\Users\Varadi Madhu Kumar\Desktop\Reports" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:aj="clr-namespace:Atlassian.Jira;assembly=Atlassian.Jira" xmlns:dc="clr-namespace:Datatable.Converter;assembly=Datatable.Converter" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ubt="clr-namespace:UiPath.BAF.Telemetry;assembly=UiPath.Jira" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uj="clr-namespace:UiPathTeam.JiraGet;assembly=UiPathTeam.JiraGet" xmlns:uja="clr-namespace:UiPath.Jira.Activities;assembly=UiPath.Jira.Activities" xmlns:usa="clr-namespace:UiPath.Shared.Activities;assembly=UiPath.Jira.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="JiraUtil" this:JiraUtil.Description="Demo" this:JiraUtil.Project_Key="UIP" this:JiraUtil.Summary="Demo m3tech" this:JiraUtil.Issue_Type="Bug" this:JiraUtil.FilePath="C:\Users\Varadi Madhu Kumar\Desktop\Reports" this:JiraUtil.EndPoint="https://testingxpert.atlassian.net/" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:aj="clr-namespace:Atlassian.Jira;assembly=Atlassian.Jira" xmlns:dc="clr-namespace:Datatable.Converter;assembly=Datatable.Converter" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:this="clr-namespace:" xmlns:ubt="clr-namespace:UiPath.BAF.Telemetry;assembly=UiPath.Jira" xmlns:uj="clr-namespace:UiPathTeam.JiraGet;assembly=UiPathTeam.JiraGet" xmlns:uja="clr-namespace:UiPath.Jira.Activities;assembly=UiPath.Jira.Activities" xmlns:usa="clr-namespace:UiPath.Shared.Activities;assembly=UiPath.Jira.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Description" Type="InArgument(x:String)" />
     <x:Property Name="Project_Key" Type="InArgument(x:String)" />
@@ -6,14 +6,15 @@
     <x:Property Name="Issue_Type" Type="InArgument(x:String)" />
     <x:Property Name="Attachment_FIle" Type="InArgument(x:String)" />
     <x:Property Name="FilePath" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>961,1927</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>684,1808</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>JiraUtil_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="49">
+    <scg:List x:TypeArguments="x:String" Capacity="88">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -66,7 +67,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="88">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -114,19 +115,15 @@
       <AssemblyReference>UiPath.JiraSoftware</AssemblyReference>
       <AssemblyReference>UiPath.JiraSoftware.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="594,1862" sap2010:WorkflowViewState.IdRef="Sequence_7">
-    <Sequence.Variables>
-      <Variable x:TypeArguments="ss:SecureString" Name="key" />
-      <Variable x:TypeArguments="x:String" Name="User" />
-    </Sequence.Variables>
+  <Sequence sap:VirtualizedContainerService.HintSize="594,1743" sap2010:WorkflowViewState.IdRef="Sequence_7">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="jiraKey" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="552,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[key]" Username="[User]" />
     <Sequence DisplayName="JiraUtil" sap:VirtualizedContainerService.HintSize="552,1651" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="res" />
@@ -140,7 +137,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uj:JiraGet_Application_Scope ClientID="{x:Null}" ClientIDProd="{x:Null}" ClientSecret="{x:Null}" ClientSecretProd="{x:Null}" ExistingAuth="{x:Null}" ExistingService="{x:Null}" Password="{x:Null}" PasswordProd="{x:Null}" RefreshToken="{x:Null}" RefreshTokenProd="{x:Null}" ResponseAuth="{x:Null}" ResponseService="{x:Null}" TokenAPIProd="{x:Null}" UserNameProd="{x:Null}" ValidConnection="{x:Null}" Connection_Status="Close_at_scope_end" DisplayName="JiraGet Application Scope" EndPoint="https://testingxpert.atlassian.net/" EnvironmentType="Design_and_Test" sap:VirtualizedContainerService.HintSize="510,1559" sap2010:WorkflowViewState.IdRef="JiraGet_Application_Scope_1" InvalidCommand="No" TokenAPI="[new System.Net.NetworkCredential(string.Empty, key).Password]" UserName="testaccount1@testingxperts.com">
+      <uj:JiraGet_Application_Scope ClientID="{x:Null}" ClientIDProd="{x:Null}" ClientSecret="{x:Null}" ClientSecretProd="{x:Null}" ExistingAuth="{x:Null}" ExistingService="{x:Null}" Password="{x:Null}" PasswordProd="{x:Null}" RefreshToken="{x:Null}" RefreshTokenProd="{x:Null}" ResponseAuth="{x:Null}" ResponseService="{x:Null}" TokenAPIProd="{x:Null}" UserNameProd="{x:Null}" ValidConnection="{x:Null}" Connection_Status="Close_at_scope_end" DisplayName="JiraGet Application Scope" EndPoint="https://testingxpert.atlassian.net/" EnvironmentType="Design_and_Test" sap:VirtualizedContainerService.HintSize="510,1559" sap2010:WorkflowViewState.IdRef="JiraGet_Application_Scope_1" InvalidCommand="No" TokenAPI="MdBtyyofulN7hz91lB805EDC" UserName="testaccount1@testingxperts.com">
         <uj:JiraGet_Application_Scope.Body>
           <ActivityAction x:TypeArguments="uj:JiraGetProperty">
             <ActivityAction.Argument>
@@ -153,7 +150,7 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uja:JiraScope ClientID="{x:Null}" ClientSecret="{x:Null}" Connection="{x:Null}" ContinueOnError="{x:Null}" JiraConnection="{x:Null}" ApiToken="[key]" AuthenticationType="Api Token" DisplayName="Jira Scope" sap:VirtualizedContainerService.HintSize="434,1357" sap2010:WorkflowViewState.IdRef="JiraScope_2" ServerURL="https://testingxpert.atlassian.net/" UserName="testaccount1@testingxperts.com">
+              <uja:JiraScope ClientID="{x:Null}" ClientSecret="{x:Null}" Connection="{x:Null}" ContinueOnError="{x:Null}" JiraConnection="{x:Null}" ApiToken="[(new System.Net.NetworkCredential(&quot;&quot;, &quot;MdBtyyofulN7hz91lB805EDC&quot;)).SecurePassword]" AuthenticationType="Api Token" DisplayName="Jira Scope" sap:VirtualizedContainerService.HintSize="434,1357" sap2010:WorkflowViewState.IdRef="JiraScope_2" ServerURL="https://testingxpert.atlassian.net/" UserName="testaccount1@testingxperts.com">
                 <uja:JiraScope.Body>
                   <ActivityAction x:TypeArguments="usa:IObjectContainer">
                     <ActivityAction.Argument>
@@ -164,7 +161,11 @@
                         <Variable x:TypeArguments="sd:DataTable" Name="listIssueID" />
                         <Variable x:TypeArguments="x:String" Name="getIssueID" />
                         <Variable x:TypeArguments="x:String" Name="FolderPath" />
-                        <Variable x:TypeArguments="x:String" Default="C:\Users\Varadi Madhu Kumar\Desktop\Reports" Name="FilePath" />
+                        <Variable x:TypeArguments="x:String" Name="FilePath">
+                          <Variable.Default>
+                            <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                          </Variable.Default>
+                        </Variable>
                         <Variable x:TypeArguments="aj:Issue" Name="issueout" />
                       </Sequence.Variables>
                       <sap:WorkflowViewStateService.ViewState>

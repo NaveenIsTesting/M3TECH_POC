@@ -16,6 +16,8 @@
     <x:Property Name="App_Saving_Downpaymet" Type="InArgument(x:String)" />
     <x:Property Name="Co_App_Firstname" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>1114,13278</sap:VirtualizedContainerService.HintSize>
@@ -115,6 +117,7 @@
       <AssemblyReference>Login_and_Logout</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -529,19 +532,32 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="DownPayment field is  accepting  value greater than asset value" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_17" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets in the first applicant group
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets in the first applicant group
 -click 'Add Asset' for the Applicant and fill the following values
 Asset Type : Savings
 Description: Savings
 Asset Value: 20000
 Down Payment = 30000
 -validate that the Down Payment field does not accept  a value grater than Asset Value
--fill 20000 in Down Payment</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-fill 20000 in Down Payment</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C129</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -629,7 +645,8 @@ Down Payment = 30000
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The asset is not visible in the Down Payment section under the Subject Property. " DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_19" Name="Asset not Visible" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets in the first applicant group
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets in the first applicant group
 -click 'Add Asset' for the Applicant and fill the following values
 Asset Type : Savings
 Description: Savings
@@ -638,12 +655,24 @@ Down Payment = 30000
 -validate that the Down Payment field does not accept  a value grater than Asset Value
 -fill 20000 in Down Payment
  
--Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_69">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C129</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_68">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -702,7 +731,8 @@ Down Payment = 30000
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description=" Down Payment under the Subject Property/Mortgage Information section $ 20,000  is  not visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_27" Name="Validating the DownPayment " Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets in the first applicant group
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets in the first applicant group
 -click 'Add Asset' for the Applicant and fill the following values
 Asset Type : Savings
 Description: Savings
@@ -711,12 +741,24 @@ Down Payment = 30000
 -validate that the Down Payment field does not accept  a value grater than Asset Value
 -fill 20000 in Down Payment
  
--Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created </InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created </Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C129</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -773,12 +815,25 @@ Down Payment = 30000
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value displayed at each applicant asset section is  not validated in applicant group" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_11" Name=" Validating Total Asset Value Applicant Group" Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total asset values not displayed  at end of   applicant asset</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">Total asset values not displayed  at end of   applicant asset</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_73">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C129</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -875,7 +930,8 @@ Down Payment = 30000
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="New asset value for the first group:applicant : $190,000.00 and coapplicant 1 : $150,000.00 is  not verified" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_21" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets in the first applicant group
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets in the first applicant group
 -click 'Add Asset' for the Applicant and fill the following values
 Asset Type : Savings
 Description: Savings
@@ -885,12 +941,24 @@ Down Payment = 30000
 -fill 20000 in Down Payment
  
 -Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created (see Expected results 1)
--Verify Total Asset value displayed at the end of each applicant asset section</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Verify Total Asset value displayed at the end of each applicant asset section</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_75">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -925,12 +993,25 @@ Down Payment = 30000
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value displayed at each applicant asset section is not  validated Co applicant asset" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_13" Name=" Validating Total Asset Value  CoApplicant Group" Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total asset values not displayed  at end of  Co applicant asset</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C129</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">Total asset values not displayed  at end of  Co applicant asset</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C129</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_76">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -1000,7 +1081,8 @@ Down Payment = 30000
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $340,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_23" Name="Validating Total Asset Value" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_7" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets in the first applicant group
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets in the first applicant group
 -click 'Add Asset' for the Applicant and fill the following values
 Asset Type : Savings
 Description: Savings
@@ -1012,12 +1094,24 @@ Down Payment = 30000
 -Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created 
 -Verify Total Asset value displayed at the end of each applicant asset section  
  
--Save</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C114</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-Save</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_79">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C114</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_78">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>

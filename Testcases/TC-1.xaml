@@ -6,9 +6,11 @@
     <x:Property Name="CoApplicantFirstname" Type="InArgument(x:String)" />
     <x:Property Name="CoApplicantLastname" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1078,11174</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1078,11468</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -106,28 +108,28 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1088,11109" sap2010:WorkflowViewState.IdRef="Sequence_11">
+  <Sequence sap:VirtualizedContainerService.HintSize="1088,11403" sap2010:WorkflowViewState.IdRef="Sequence_11">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1046,11017" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1046,11311" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence sap:VirtualizedContainerService.HintSize="1008,10790" sap2010:WorkflowViewState.IdRef="Sequence_19">
+        <Sequence sap:VirtualizedContainerService.HintSize="1008,11084" sap2010:WorkflowViewState.IdRef="Sequence_19">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Sequence DisplayName="test1" sap:VirtualizedContainerService.HintSize="966,10698" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="test1" sap:VirtualizedContainerService.HintSize="966,10992" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="TestCase1" sap:VirtualizedContainerService.HintSize="924,10606" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence DisplayName="TestCase1" sap:VirtualizedContainerService.HintSize="924,10900" sap2010:WorkflowViewState.IdRef="Sequence_8">
               <Sequence.Variables>
                 <Variable x:TypeArguments="sd:DataTable" Name="ExcelData" />
               </Sequence.Variables>
@@ -137,6 +139,24 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
+              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="882,254" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+                <ui:CommentOut.Body>
+                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,176" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,84" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+                      <ui:MessageBox.Text>
+                        <InArgument x:TypeArguments="x:Object">
+                          <mca:CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">URLaddress+SelectEnviornment</mca:CSharpValue>
+                        </InArgument>
+                      </ui:MessageBox.Text>
+                    </ui:MessageBox>
+                  </Sequence>
+                </ui:CommentOut.Body>
+              </ui:CommentOut>
               <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="882,426" sap2010:WorkflowViewState.IdRef="CommentOut_3">
                 <ui:CommentOut.Body>
                   <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="376,348" sap2010:WorkflowViewState.IdRef="Sequence_14">
@@ -344,11 +364,16 @@
                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="Description">click '+Deal' button on the BOSS Top Bar</InArgument>
-                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">SelectEnviornment</mca:CSharpValue>
+                                </InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Summary">C73</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">EndPoint</mca:CSharpValue>
+                                </InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
                           </Sequence>
@@ -396,11 +421,16 @@
                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="Description">click '+Deal' button on the BOSS Top Bar</InArgument>
-                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_30">SelectEnviornment</mca:CSharpValue>
+                                </InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Summary">C73</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_34">EndPoint</mca:CSharpValue>
+                                </InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
                           </Sequence>
@@ -448,11 +478,16 @@
                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="Description">click '+Deal' button on the BOSS Top Bar</InArgument>
-                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">SelectEnviornment</mca:CSharpValue>
+                                </InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Summary">C73</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">EndPoint</mca:CSharpValue>
+                                </InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
                           </Sequence>
@@ -500,11 +535,16 @@
                             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                               <ui:InvokeWorkflowFile.Arguments>
                                 <InArgument x:TypeArguments="x:String" x:Key="Description">click '+Deal' button on the BOSS Top Bar</InArgument>
-                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">SelectEnviornment</mca:CSharpValue>
+                                </InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Summary">C73</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
                                 <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                  <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">EndPoint</mca:CSharpValue>
+                                </InArgument>
                               </ui:InvokeWorkflowFile.Arguments>
                             </ui:InvokeWorkflowFile>
                           </Sequence>

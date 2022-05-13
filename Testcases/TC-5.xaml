@@ -18,6 +18,8 @@
     <x:Property Name="App_Asset_value_2" Type="InArgument(x:String)" />
     <x:Property Name="Co_App_Gift_Description" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>1499,12232</sap:VirtualizedContainerService.HintSize>
@@ -647,15 +649,28 @@
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Value does not automatically  updated to  zero" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_59" Name="Values updation" Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
 -do not change the Down Payment value - it was $10000
--change the Asset Type 'Gift ' to Type Vehicle</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-change the Asset Type 'Gift ' to Type Vehicle</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C128</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -763,15 +778,28 @@
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="The old asset type gift is not removed  from  the Downpayment section" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_53" Name="The asset -gift  " Status="Pass" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
 -do not change the Down Payment value - it was $10000
--change the Asset Type 'Gift ' to Type Vehicle</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-change the Asset Type 'Gift ' to Type Vehicle</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C128</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>
@@ -844,15 +872,28 @@
                                 <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Asset value is not displayed at each applicant asset  section validated before saving" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_49" Name="Validating total asset value" Status="Fail" TakeScreenshot="True" />
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
+                                    <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                      <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
 -do not change the Down Payment value - it was $10000
--change the Asset Type 'Gift ' to Type Vehicle</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
-                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-change the Asset Type 'Gift ' to Type Vehicle</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">SelectEnviornment</mca:CSharpValue>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                      <Literal x:TypeArguments="x:String">C128</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                      <Literal x:TypeArguments="x:String">Bug</Literal>
+                                    </InArgument>
                                     <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                                    <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                      <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                                    </InArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                      <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">EndPoint</mca:CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                               </Sequence>
@@ -934,7 +975,7 @@
 -Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment</Literal>
                               </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_67">SelectEnviornment</mca:CSharpValue>
                               </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Summary">
                                 <Literal x:TypeArguments="x:String">C128</Literal>
@@ -945,6 +986,9 @@
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                               <InArgument x:TypeArguments="x:String" x:Key="FilePath">
                                 <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_73">EndPoint</mca:CSharpValue>
                               </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
@@ -1064,7 +1108,7 @@ Down Payment = 20000
 -Go to the Down Payment section under the Subject Property and verify the corresponding Down Payment created Verify Total Asset value displayed at the end of each applicant asset section</Literal>
                               </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
-                                <Literal x:TypeArguments="x:String">UIP</Literal>
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_68">SelectEnviornment</mca:CSharpValue>
                               </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Summary">
                                 <Literal x:TypeArguments="x:String">C128</Literal>
@@ -1075,6 +1119,9 @@ Down Payment = 20000
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
                               <InArgument x:TypeArguments="x:String" x:Key="FilePath">
                                 <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74">EndPoint</mca:CSharpValue>
                               </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
@@ -1150,15 +1197,28 @@ Down Payment = 20000
                           <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total assets and Networth on the Deal Top Bar is not  $80,000.00" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_55" Name="Asset  and Networth value on deal top bar" Status="Fail" TakeScreenshot="True" />
                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                             <ui:InvokeWorkflowFile.Arguments>
-                              <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">go to Assets section
+                              <InArgument x:TypeArguments="x:String" x:Key="Description">
+                                <Literal x:TypeArguments="x:String" xml:space="preserve">go to Assets section
 -Find the Asset with the Asset type Gift under the CO-APPLICANT
 -do not change the Down Payment value - it was $10000
--change the Asset Type 'Gift ' to Type Vehicle</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Summary">C128</InArgument>
-                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-change the Asset Type 'Gift ' to Type Vehicle</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_69">SelectEnviornment</mca:CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                                <Literal x:TypeArguments="x:String">C128</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                                <Literal x:TypeArguments="x:String">Bug</Literal>
+                              </InArgument>
                               <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                              <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                              <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                                <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                                <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_75">EndPoint</mca:CSharpValue>
+                              </InArgument>
                             </ui:InvokeWorkflowFile.Arguments>
                           </ui:InvokeWorkflowFile>
                         </Sequence>

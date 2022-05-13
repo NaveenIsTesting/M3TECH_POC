@@ -20,6 +20,8 @@
     <x:Property Name="Co_App_Payoff" Type="InArgument(x:String)" />
     <x:Property Name="Co__APP_lia_Autoloan" Type="InArgument(x:String)" />
     <x:Property Name="URLaddress" Type="InArgument(x:String)" />
+    <x:Property Name="SelectEnviornment" Type="InArgument(x:String)" />
+    <x:Property Name="EndPoint" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap:VirtualizedContainerService.HintSize>994,18828</sap:VirtualizedContainerService.HintSize>
@@ -122,6 +124,7 @@
       <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
       <AssemblyReference>ReporterForUiPath</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="1004,18763" sap2010:WorkflowViewState.IdRef="Sequence_6">
@@ -1369,7 +1372,8 @@
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total value at the end of each applicant is: Applicant: Limit $5,000.00, Balance $500.00, Payment $100.00,Co- applicant:  Limit $7,000.00, Balance $700.00, Payment $100.00 is  not visible" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_16" Name="Total  Values not   Visible" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -Enable the co-applicant
 -fill First name, Last Name and email for the co-applicant
@@ -1392,12 +1396,24 @@ Balance: 700
 Payment: 100
 Maturity Date: 12/04/2021
 Description: Auto Loan
-Payoff: From Proceeds</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C1102</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+Payoff: From Proceeds</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">SelectEnviornment</mca:CSharpValue>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C1102</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_76">EndPoint</mca:CSharpValue>
+                            </InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -1484,12 +1500,25 @@ Payoff: From Proceeds</InArgument>
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total values  not displayed at the  applicant Liabilites section after save" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_22" Name="infermatin  not inserted" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total values  not displayed at the  applicant Liabilites section</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C1102</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">Total values  not displayed at the  applicant Liabilites section</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_79">SelectEnviornment</mca:CSharpValue>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C1102</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_78">EndPoint</mca:CSharpValue>
+                            </InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -1519,12 +1548,25 @@ Payoff: From Proceeds</InArgument>
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Total values  not visible at the  Co applicant Liabilites section after save and refresh" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_24" Name="information not inserted " Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">Total values  not displayed at the  Co applicant Liabilites section</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C1102</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">Total values  not displayed at the  Co applicant Liabilites section</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_81">SelectEnviornment</mca:CSharpValue>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C1102</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">C:\Users\Varadi Madhu Kumar\Desktop\Reports</InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_80">EndPoint</mca:CSharpValue>
+                            </InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
@@ -1591,7 +1633,8 @@ Payoff: From Proceeds</InArgument>
                         <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" ContinueOnError="True" Description="Total Liabilities on the Deal Top Bar   Liabilities Value  $12,000.00 and Net Worth : -$1,200.00 is not  validated" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="StepStatus_18" Name="Total Liabilities and Networth validation" Status="Fail" TakeScreenshot="True" />
                         <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke JiraUtil workflow" sap:VirtualizedContainerService.HintSize="334,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Config\\JiraUtil.xaml">
                           <ui:InvokeWorkflowFile.Arguments>
-                            <InArgument x:TypeArguments="x:String" x:Key="Description" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
+                            <InArgument x:TypeArguments="x:String" x:Key="Description">
+                              <Literal x:TypeArguments="x:String" xml:space="preserve">click '+Deal' button on the BOSS Top Bar
 -fill First name, Last Name and email for the applicant
 -Enable the co-applicant
 -fill First name, Last Name and email for the co-applicant
@@ -1619,12 +1662,24 @@ Payoff: From Proceeds
 Verify Total for  Limit, Balance and Payment displayed at the end of each applicant Liability section 
  
 -click create
--refresh</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">UIP</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Summary">C1102</InArgument>
-                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">Bug</InArgument>
+-refresh</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Project_Key">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_83">SelectEnviornment</mca:CSharpValue>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Summary">
+                              <Literal x:TypeArguments="x:String">C1102</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="Issue_Type">
+                              <Literal x:TypeArguments="x:String">Bug</Literal>
+                            </InArgument>
                             <InArgument x:TypeArguments="x:String" x:Key="Attachment_FIle" />
-                            <InArgument x:TypeArguments="x:String" x:Key="FilePath" />
+                            <InArgument x:TypeArguments="x:String" x:Key="FilePath">
+                              <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
+                            </InArgument>
+                            <InArgument x:TypeArguments="x:String" x:Key="EndPoint">
+                              <mca:CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_82">EndPoint</mca:CSharpValue>
+                            </InArgument>
                           </ui:InvokeWorkflowFile.Arguments>
                         </ui:InvokeWorkflowFile>
                       </Sequence>
