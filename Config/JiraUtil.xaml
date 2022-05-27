@@ -11,7 +11,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>684,1978</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>662,1978</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>JiraUtil_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="88">
@@ -115,7 +115,6 @@
       <AssemblyReference>UiPath.JiraSoftware</AssemblyReference>
       <AssemblyReference>UiPath.JiraSoftware.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <Sequence sap:VirtualizedContainerService.HintSize="672,1913" sap2010:WorkflowViewState.IdRef="Sequence_7">
@@ -169,11 +168,7 @@
                               <Variable x:TypeArguments="sd:DataTable" Name="listIssueID" />
                               <Variable x:TypeArguments="x:String" Name="getIssueID" />
                               <Variable x:TypeArguments="x:String" Name="FolderPath" />
-                              <Variable x:TypeArguments="x:String" Name="FilePath">
-                                <Variable.Default>
-                                  <Literal x:TypeArguments="x:String">C:\Users\Varadi Madhu Kumar\Desktop\Reports</Literal>
-                                </Variable.Default>
-                              </Variable>
+                              <Variable x:TypeArguments="x:String" Default="C:\Users\Varadi Madhu Kumar\Desktop\Reports" Name="FilePath" />
                               <Variable x:TypeArguments="aj:Issue" Name="issueout" />
                             </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
@@ -190,7 +185,7 @@
                                 <scg:Dictionary x:TypeArguments="ubt:TelemetryGroup, scg:IDictionary(x:String, x:String)" />
                               </uja:CreateIssue.TelemetryProperties>
                             </uja:CreateIssue>
-                            <uj:Get_Ticket_SQL Response="{x:Null}" Result="{x:Null}" ValidConnection="{x:Null}" DataResult="[listIssueID]" DisplayName="Get Issue SQL" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="Get_Ticket_SQL_2" InvalidCommand="Yes" Search="[&quot;SELECT issuekey FROM issue WHERE project='UIPathDemo' ORDER BY created DESC LIMIT 1&quot;]" />
+                            <uj:Get_Ticket_SQL Response="{x:Null}" Result="{x:Null}" ValidConnection="{x:Null}" DataResult="[listIssueID]" DisplayName="Get Issue SQL" sap:VirtualizedContainerService.HintSize="334,61" sap2010:WorkflowViewState.IdRef="Get_Ticket_SQL_2" InvalidCommand="Yes" Search="[&quot;SELECT issuekey FROM issue WHERE project='UIPathDemo' ORDER BY created DESC  LIMIT 1&quot;]" />
                             <dc:ConvertToString ColumnSeparator="\t" DisplayName="Convert to string" sap:VirtualizedContainerService.HintSize="334,132" sap2010:WorkflowViewState.IdRef="ConvertToString_1" InputDataTable="[listIssueID]" Response="[getIssueID]" />
                             <Assign sap:VirtualizedContainerService.HintSize="334,60" sap2010:WorkflowViewState.IdRef="Assign_2">
                               <Assign.To>
