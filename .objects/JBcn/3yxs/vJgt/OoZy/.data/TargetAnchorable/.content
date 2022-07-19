@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4906003" ContentHash="Mb8-YtQKLkaXf-wCUc5JWw" DesignTimeRectangle="1178, 473, 80, 25" ElementType="InputBox" FriendlyName="'M2J 5B4'" FullSelectorArgument="&lt;webctrl name='mainApplicant[0].postalCode' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mainApplicant[0].postalCode' tag='INPUT' type='text' aaname='' /&gt;" Guid="11803043-3706-482c-87ca-ed07afc79468" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Selector" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TargetAnchorable.Anchors>
+    <scg:List x:TypeArguments="ITarget" Capacity="4">
+      <Target DesignTimeRectangle="1105, 472, 63, 26" ElementType="Text" FriendlyName="'Postal Code'" FullSelectorArgument="&lt;webctrl aaname='Postal Code:' parentid='border-box' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Postal Code:' parentid='border-box' tag='SPAN' type='' check:text='Postal Code:' /&gt;" SearchSteps="Selector">
+        <imageRef attrName="ImageBase64" xmlns="">1jAqigcu3NUWNz90dTcS37w</imageRef>
+      </Target>
+    </scg:List>
+  </TargetAnchorable.Anchors>
+  <imageRef attrName="ImageBase64" xmlns="">0qSdsTt9ImUikQI_LUh8EiA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5a0e37831228ddadc2520b2df7b044fb.png" xmlns="">0jE44Jvu5BkihDcIj3wDNXw</imageRef>
+</TargetAnchorable>

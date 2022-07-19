@@ -3,14 +3,16 @@
   "description": "Test Automation Project",
   "main": "Main.xaml",
   "dependencies": {
-    "Login": "[1.0.18]",
+    "Login": "[1.0.22]",
     "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.3]",
     "UiPath.Jira.Activities": "[2.3.1-preview]",
     "UiPath.Jira.IntegrationService.Activities": "[3.0.0]",
     "UiPath.JiraSoftware.Activities": "[1.0.3.22730]",
-    "UiPath.System.Activities": "[21.10.4]",
-    "UiPath.Testing.Activities": "[1.4.6]",
-    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.3]",
+    "UiPath.UIAutomation.Activities": "[22.4.6]",
     "UiPathTeam.DatatableConverter.Activities": "[1.0.1]",
     "UiPathTeam.JiraGet.Activities": "[1.0.0.116]"
   },
@@ -46,12 +48,6 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [
-      {
-        "editingStatus": "Publishable",
-        "testCaseId": "fd130634-9007-431a-b4f0-38e06f683760",
-        "testCaseType": "TestCase",
-        "fileName": "Testcases\\TC-3.xaml"
-      },
       {
         "editingStatus": "Publishable",
         "testCaseId": "901846e8-d040-4bad-9765-2e916f74dd69",
@@ -117,6 +113,12 @@
         "testCaseId": "050261d5-4b5e-4e98-a895-5bf713534791",
         "testCaseType": "TestCase",
         "fileName": "DecisionInput.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fd130634-9007-431a-b4f0-38e06f683760",
+        "testCaseType": "TestCase",
+        "fileName": "Testcases\\TC-3.xaml"
       }
     ],
     "modernBehavior": true

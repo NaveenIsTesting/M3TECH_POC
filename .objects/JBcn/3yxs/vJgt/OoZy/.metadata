@@ -1,0 +1,14 @@
+﻿{
+  "Id": "OoZyZrvw-0yGSXP3Rgc45Q",
+  "Reference": "ibK92gIPHUmRsRCnhmHO7g/OoZyZrvw-0yGSXP3Rgc45Q",
+  "ParentRef": "ibK92gIPHUmRsRCnhmHO7g/vJgtWgL0K02i3jzpHq7haA",
+  "Name": "Postal Code",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2022-07-12T07:06:12.0040971Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.5.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-07-12T07:06:12.0040971Z"
+}
