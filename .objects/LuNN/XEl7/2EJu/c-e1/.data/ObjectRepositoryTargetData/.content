@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QEB2ZMgj-ESOoHChmAsVPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4906152" DesignTimeRectangle="356, 523, 40, 33" FriendlyName="'chrome.exe Boss'" Guid="607a3559-3ba2-4cab-b2f8-6d9cfad81870" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAhCAYAAACr8emlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVFhH7ZahisNAEIb3MWILFb03SGxdCydOxNRWrjoij5qyj1Hq9tydCKSikMrU5VzPtTKiInLl35QMR0lacrCwm8J+EDFDxMfs7MwyNDlJzLwAYq8oYZeWYLZkYOzOF0oU9I9J2hXsGU5QFyeoixPUxQnq8oyCCofPCNNhveIGE47Vj7293BIsYw7PF0jPFO8EAo8jKevYNA1BhXQxBv++fRZkEFUlxZ5Cw3T0oEKx+UBQVTS3dMoPBAvIkJ5Zozm+TpS2wP8qeO1B6knTdAheOUK+MfDYzi1pCBZI3seI4ttLUgtGWztN2KrgcT0F+xszvTziEvma06D28PIaQf72aFD3DSeoixPUxQnq4gR1eXJBlUP41cpbZpQwDXABPUcz3xq8vb8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="712b5e2eb6309a42ba68dfc19fa8f051.png" xmlns="">0Bx5w-Sh7yUyqLh33awjM4Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
