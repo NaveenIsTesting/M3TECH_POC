@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable ContentHash="U0LcNDcol0CSLPvv-HCmkQ" DesignTimeRectangle="357, 556, 82, 20" FriendlyName="'chrome.exe Boss'" Guid="df552a22-e607-4296-90d7-58ca0cafa836" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Boss - Google Chrome' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">0BuJTiOX1o0S-q67-6GblrQ</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="0b71126f8bda66e5b48733956c4a4254.png" xmlns="">0EmJ_oe34Ak-qDPppRjaZ9g</imageRef>
-</TargetAnchorable>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<TargetAnchorable BrowserURL="https://devboss5.mortgageboss.ca/#/main/deal/new_deal_detail?id=4904327" ContentHash="b0-WlFMea028BrBHctxYIw" DesignTimeRectangle="356, 602, 169, 25" FriendlyName="'chrome.exe Boss'" Guid="2c7e3328-f439-4d1e-a940-c52f9f61e39b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Boss' /&gt;" SearchSteps="Image" TargetType="ImageBased" xmlns="http://schemas.uipath.com/workflow/activities/uix">
-  <imageRef attrName="ImageBase64" xmlns="">04tNTW9LH0EWMeq_DfOMtCg</imageRef>
-  <imageRef attrName="InformativeScreenshot" originalValue="6fd57456ed7a8148e0070d84b73ddc02.png" xmlns="">0BRN827gIB0m_jkTw5p4Oew</imageRef>
-</TargetAnchorable>
